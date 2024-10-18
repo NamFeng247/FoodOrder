@@ -29,7 +29,7 @@ public class MainApplication extends Application {
         return database.getReference("voucher");
     }
 
-    public DatabaseReference getAddressDatabaseReference() {g
+    public DatabaseReference getAddressDatabaseReference() {
         return database.getReference("address");
     }
 
