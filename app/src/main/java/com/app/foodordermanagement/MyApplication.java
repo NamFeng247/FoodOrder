@@ -11,6 +11,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class MyApplication extends Application {
 
     private static final String FIREBASE_URL = "https://foodordermanagement-7dd4b-default-rtdb.firebaseio.com/";
+
     private FirebaseDatabase mFirebaseDatabase;
 
     public static MyApplication get(Context context) {
