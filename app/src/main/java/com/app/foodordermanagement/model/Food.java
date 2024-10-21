@@ -10,7 +10,7 @@ import java.text.DecimalFormatSymbols;
 import java.util.HashMap;
 
 @Entity(tableName = "drink")
-public class Drink implements Serializable {
+public class Food implements Serializable {
 
     @PrimaryKey
     private int id;
@@ -36,7 +36,7 @@ public class Drink implements Serializable {
     private String toppingIds;
     private String note;
 
-    public Drink() {}
+    public Food() {}
 
     public int getId() {
         return id;

@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.foodordermanagement.MyApplication;
 import com.app.foodordermanagement.R;
-import com.app.foodordermanagement.adapter.DrinkOrderAdapter;
+import com.app.foodordermanagement.adapter.FoodOrderAdapter;
 import com.app.foodordermanagement.model.Order;
 import com.app.foodordermanagement.model.RatingReview;
 import com.app.foodordermanagement.utils.Constant;
@@ -112,7 +112,7 @@ public class TrackingOrderActivity extends BaseActivity {
     }
 
     private void initData() {
-        DrinkOrderAdapter adapter = new DrinkOrderAdapter(mOrder.getDrinks());
+        FoodOrderAdapter adapter = new FoodOrderAdapter(mOrder.getFoods());
         rcvDrinks.setAdapter(adapter);
 //        tvTakeOrder.setBackgroundResource(R.drawable.bg_button_enable_corner_16);
     }

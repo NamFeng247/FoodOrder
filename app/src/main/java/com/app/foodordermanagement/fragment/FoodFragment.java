@@ -47,18 +47,18 @@ public class FoodFragment extends Fragment {
     private List<Food> listFoodDisplay;
     private List<Food> listFoodKeyWord;
     private List<Filter> listFilter;
-    private FoodAdapter FoodAdapter;
+    private FoodAdapter foodAdapter;
     private FilterAdapter filterAdapter;
     private int categoryId;
     private Filter currentFilter;
     private String keyword = "";
 
     public static FoodFragment newInstance(int categoryId) {
-        FoodFragment FoodFragment = new FoodFragment();
+        FoodFragment foodFragment = new FoodFragment();
         Bundle bundle = new Bundle();
         bundle.putInt(Constant.CATEGORY_ID, categoryId);
-        FoodFragment.setArguments(bundle);
-        return FoodFragment;
+        foodFragment.setArguments(bundle);
+        return foodFragment;
     }
 
     @Nullable
@@ -66,7 +66,7 @@ public class FoodFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        mView = inflater.inflate(R.layout.fragment_Food, container, false);
+        mView = inflater.inflate(R.layout.fragment_food, container, false);
 
         if (!EventBus.getDefault().isRegistered(this)) {
             EventBus.getDefault().register(this);
@@ -90,7 +90,7 @@ public class FoodFragment extends Fragment {
 
     private void initUi() {
         rcvFilter = mView.findViewById(R.id.rcv_filter);
-        rcvFood = mView.findViewById(R.id.rcv_Food);
+        rcvFood = mView.findViewById(R.id.rcv_drink);
         displayListFood();
     }
 
@@ -118,7 +118,7 @@ public class FoodFragment extends Fragment {
         for (Filter filterEntity : listFilter) {
             if (filterEntity.getId() == filter.getId()) {
                 filterEntity.setSelected(true);
-                setListFoodDisplay(filterEntity, keyword);
+                setListDrinkDisplay(filterEntity, keyword);
                 currentFilter = filterEntity;
             } else {
                 filterEntity.setSelected(false);
@@ -140,9 +140,9 @@ public class FoodFragment extends Fragment {
                             listFood = new ArrayList<>();
                         }
                         for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
-                            Food Food = dataSnapshot.getValue(Food.class);
-                            if (Food != null) {
-                                listFood.add(0, Food);
+                            Food food = dataSnapshot.getValue(Food.class);
+                            if (food != null) {
+                                listFood.add(0, food);
                             }
                         }
                         setListFoodDisplay(new Filter(Filter.TYPE_FILTER_ALL, getString(R.string.filter_all)), keyword);
@@ -158,15 +158,15 @@ public class FoodFragment extends Fragment {
         listFoodDisplay = new ArrayList<>();
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
         rcvFood.setLayoutManager(linearLayoutManager);
-        FoodAdapter = new FoodAdapter(listFoodDisplay, Food -> {
+        foodAdapter = new FoodAdapter(listFoodDisplay, food -> {
             Bundle bundle = new Bundle();
-            bundle.putInt(Constant.Food_ID, Food.getId());
+            bundle.putInt(Constant.FOOD_ID, food.getId());
             GlobalFunction.startActivity(getActivity(), FoodDetailActivity.class, bundle);
         });
-        rcvFood.setAdapter(FoodAdapter);
+        rcvFood.setAdapter(foodAdapter);
     }
 
-    private void setListFoodDisplay(@NonNull Filter filter,@Nullable String keyword) {
+    private void setListFoodDisplay(@NonNull Filter filter, @Nullable String keyword) {
         if (listFood == null || listFood.isEmpty()) return;
 
         if (listFoodKeyWord != null) {
@@ -182,10 +182,10 @@ public class FoodFragment extends Fragment {
         }
 
         if (!StringUtil.isEmpty(keyword)) {
-            for (Food Food: listFood) {
-                if (getTextSearch(Food.getName()).toLowerCase().trim()
+            for (Food food : listFood) {
+                if (getTextSearch(food.getName()).toLowerCase().trim()
                         .contains(getTextSearch(keyword).toLowerCase().trim())) {
-                    listFoodKeyWord.add(Food);
+                    listFoodKeyWord.add(food);
                 }
             }
             switch (filter.getId()) {
@@ -196,18 +196,18 @@ public class FoodFragment extends Fragment {
                 case Filter.TYPE_FILTER_RATE:
                     listFoodDisplay.addAll(listFoodKeyWord);
                     Collections.sort(listFoodDisplay,
-                            (Food1, Food2) -> Double.compare(Food2.getRate(), Food1.getRate()));
+                            (food1, food2) -> Double.compare(food2.getRate(), food1.getRate()));
                     break;
 
                 case Filter.TYPE_FILTER_PRICE:
                     listFoodDisplay.addAll(listFoodKeyWord);
                     Collections.sort(listFoodDisplay,
-                            (Food1, Food2) -> Integer.compare(Food1.getRealPrice(), Food2.getRealPrice()));
+                            (drink1, drink2) -> Integer.compare(drink1.getRealPrice(), drink2.getRealPrice()));
                     break;
 
                 case Filter.TYPE_FILTER_PROMOTION:
-                    for (Food Food : listFoodKeyWord) {
-                        if (Food.getSale() > 0) listFoodDisplay.add(Food);
+                    for (Food food : listFoodKeyWord) {
+                        if (food.getSale() > 0) listFoodDisplay.add(food);
                     }
                     break;
             }
@@ -220,18 +220,18 @@ public class FoodFragment extends Fragment {
                 case Filter.TYPE_FILTER_RATE:
                     listFoodDisplay.addAll(listFood);
                     Collections.sort(listFoodDisplay,
-                            (Food1, Food2) -> Double.compare(Food2.getRate(), Food1.getRate()));
+                            (drink1, drink2) -> Double.compare(drink2.getRate(), drink1.getRate()));
                     break;
 
                 case Filter.TYPE_FILTER_PRICE:
                     listFoodDisplay.addAll(listFood);
                     Collections.sort(listFoodDisplay,
-                            (Food1, Food2) -> Integer.compare(Food1.getRealPrice(), Food2.getRealPrice()));
+                            (drink1, drink2) -> Integer.compare(drink1.getRealPrice(), drink2.getRealPrice()));
                     break;
 
                 case Filter.TYPE_FILTER_PROMOTION:
-                    for (Food Food : listFood) {
-                        if (Food.getSale() > 0) listFoodDisplay.add(Food);
+                    for (Food food : listFood) {
+                        if (food.getSale() > 0) listFoodDisplay.add(food);
                     }
                     break;
             }
@@ -241,7 +241,7 @@ public class FoodFragment extends Fragment {
 
     @SuppressLint("NotifyDataSetChanged")
     private void reloadListFood() {
-        if (FoodAdapter != null) FoodAdapter.notifyDataSetChanged();
+        if (foodAdapter != null) foodAdapter.notifyDataSetChanged();
     }
 
     public String getTextSearch(String input) {

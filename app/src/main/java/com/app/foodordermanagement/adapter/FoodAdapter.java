@@ -33,37 +33,37 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewHolder
     @Override
     public FoodViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_Food, parent, false);
+                .inflate(R.layout.item_food, parent, false);
         return new FoodViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull FoodViewHolder holder, int position) {
-        Food Food = listFood.get(position);
-        if (Food == null) return;
+        Food food = listFood.get(position);
+        if (food == null) return;
 
-        GlideUtils.loadUrl(Food.getImage(), holder.imgFood);
-        holder.tvName.setText(Food.getName());
-        holder.tvDescription.setText(Food.getDescription());
-        holder.tvRate.setText(String.valueOf(Food.getRate()));
+        GlideUtils.loadUrl(food.getImage(), holder.imgFood);
+        holder.tvName.setText(food.getName());
+        holder.tvDescription.setText(food.getDescription());
+        holder.tvRate.setText(String.valueOf(food.getRate()));
 
-        if (Food.getSale() <= 0) {
+        if (food.getSale() <= 0) {
             holder.tvPrice.setVisibility(View.GONE);
-            String strPrice = Food.getPrice() + Constant.CURRENCY;
+            String strPrice = food.getPrice() + Constant.CURRENCY;
             holder.tvPriceSale.setText(strPrice);
         } else {
             holder.tvPrice.setVisibility(View.VISIBLE);
 
-            String strOldPrice = Food.getPrice() + Constant.CURRENCY;
+            String strOldPrice = food.getPrice() + Constant.CURRENCY;
             holder.tvPrice.setText(strOldPrice);
             holder.tvPrice.setPaintFlags(holder.tvPrice.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
 
-            String strRealPrice = Food.getRealPrice() + Constant.CURRENCY;
+            String strRealPrice = food.getRealPrice() + Constant.CURRENCY;
             holder.tvPriceSale.setText(strRealPrice);
         }
 
         holder.layoutItem.setOnClickListener(view
-                -> iClickFoodListener.onClickFoodItem(Food));
+                -> iClickFoodListener.onClickFoodItem(food));
     }
 
     @Override
@@ -86,7 +86,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewHolder
 
         public FoodViewHolder(@NonNull View itemView) {
             super(itemView);
-            imgFood = itemView.findViewById(R.id.img_Food);
+            imgFood = itemView.findViewById(R.id.img_drink);
             tvName = itemView.findViewById(R.id.tv_name);
             tvPrice = itemView.findViewById(R.id.tv_price);
             tvPriceSale = itemView.findViewById(R.id.tv_price_sale);

@@ -9,20 +9,20 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.foodordermanagement.R;
-import com.app.foodordermanagement.listener.IClickDrinkListener;
-import com.app.foodordermanagement.model.Drink;
+import com.app.foodordermanagement.listener.IClickFoodListener;
+import com.app.foodordermanagement.model.Food;
 import com.app.foodordermanagement.utils.GlideUtils;
 
 import java.util.List;
 
 public class BannerViewPagerAdapter extends RecyclerView.Adapter<BannerViewPagerAdapter.BannerViewHolder> {
 
-    private final List<Drink> mListDrink;
-    private final IClickDrinkListener iClickDrinkListener;
+    private final List<Food> mListFood;
+    private final IClickFoodListener IClickFoodListener;
 
-    public BannerViewPagerAdapter(List<Drink> list, IClickDrinkListener listener) {
-        this.mListDrink = list;
-        this.iClickDrinkListener = listener;
+    public BannerViewPagerAdapter(List<Food> list, IClickFoodListener listener) {
+        this.mListFood = list;
+        this.IClickFoodListener = listener;
     }
 
     @NonNull
@@ -35,17 +35,17 @@ public class BannerViewPagerAdapter extends RecyclerView.Adapter<BannerViewPager
 
     @Override
     public void onBindViewHolder(@NonNull BannerViewHolder holder, int position) {
-        Drink drink = mListDrink.get(position);
-        if (drink == null) return;
-        GlideUtils.loadUrlBanner(drink.getBanner(), holder.imgBanner);
+        Food food = mListFood.get(position);
+        if (food == null) return;
+        GlideUtils.loadUrlBanner(food.getBanner(), holder.imgBanner);
         holder.imgBanner.setOnClickListener(view
-                -> iClickDrinkListener.onClickDrinkItem(drink));
+                -> IClickFoodListener.onClickFoodItem(food));
     }
 
     @Override
     public int getItemCount() {
-        if (mListDrink != null) {
-            return mListDrink.size();
+        if (mListFood != null) {
+            return mListFood.size();
         }
         return 0;
     }

@@ -28,21 +28,21 @@ public class FoodOrderAdapter extends RecyclerView.Adapter<FoodOrderAdapter.Food
     @Override
     public FoodOrderViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_Food_order, parent, false);
+                .inflate(R.layout.item_food_order, parent, false);
         return new FoodOrderViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull FoodOrderViewHolder holder, int position) {
-        FoodOrder FoodOrder = listFoodOrder.get(position);
-        if (FoodOrder == null) return;
+        FoodOrder foodOrder = listFoodOrder.get(position);
+        if (foodOrder == null) return;
 
-        GlideUtils.loadUrl(FoodOrder.getImage(), holder.imgFood);
-        holder.tvName.setText(FoodOrder.getName());
-        String strPrice = FoodOrder.getPrice() + Constant.CURRENCY;
+        GlideUtils.loadUrl(foodOrder.getImage(), holder.imgFood);
+        holder.tvName.setText(foodOrder.getName());
+        String strPrice = foodOrder.getPrice() + Constant.CURRENCY;
         holder.tvPrice.setText(strPrice);
-        holder.tvOption.setText(FoodOrder.getOption());
-        String strCount = "x" + FoodOrder.getCount();
+        holder.tvOption.setText(foodOrder.getOption());
+        String strCount = "x" + foodOrder.getCount();
         holder.tvCount.setText(strCount);
     }
 
@@ -64,7 +64,7 @@ public class FoodOrderAdapter extends RecyclerView.Adapter<FoodOrderAdapter.Food
 
         public FoodOrderViewHolder(@NonNull View itemView) {
             super(itemView);
-            imgFood = itemView.findViewById(R.id.img_Food);
+            imgFood = itemView.findViewById(R.id.img_drink);
             tvName = itemView.findViewById(R.id.tv_name);
             tvPrice = itemView.findViewById(R.id.tv_price);
             tvCount = itemView.findViewById(R.id.tv_count);

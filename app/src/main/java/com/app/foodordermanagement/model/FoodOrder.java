@@ -2,7 +2,7 @@ package com.app.foodordermanagement.model;
 
 import java.io.Serializable;
 
-public class DrinkOrder implements Serializable {
+public class FoodOrder implements Serializable {
 
     private String name;
     private String option;
@@ -10,9 +10,9 @@ public class DrinkOrder implements Serializable {
     private int price;
     private String image;
 
-    public DrinkOrder() {}
+    public FoodOrder() {}
 
-    public DrinkOrder(String name, String option, int count, int price, String image) {
+    public FoodOrder(String name, String option, int count, int price, String image) {
         this.name = name;
         this.option = option;
         this.count = count;

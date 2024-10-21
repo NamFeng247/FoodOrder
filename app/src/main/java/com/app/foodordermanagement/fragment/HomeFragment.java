@@ -79,7 +79,7 @@ public class HomeFragment extends Fragment {
         initUi();
         initListener();
 
-        /*getListDrinkBanner();*/
+        /*getListFoodBanner();*/
         getListCategory();
 
         return mView;
@@ -123,9 +123,9 @@ public class HomeFragment extends Fragment {
         });
     }
 
-    /*private void getListDrinkBanner() {
+    /*private void getListFoodBanner() {
         if (getActivity() == null) return;
-        MyApplication.get(getActivity()).getDrinkDatabaseReference()
+        MyApplication.get(getActivity()).getFoodDatabaseReference()
                 .addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {

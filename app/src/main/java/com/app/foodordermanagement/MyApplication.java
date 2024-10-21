@@ -42,7 +42,7 @@ public class MyApplication extends Application {
         return mFirebaseDatabase.getReference("category");
     }
 
-    public DatabaseReference getFoodDatabaseReference() {
+    public DatabaseReference () {
         return mFirebaseDatabase.getReference("food");
     }
 

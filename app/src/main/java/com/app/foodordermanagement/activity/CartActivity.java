@@ -14,14 +14,14 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.app.foodordermanagement.Api.CreateOrder;
 import com.app.foodordermanagement.R;
 import com.app.foodordermanagement.adapter.CartAdapter;
-import com.app.foodordermanagement.database.DrinkDatabase;
+import com.app.foodordermanagement.database.FoodDatabase;
 import com.app.foodordermanagement.event.AddressSelectedEvent;
 import com.app.foodordermanagement.event.DisplayCartEvent;
 import com.app.foodordermanagement.event.OrderSuccessEvent;
 import com.app.foodordermanagement.event.PaymentMethodSelectedEvent;
 import com.app.foodordermanagement.model.Address;
-import com.app.foodordermanagement.model.Drink;
-import com.app.foodordermanagement.model.DrinkOrder;
+import com.app.foodordermanagement.model.Food;
+import com.app.foodordermanagement.model.FoodOrder;
 import com.app.foodordermanagement.model.Order;
 import com.app.foodordermanagement.model.PaymentMethod;
 import com.app.foodordermanagement.prefs.DataStoreManager;
@@ -59,7 +59,7 @@ public class CartActivity extends BaseActivity {
     private TextView tvPriceVoucher;
     private TextView tvCheckout;
 
-    private List<Drink> listDrinkCart;
+    private List<Food> listFoodCart;
     private CartAdapter cartAdapter;
     private int priceDrink;
     private int mAmount;
@@ -136,7 +136,7 @@ public class CartActivity extends BaseActivity {
 //        });
 
         tvCheckout.setOnClickListener(view -> {
-            if (listDrinkCart == null || listDrinkCart.isEmpty()) return;
+            if (listFoodCart == null || listFoodCart.isEmpty()) return;
             if (paymentMethodSelected == null) {
                 showToastMessage(getString(R.string.label_choose_payment_method));
                 return;
@@ -151,12 +151,12 @@ public class CartActivity extends BaseActivity {
             orderBooking.setId(System.currentTimeMillis());
             orderBooking.setUserEmail(DataStoreManager.getUser().getEmail());
             orderBooking.setDateTime(String.valueOf(System.currentTimeMillis()));
-            List<DrinkOrder> drinks = new ArrayList<>();
-            for (Drink drink : listDrinkCart) {
-                drinks.add(new DrinkOrder(drink.getName(), drink.getOption(), drink.getCount(),
-                        drink.getPriceOneDrink(), drink.getImage()));
+            List<FoodOrder> drinks = new ArrayList<>();
+            for (Food food : listFoodCart) {
+                drinks.add(new FoodOrder(food.getName(), food.getOption(), food.getCount(),
+                        food.getPriceOneDrink(), food.getImage()));
             }
-            orderBooking.setDrinks(drinks);
+            orderBooking.setFoods(drinks);
             orderBooking.setPrice(priceDrink);
 //            if (voucherSelected != null) {
 //                orderBooking.setVoucher(voucherSelected.getPriceDiscount(priceDrink));
@@ -211,16 +211,16 @@ public class CartActivity extends BaseActivity {
     }
 
     private void initData() {
-        listDrinkCart = new ArrayList<>();
-        listDrinkCart = DrinkDatabase.getInstance(this).drinkDAO().getListDrinkCart();
-        if (listDrinkCart == null || listDrinkCart.isEmpty()) {
+        listFoodCart = new ArrayList<>();
+        listFoodCart = FoodDatabase.getInstance(this).foodDAO().getListFoodCart();
+        if (listFoodCart == null || listFoodCart.isEmpty()) {
             return;
         }
-        cartAdapter = new CartAdapter(listDrinkCart, new CartAdapter.IClickCartListener() {
+        cartAdapter = new CartAdapter(listFoodCart, new CartAdapter.IClickCartListener() {
             @Override
-            public void onClickDeleteItem(Drink drink, int position) {
-                DrinkDatabase.getInstance(CartActivity.this).drinkDAO().deleteDrink(drink);
-                listDrinkCart.remove(position);
+            public void onClickDeleteItem(Food food, int position) {
+                FoodDatabase.getInstance(CartActivity.this).foodDAO().deleteFood(food);
+                listFoodCart.remove(position);
                 cartAdapter.notifyItemRemoved(position);
 
                 displayCountItemCart();
@@ -229,8 +229,8 @@ public class CartActivity extends BaseActivity {
             }
 
             @Override
-            public void onClickUpdateItem(Drink drink, int position) {
-                DrinkDatabase.getInstance(CartActivity.this).drinkDAO().updateDrink(drink);
+            public void onClickUpdateItem(Food food, int position) {
+                FoodDatabase.getInstance(CartActivity.this).foodDAO().updateFood(food);
                 cartAdapter.notifyItemChanged(position);
 
                 calculateTotalPrice();
@@ -238,11 +238,11 @@ public class CartActivity extends BaseActivity {
             }
 
             @Override
-            public void onClickEditItem(Drink drink) {
+            public void onClickEditItem(Food food) {
                 Bundle bundle = new Bundle();
-                bundle.putInt(Constant.DRINK_ID, drink.getId());
-                bundle.putSerializable(Constant.DRINK_OBJECT, drink);
-                GlobalFunction.startActivity(CartActivity.this, DrinkDetailActivity.class, bundle);
+                bundle.putInt(Constant.FOOD_ID, food.getId());
+                bundle.putSerializable(Constant.FOOD_OBJECT, food);
+                GlobalFunction.startActivity(CartActivity.this, FoodDetailActivity.class, bundle);
             }
         });
         rcvCart.setAdapter(cartAdapter);
@@ -251,12 +251,12 @@ public class CartActivity extends BaseActivity {
     }
 
     private void displayCountItemCart() {
-        String strCountItem = "(" + listDrinkCart.size() + " " + getString(R.string.label_item) + ")";
+        String strCountItem = "(" + listFoodCart.size() + " " + getString(R.string.label_item) + ")";
         tvCountItem.setText(strCountItem);
     }
 
     private void calculateTotalPrice() {
-        if (listDrinkCart == null || listDrinkCart.isEmpty()) {
+        if (listFoodCart == null || listFoodCart.isEmpty()) {
             String strZero = 0 + Constant.CURRENCY;
             priceDrink = 0;
             tvPriceDrink.setText(strZero);
@@ -267,8 +267,8 @@ public class CartActivity extends BaseActivity {
         }
 
         int totalPrice = 0;
-        for (Drink drink : listDrinkCart) {
-            totalPrice = totalPrice + drink.getTotalPrice();
+        for (Food food : listFoodCart) {
+            totalPrice = totalPrice + food.getTotalPrice();
         }
 
         priceDrink = totalPrice;
