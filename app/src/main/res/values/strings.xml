@@ -83,7 +83,7 @@
     <string name="hint_voucher_code">Vui lòng nhập mã khuyến mại</string>
     <string name="ratings_and_reviews">Xếp hạng và đánh giá</string>
     <string name="customize">Tùy chỉnh</string>
-    <string name="label_variant">Đồ uống</string>
+    <string name="label_variant">Món ăn</string>
     <string name="label_size">Kích thước</string>
     <string name="label_sugar">Đường</string>
     <string name="label_ice">Đá</string>
@@ -99,7 +99,7 @@
     <string name="label_add_order">Thêm vào giỏ hàng</string>
 
     <string name="label_rating_review_order">Đánh giá quá trình giao hàng cho đơn hàng này</string>
-    <string name="label_rating_review_drink">Bạn cảm thấy đồ uống này như thế nào?</string>
+    <string name="label_rating_review_drink">Bạn cảm thấy món ăn này như thế nào?</string>
     <string name="label_rating">Xếp hạng</string>
     <string name="label_review">Đánh giá</string>
     <string name="label_review_note">Đánh giá sẽ được hiển thị công khai</string>
@@ -116,7 +116,7 @@
     <string name="label_price">Giá</string>
     <string name="label_choose_payment_method">Vui lòng chọn phương thức thanh toán</string>
     <string name="label_choose_address">Vui lòng chọn địa chỉ giao hàng</string>
-    <string name="label_item">đồ uống</string>
+    <string name="label_item">món ăn</string>
 
     <string name="label_thank_you">Cám ơn bạn!</string>
     <string name="label_your_transaction_success">Giao dịch của bạn đã thành công</string>

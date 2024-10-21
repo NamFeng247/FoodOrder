@@ -7,6 +7,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -26,10 +27,9 @@ import java.util.Map;
 
 public class TrackingOrderActivity extends BaseActivity {
 
-    private RecyclerView rcvDrinks;
+    private RecyclerView rcvFoods;
     private LinearLayout layoutReceiptOrder;
     private View dividerStep1, dividerStep2;
-    private ImageView imgStep1, imgStep2, imgStep3;
     private TextView tvTakeOrder, tvTakeOrderMessage;
 
     private long orderId;
@@ -61,15 +61,12 @@ public class TrackingOrderActivity extends BaseActivity {
     }
 
     private void initUi() {
-        rcvDrinks = findViewById(R.id.rcv_drinks);
+        rcvFoods = findViewById(R.id.rcv_foods);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
-        rcvDrinks.setLayoutManager(linearLayoutManager);
+        rcvFoods.setLayoutManager(linearLayoutManager);
         layoutReceiptOrder = findViewById(R.id.layout_receipt_order);
-        dividerStep1 = findViewById(R.id.divider_step_1);
-        dividerStep2 = findViewById(R.id.divider_step_2);
-        imgStep1 = findViewById(R.id.img_step_1);
-        imgStep2 = findViewById(R.id.img_step_2);
-        imgStep3 = findViewById(R.id.img_step_3);
+//        dividerStep1 = findViewById(R.id.divider_step_1);
+//        dividerStep2 = findViewById(R.id.divider_step_2);
         tvTakeOrder = findViewById(R.id.tv_take_order);
         tvTakeOrderMessage = findViewById(R.id.tv_take_order_message);
     }
@@ -83,10 +80,6 @@ public class TrackingOrderActivity extends BaseActivity {
                     ReceiptOrderActivity.class, bundle);
             finish();
         });
-
-        imgStep1.setOnClickListener(view -> updateStatusOrder(Order.STATUS_NEW));
-        imgStep2.setOnClickListener(view -> updateStatusOrder(Order.STATUS_DOING));
-        imgStep3.setOnClickListener(view -> updateStatusOrder(Order.STATUS_ARRIVED));
         tvTakeOrder.setOnClickListener(view -> updateStatusOrder(Order.STATUS_COMPLETE));
     }
 
@@ -113,8 +106,9 @@ public class TrackingOrderActivity extends BaseActivity {
 
     private void initData() {
         FoodOrderAdapter adapter = new FoodOrderAdapter(mOrder.getFoods());
-        rcvDrinks.setAdapter(adapter);
-//        tvTakeOrder.setBackgroundResource(R.drawable.bg_button_enable_corner_16);
+        rcvFoods.setAdapter(adapter);
+        tvTakeOrder.setBackgroundResource(R.drawable.bg_button_enable_corner_16);
+        tvTakeOrderMessage.setVisibility(View.VISIBLE);
     }
 
     private void updateStatusOrder(int status) {
@@ -134,6 +128,6 @@ public class TrackingOrderActivity extends BaseActivity {
                                 RatingReviewActivity.class, bundle);
                         finish();
                     }
-        });
+                });
     }
 }

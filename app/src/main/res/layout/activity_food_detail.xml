@@ -28,7 +28,7 @@
                 android:background="@color/floral_white">
 
                 <ImageView
-                    android:id="@+id/img_drink"
+                    android:id="@+id/img_food"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_centerInParent="true"

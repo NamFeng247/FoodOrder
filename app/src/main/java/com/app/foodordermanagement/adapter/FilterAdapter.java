@@ -72,7 +72,7 @@ public class FilterAdapter extends RecyclerView.Adapter<FilterAdapter.FilterView
             holder.imgFilter.setColorFilter(color);
         } else {
             holder.layoutItem.setBackgroundResource(R.drawable.bg_button_disable_corner_16);
-            int color = ContextCompat.getColor(context, R.color.textColorHeading);
+            int color = ContextCompat.getColor(context, R.color.dark);
             holder.tvTitle.setTextColor(color);
             holder.imgFilter.setColorFilter(color);
         }

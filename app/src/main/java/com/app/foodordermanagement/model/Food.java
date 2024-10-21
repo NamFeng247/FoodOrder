@@ -9,7 +9,7 @@ import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.util.HashMap;
 
-@Entity(tableName = "drink")
+@Entity(tableName = "food")
 public class Food implements Serializable {
 
     @PrimaryKey
@@ -27,7 +27,7 @@ public class Food implements Serializable {
 
     private int count;
     private int totalPrice;
-    private int priceOneDrink;
+    private int priceOneFood;
     private String option;
     private String variant;
     private String size;
@@ -141,12 +141,12 @@ public class Food implements Serializable {
         this.totalPrice = totalPrice;
     }
 
-    public int getPriceOneDrink() {
-        return priceOneDrink;
+    public int getPriceOneFood() {
+        return priceOneFood;
     }
 
-    public void setPriceOneDrink(int priceOneDrink) {
-        this.priceOneDrink = priceOneDrink;
+    public void setPriceOneFood(int priceOneFood) {
+        this.priceOneFood = priceOneFood;
     }
 
     public int getCountReviews() {

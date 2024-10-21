@@ -45,9 +45,9 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
         Food food = listFood.get(position);
         if (food == null) return;
 
-        GlideUtils.loadUrl(food.getImage(), holder.imgDrink);
+        GlideUtils.loadUrl(food.getImage(), holder.imgFood);
         holder.tvName.setText(food.getName());
-        String strPrice = food.getPriceOneDrink() + Constant.CURRENCY;
+        String strPrice = food.getPriceOneFood() + Constant.CURRENCY;
         holder.tvPrice.setText(strPrice);
         holder.tvOption.setText(food.getOption());
         String strQuantity = "x" + food.getCount();
@@ -63,7 +63,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
             int newCount = count - 1;
             holder.tvCount.setText(String.valueOf(newCount));
 
-            int totalPrice = food.getPriceOneDrink() * newCount;
+            int totalPrice = food.getPriceOneFood() * newCount;
             food.setCount(newCount);
             food.setTotalPrice(totalPrice);
 
@@ -74,7 +74,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
             int newCount = Integer.parseInt(holder.tvCount.getText().toString()) + 1;
             holder.tvCount.setText(String.valueOf(newCount));
 
-            int totalPrice = food.getPriceOneDrink() * newCount;
+            int totalPrice = food.getPriceOneFood() * newCount;
             food.setCount(newCount);
             food.setTotalPrice(totalPrice);
 
@@ -96,7 +96,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
 
     public static class CartViewHolder extends RecyclerView.ViewHolder {
 
-        private final ImageView imgDrink;
+        private final ImageView imgFood;
         private final TextView tvName;
         private final TextView tvPrice;
         private final TextView tvOption;
@@ -109,7 +109,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
 
         public CartViewHolder(@NonNull View itemView) {
             super(itemView);
-            imgDrink = itemView.findViewById(R.id.img_drink);
+            imgFood = itemView.findViewById(R.id.img_food);
             tvName = itemView.findViewById(R.id.tv_name);
             tvPrice = itemView.findViewById(R.id.tv_price);
             tvOption = itemView.findViewById(R.id.tv_option);

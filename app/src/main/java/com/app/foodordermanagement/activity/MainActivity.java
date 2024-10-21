@@ -87,7 +87,7 @@ public class MainActivity extends BaseActivity {
     private void initUi() {
         layoutCartBottom = findViewById(R.id.layout_cart_bottom);
         tvCountItem = findViewById(R.id.tv_count_item);
-        tvFoodsName = findViewById(R.id.tv_drinks_name);
+        tvFoodsName = findViewById(R.id.tv_foods_name);
         tvAmount = findViewById(R.id.tv_amount);
     }
 

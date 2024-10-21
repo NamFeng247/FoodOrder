@@ -50,11 +50,11 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.OrderViewHol
         if (order == null) return;
 
         FoodOrder firstFoodOrder = order.getFoods().get(0);
-        GlideUtils.loadUrl(firstFoodOrder.getImage(), holder.imgDrink);
+        GlideUtils.loadUrl(firstFoodOrder.getImage(), holder.imgFood);
         holder.tvOrderId.setText(String.valueOf(order.getId()));
         String strTotal = order.getTotal() + Constant.CURRENCY;
         holder.tvTotal.setText(strTotal);
-        holder.tvDrinksName.setText(order.getListFoodsName());
+        holder.tvfoodsName.setText(order.getListFoodsName());
         String strQuantity = "(" + order.getFoods().size() + " " + context.getString(R.string.label_item) + ")";
         holder.tvQuantity.setText(strQuantity);
 
@@ -89,10 +89,10 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.OrderViewHol
 
     public static class OrderViewHolder extends RecyclerView.ViewHolder {
 
-        private final ImageView imgDrink;
+        private final ImageView imgFood;
         private final TextView tvOrderId;
         private final TextView tvTotal;
-        private final TextView tvDrinksName;
+        private final TextView tvfoodsName;
         private final TextView tvQuantity;
         private final TextView tvSuccess;
         private final LinearLayout layoutAction;
@@ -103,10 +103,10 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.OrderViewHol
 
         public OrderViewHolder(@NonNull View itemView) {
             super(itemView);
-            imgDrink = itemView.findViewById(R.id.img_drink);
+            imgFood = itemView.findViewById(R.id.img_food);
             tvOrderId = itemView.findViewById(R.id.tv_order_id);
             tvTotal = itemView.findViewById(R.id.tv_total);
-            tvDrinksName = itemView.findViewById(R.id.tv_drinks_name);
+            tvfoodsName = itemView.findViewById(R.id.tv_foods_name);
             tvQuantity = itemView.findViewById(R.id.tv_quantity);
             tvSuccess = itemView.findViewById(R.id.tv_success);
             layoutAction = itemView.findViewById(R.id.layout_action);

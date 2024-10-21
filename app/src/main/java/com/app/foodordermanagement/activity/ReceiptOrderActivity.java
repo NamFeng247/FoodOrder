@@ -23,7 +23,7 @@ import com.google.firebase.database.ValueEventListener;
 public class ReceiptOrderActivity extends BaseActivity {
 
     private TextView tvIdTransaction, tvDateTime;
-    private RecyclerView rcvDrinks;
+    private RecyclerView rcvfoods;
     private TextView tvPrice, tvVoucher, tvTotal, tvPaymentMethod;
     private TextView tvName, tvPhone, tvAddress;
     private TextView tvTrackingOrder;
@@ -59,9 +59,9 @@ public class ReceiptOrderActivity extends BaseActivity {
     private void initUi() {
         tvIdTransaction = findViewById(R.id.tv_id_transaction);
         tvDateTime = findViewById(R.id.tv_date_time);
-        rcvDrinks = findViewById(R.id.rcv_drinks);
+        rcvfoods = findViewById(R.id.rcv_foods);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
-        rcvDrinks.setLayoutManager(linearLayoutManager);
+        rcvfoods.setLayoutManager(linearLayoutManager);
         tvPrice = findViewById(R.id.tv_price);
         tvVoucher = findViewById(R.id.tv_voucher);
         tvTotal = findViewById(R.id.tv_total);
@@ -116,7 +116,7 @@ public class ReceiptOrderActivity extends BaseActivity {
         tvPhone.setText(mOrder.getAddress().getPhone());
         tvAddress.setText(mOrder.getAddress().getAddress());
         FoodOrderAdapter adapter = new FoodOrderAdapter(mOrder.getFoods());
-        rcvDrinks.setAdapter(adapter);
+        rcvfoods.setAdapter(adapter);
         if (Order.STATUS_COMPLETE == mOrder.getStatus()) {
             tvTrackingOrder.setVisibility(View.GONE);
         } else {

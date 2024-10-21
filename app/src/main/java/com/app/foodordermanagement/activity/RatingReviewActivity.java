@@ -49,7 +49,7 @@ public class RatingReviewActivity extends BaseActivity {
         tvSendReview = findViewById(R.id.tv_send_review);
 
         TextView tvMessageReview = findViewById(R.id.tv_message_review);
-        if (RatingReview.TYPE_RATING_REVIEW_DRINK == ratingReview.getType()) {
+        if (RatingReview.TYPE_RATING_REVIEW_FOOD == ratingReview.getType()) {
             tvMessageReview.setText(getString(R.string.label_rating_review_drink));
         } else if (RatingReview.TYPE_RATING_REVIEW_ORDER == ratingReview.getType()) {
             tvMessageReview.setText(getString(R.string.label_rating_review_order));
@@ -68,16 +68,16 @@ public class RatingReviewActivity extends BaseActivity {
             float rate = ratingBar.getRating();
             String review = edtReview.getText().toString().trim();
             Rating rating = new Rating(review, Double.parseDouble(String.valueOf(rate)));
-            if (RatingReview.TYPE_RATING_REVIEW_DRINK == ratingReview.getType()) {
-                sendRatingDrink(rating);
+            if (RatingReview.TYPE_RATING_REVIEW_FOOD == ratingReview.getType()) {
+                sendRatingFood(rating);
             } else if (RatingReview.TYPE_RATING_REVIEW_ORDER == ratingReview.getType()) {
                 sendRatingOrder(rating);
             }
         });
     }
 
-    private void sendRatingDrink(Rating rating) {
-        MyApplication.get(this).getRatingDrinkDatabaseReference(ratingReview.getId())
+    private void sendRatingFood(Rating rating) {
+        MyApplication.get(this).getRatingFoodDatabaseReference(ratingReview.getId())
                 .child(String.valueOf(GlobalFunction.encodeEmailUser()))
                 .setValue(rating, (error, ref) -> {
                     showToastMessage(getString(R.string.msg_send_review_success));

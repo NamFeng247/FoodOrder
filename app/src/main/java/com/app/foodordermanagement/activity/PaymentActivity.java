@@ -5,7 +5,7 @@ import android.os.Handler;
 
 import com.app.foodordermanagement.MyApplication;
 import com.app.foodordermanagement.R;
-import com.app.foodordermanagement.database.DrinkDatabase;
+import com.app.foodordermanagement.database.FoodDatabase;
 import com.app.foodordermanagement.event.DisplayCartEvent;
 import com.app.foodordermanagement.event.OrderSuccessEvent;
 import com.app.foodordermanagement.model.Order;
@@ -40,7 +40,7 @@ public class PaymentActivity extends BaseActivity {
                 .child(String.valueOf(mOrderBooking.getId()))
                 .setValue(mOrderBooking, (error1, ref1) -> {
 
-                    DrinkDatabase.getInstance(this).drinkDAO().deleteAllDrink();
+                    FoodDatabase.getInstance(this).foodDAO().deleteAllFood();
                     EventBus.getDefault().post(new DisplayCartEvent());
                     EventBus.getDefault().post(new OrderSuccessEvent());
 

@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.app.foodordermanagement.MyApplication;
 import com.app.foodordermanagement.R;
 import com.app.foodordermanagement.adapter.ToppingAdapter;
-import com.app.foodordermanagement.database.DrinkDatabase;
+import com.app.foodordermanagement.database.FoodDatabase;
 import com.app.foodordermanagement.event.DisplayCartEvent;
 import com.app.foodordermanagement.model.Food;
 import com.app.foodordermanagement.model.RatingReview;
@@ -32,7 +32,7 @@ import java.util.List;
 
 public class FoodDetailActivity extends BaseActivity {
 
-    private ImageView imgDrink;
+    private ImageView sendRatingFood;
     private TextView tvName;
     private TextView tvPriceSale;
     private TextView tvDescription;
@@ -51,7 +51,7 @@ public class FoodDetailActivity extends BaseActivity {
     private TextView tvTotal;
     private TextView tvAddOrder;
 
-    private int mDrinkId;
+    private int mFoodId;
     private Food mFoodOld;
     private Food mFood;
     private String currentVariant = Topping.VARIANT_ICE;
@@ -70,24 +70,24 @@ public class FoodDetailActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_drink_detail);
+        setContentView(R.layout.activity_food_detail);
 
         getDataIntent();
         initUi();
-        getDrinKDetailFromFirebase();
+        getFoodDetailFromFirebase();
     }
 
     private void getDataIntent() {
         Bundle bundle = getIntent().getExtras();
         if (bundle == null) return;
-        mDrinkId = bundle.getInt(Constant.DRINK_ID);
-        if (bundle.get(Constant.DRINK_OBJECT) != null) {
-            mFoodOld = (Food) bundle.get(Constant.DRINK_OBJECT);
+        mFoodId = bundle.getInt(Constant.FOOD_ID);
+        if (bundle.get(Constant.FOOD_OBJECT) != null) {
+            mFoodOld = (Food) bundle.get(Constant.FOOD_OBJECT);
         }
     }
 
     private void initUi() {
-        imgDrink = findViewById(R.id.img_drink);
+        sendRatingFood = findViewById(R.id.img_food);
         tvName = findViewById(R.id.tv_name);
         tvPriceSale = findViewById(R.id.tv_price_sale);
         tvDescription = findViewById(R.id.tv_description);
@@ -97,11 +97,11 @@ public class FoodDetailActivity extends BaseActivity {
         layoutRatingAndReview = findViewById(R.id.layout_rating_and_review);
         tvCountReview = findViewById(R.id.tv_count_review);
         tvRate = findViewById(R.id.tv_rate);
-        tvVariantIce = findViewById(R.id.tv_variant_ice);
-        tvVariantHot = findViewById(R.id.tv_variant_hot);
-        tvSizeRegular = findViewById(R.id.tv_size_regular);
-        tvSizeMedium = findViewById(R.id.tv_size_medium);
-        tvSizeLarge = findViewById(R.id.tv_size_large);
+//        tvVariantIce = findViewById(R.id.tv_variant_ice);
+//        tvVariantHot = findViewById(R.id.tv_variant_hot);
+//        tvSizeRegular = findViewById(R.id.tv_size_regular);
+//        tvSizeMedium = findViewById(R.id.tv_size_medium);
+//        tvSizeLarge = findViewById(R.id.tv_size_large);
         /*tvSugarNormal = findViewById(R.id.tv_sugar_normal);
         tvSugarLess = findViewById(R.id.tv_sugar_less);
         tvIceNormal = findViewById(R.id.tv_ice_normal);
@@ -112,9 +112,9 @@ public class FoodDetailActivity extends BaseActivity {
         tvAddOrder = findViewById(R.id.tv_add_order);
     }
 
-    private void getDrinKDetailFromFirebase() {
+    private void getFoodDetailFromFirebase() {
         showProgressDialog(true);
-        MyApplication.get(this).getDrinkDetailDatabaseReference(mDrinkId)
+        MyApplication.get(this).getFoodDetailDatabaseReference(mFoodId)
                 .addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -145,7 +145,7 @@ public class FoodDetailActivity extends BaseActivity {
 
     private void initData() {
         if (mFood == null) return;
-        GlideUtils.loadUrlBanner(mFood.getBanner(), imgDrink);
+        GlideUtils.loadUrlBanner(mFood.getBanner(), sendRatingFood);
         tvName.setText(mFood.getName());
         String strPrice = mFood.getRealPrice() + Constant.CURRENCY;
         tvPriceSale.setText(strPrice);
@@ -167,14 +167,14 @@ public class FoodDetailActivity extends BaseActivity {
         }
 
         if (mFoodOld != null) {
-            setValueToppingVariant(mFoodOld.getVariant());
-            setValueToppingSize(mFoodOld.getSize());
+//            setValueToppingVariant(mFoodOld.getVariant());
+//            setValueToppingSize(mFoodOld.getSize());
             /*setValueToppingSugar(mFoodOld.getSugar());
             setValueToppingIce(mFoodOld.getIce());*/
             edtNotes.setText(mFoodOld.getNote());
         } else {
-            setValueToppingVariant(Topping.VARIANT_ICE);
-            setValueToppingSize(Topping.SIZE_REGULAR);
+//            setValueToppingVariant(Topping.VARIANT_ICE);
+//            setValueToppingSize(Topping.SIZE_REGULAR);
             /*setValueToppingSugar(Topping.SUGAR_NORMAL);
             setValueToppingIce(Topping.ICE_NORMAL);*/
         }
@@ -199,35 +199,35 @@ public class FoodDetailActivity extends BaseActivity {
             calculatorTotalPrice();
         });
 
-        tvVariantIce.setOnClickListener(v -> {
-            if (!Topping.VARIANT_ICE.equals(currentVariant)) {
-                setValueToppingVariant(Topping.VARIANT_ICE);
-            }
-        });
-
-        tvVariantHot.setOnClickListener(v -> {
-            if (!Topping.VARIANT_HOT.equals(currentVariant)) {
-                setValueToppingVariant(Topping.VARIANT_HOT);
-            }
-        });
-
-        tvSizeRegular.setOnClickListener(v -> {
-            if (!Topping.SIZE_REGULAR.equals(currentSize)) {
-                setValueToppingSize(Topping.SIZE_REGULAR);
-            }
-        });
-
-        tvSizeMedium.setOnClickListener(v -> {
-            if (!Topping.SIZE_MEDIUM.equals(currentSize)) {
-                setValueToppingSize(Topping.SIZE_MEDIUM);
-            }
-        });
-
-        tvSizeLarge.setOnClickListener(v -> {
-            if (!Topping.SIZE_LARGE.equals(currentSize)) {
-                setValueToppingSize(Topping.SIZE_LARGE);
-            }
-        });
+//        tvVariantIce.setOnClickListener(v -> {
+//            if (!Topping.VARIANT_ICE.equals(currentVariant)) {
+//                setValueToppingVariant(Topping.VARIANT_ICE);
+//            }
+//        });
+//
+//        tvVariantHot.setOnClickListener(v -> {
+//            if (!Topping.VARIANT_HOT.equals(currentVariant)) {
+//                setValueToppingVariant(Topping.VARIANT_HOT);
+//            }
+//        });
+//
+//        tvSizeRegular.setOnClickListener(v -> {
+//            if (!Topping.SIZE_REGULAR.equals(currentSize)) {
+//                setValueToppingSize(Topping.SIZE_REGULAR);
+//            }
+//        });
+//
+//        tvSizeMedium.setOnClickListener(v -> {
+//            if (!Topping.SIZE_MEDIUM.equals(currentSize)) {
+//                setValueToppingSize(Topping.SIZE_MEDIUM);
+//            }
+//        });
+//
+//        tvSizeLarge.setOnClickListener(v -> {
+//            if (!Topping.SIZE_LARGE.equals(currentSize)) {
+//                setValueToppingSize(Topping.SIZE_LARGE);
+//            }
+//        });
 
         /*tvSugarNormal.setOnClickListener(v -> {
             if (!Topping.SUGAR_NORMAL.equals(currentSugar)) {
@@ -255,7 +255,7 @@ public class FoodDetailActivity extends BaseActivity {
 
         layoutRatingAndReview.setOnClickListener(v -> {
             Bundle bundle = new Bundle();
-            RatingReview ratingReview = new RatingReview(RatingReview.TYPE_RATING_REVIEW_DRINK,
+            RatingReview ratingReview = new RatingReview(RatingReview.TYPE_RATING_REVIEW_FOOD,
                     String.valueOf(mFood.getId()));
             bundle.putSerializable(Constant.RATING_REVIEW_OBJECT, ratingReview);
             GlobalFunction.startActivity(FoodDetailActivity.this,
@@ -274,10 +274,10 @@ public class FoodDetailActivity extends BaseActivity {
                 mFood.setNote(notes);
             }
 
-            if (!isDrinkInCart()) {
-                DrinkDatabase.getInstance(FoodDetailActivity.this).drinkDAO().insertDrink(mFood);
+            if (!isFoodInCart()) {
+                FoodDatabase.getInstance(FoodDetailActivity.this).foodDAO().insertFood(mFood);
             } else {
-                DrinkDatabase.getInstance(FoodDetailActivity.this).drinkDAO().updateDrink(mFood);
+                FoodDatabase.getInstance(FoodDetailActivity.this).foodDAO().updateFood(mFood);
             }
             GlobalFunction.startActivity(FoodDetailActivity.this, CartActivity.class);
             EventBus.getDefault().post(new DisplayCartEvent());
@@ -285,67 +285,67 @@ public class FoodDetailActivity extends BaseActivity {
         });
     }
 
-    private void setValueToppingVariant(String type) {
-        currentVariant = type;
-        switch (type) {
-            case Topping.VARIANT_ICE:
-                tvVariantIce.setBackgroundResource(R.drawable.bg_main_corner_6);
-                tvVariantIce.setTextColor(ContextCompat.getColor(this, R.color.white));
-                tvVariantHot.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-                tvVariantHot.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
-
-                variantText = getString(R.string.label_variant) + " " + tvVariantIce.getText().toString();
-                break;
-
-            case Topping.VARIANT_HOT:
-                tvVariantIce.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-                tvVariantIce.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
-                tvVariantHot.setBackgroundResource(R.drawable.bg_main_corner_6);
-                tvVariantHot.setTextColor(ContextCompat.getColor(this, R.color.white));
-
-                variantText = getString(R.string.label_variant) + " " + tvVariantHot.getText().toString();
-                break;
-        }
-    }
-
-    private void setValueToppingSize(String type) {
-        currentSize = type;
-        switch (type) {
-            case Topping.SIZE_REGULAR:
-                tvSizeRegular.setBackgroundResource(R.drawable.bg_main_corner_6);
-                tvSizeRegular.setTextColor(ContextCompat.getColor(this, R.color.white));
-                tvSizeMedium.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-                tvSizeMedium.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
-                tvSizeLarge.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-                tvSizeLarge.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
-
-                sizeText = getString(R.string.label_size) + " " + tvSizeRegular.getText().toString();
-                break;
-
-            case Topping.SIZE_MEDIUM:
-                tvSizeRegular.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-                tvSizeRegular.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
-                tvSizeMedium.setBackgroundResource(R.drawable.bg_main_corner_6);
-                tvSizeMedium.setTextColor(ContextCompat.getColor(this, R.color.white));
-                tvSizeLarge.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-                tvSizeLarge.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
-
-                sizeText = getString(R.string.label_size) + " " + tvSizeMedium.getText().toString();
-                break;
-
-            case Topping.SIZE_LARGE:
-                tvSizeRegular.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-                tvSizeRegular.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
-                tvSizeMedium.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-                tvSizeMedium.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
-                tvSizeLarge.setBackgroundResource(R.drawable.bg_main_corner_6);
-                tvSizeLarge.setTextColor(ContextCompat.getColor(this, R.color.white));
-
-                sizeText = tvSizeLarge.getText().toString() + " "
-                        + getString(R.string.label_size);
-                break;
-        }
-    }
+//    private void setValueToppingVariant(String type) {
+//        currentVariant = type;
+//        switch (type) {
+//            case Topping.VARIANT_ICE:
+//                tvVariantIce.setBackgroundResource(R.drawable.bg_main_corner_6);
+//                tvVariantIce.setTextColor(ContextCompat.getColor(this, R.color.white));
+//                tvVariantHot.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
+//                tvVariantHot.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//
+//                variantText = getString(R.string.label_variant) + " " + tvVariantIce.getText().toString();
+//                break;
+//
+//            case Topping.VARIANT_HOT:
+//                tvVariantIce.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
+//                tvVariantIce.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//                tvVariantHot.setBackgroundResource(R.drawable.bg_main_corner_6);
+//                tvVariantHot.setTextColor(ContextCompat.getColor(this, R.color.white));
+//
+//                variantText = getString(R.string.label_variant) + " " + tvVariantHot.getText().toString();
+//                break;
+//        }
+//    }
+//
+//    private void setValueToppingSize(String type) {
+//        currentSize = type;
+//        switch (type) {
+//            case Topping.SIZE_REGULAR:
+//                tvSizeRegular.setBackgroundResource(R.drawable.bg_main_corner_6);
+//                tvSizeRegular.setTextColor(ContextCompat.getColor(this, R.color.white));
+//                tvSizeMedium.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
+//                tvSizeMedium.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//                tvSizeLarge.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
+//                tvSizeLarge.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//
+//                sizeText = getString(R.string.label_size) + " " + tvSizeRegular.getText().toString();
+//                break;
+//
+//            case Topping.SIZE_MEDIUM:
+//                tvSizeRegular.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
+//                tvSizeRegular.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//                tvSizeMedium.setBackgroundResource(R.drawable.bg_main_corner_6);
+//                tvSizeMedium.setTextColor(ContextCompat.getColor(this, R.color.white));
+//                tvSizeLarge.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
+//                tvSizeLarge.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//
+//                sizeText = getString(R.string.label_size) + " " + tvSizeMedium.getText().toString();
+//                break;
+//
+//            case Topping.SIZE_LARGE:
+//                tvSizeRegular.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
+//                tvSizeRegular.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//                tvSizeMedium.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
+//                tvSizeMedium.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//                tvSizeLarge.setBackgroundResource(R.drawable.bg_main_corner_6);
+//                tvSizeLarge.setTextColor(ContextCompat.getColor(this, R.color.white));
+//
+//                sizeText = tvSizeLarge.getText().toString() + " "
+//                        + getString(R.string.label_size);
+//                break;
+//        }
+//    }
 
     /*private void setValueToppingSugar(String type) {
         currentSugar = type;
@@ -424,11 +424,11 @@ public class FoodDetailActivity extends BaseActivity {
         rcvTopping.setLayoutManager(linearLayoutManager);
         toppingAdapter = new ToppingAdapter(listTopping, this::handleClickItemTopping);
         rcvTopping.setAdapter(toppingAdapter);
-        handleSetToppingDrinkOld();
+        handleSetToppingFoodOld();
     }*/
 
     /*@SuppressLint("NotifyDataSetChanged")
-    private void handleSetToppingDrinkOld() {
+    private void handleSetToppingFoodOld() {
         if (mFoodOld == null || StringUtil.isEmpty(mFoodOld.getToppingIds())) return;
         if (listTopping == null || listTopping.isEmpty()) return;
         String[] tempId = mFoodOld.getToppingIds().split(",");
@@ -457,13 +457,13 @@ public class FoodDetailActivity extends BaseActivity {
 
     private void calculatorTotalPrice() {
         int count = Integer.parseInt(tvCount.getText().toString().trim());
-        int priceOneDrink = mFood.getRealPrice() + getTotalPriceTopping();
-        int totalPrice = priceOneDrink * count;
+        int priceOneFood = mFood.getRealPrice() + getTotalPriceTopping();
+        int totalPrice = priceOneFood * count;
         String strTotalPrice = totalPrice + Constant.CURRENCY;
         tvTotal.setText(strTotalPrice);
 
         mFood.setCount(count);
-        mFood.setPriceOneDrink(priceOneDrink);
+        mFood.setPriceOneFood(priceOneFood);
         mFood.setTotalPrice(totalPrice);
     }
 
@@ -499,9 +499,9 @@ public class FoodDetailActivity extends BaseActivity {
         return strTopping;
     }*/
 
-    private boolean isDrinkInCart() {
-        List<Food> list = DrinkDatabase.getInstance(this)
-                .drinkDAO().checkDrinkInCart(mFood.getId());
+    private boolean isFoodInCart() {
+        List<Food> list = FoodDatabase.getInstance(this)
+                .foodDAO().checkFoodInCart(mFood.getId());
         return list != null && !list.isEmpty();
     }
 

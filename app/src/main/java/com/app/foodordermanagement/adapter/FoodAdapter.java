@@ -42,7 +42,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewHolder
         Food food = listFood.get(position);
         if (food == null) return;
 
-        GlideUtils.loadUrl(food.getImage(), holder.imgFood);
+        GlideUtils.loadUrl(food.getImage(), holder.sendRatingFood);
         holder.tvName.setText(food.getName());
         holder.tvDescription.setText(food.getDescription());
         holder.tvRate.setText(String.valueOf(food.getRate()));
@@ -76,7 +76,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewHolder
 
     public static class FoodViewHolder extends RecyclerView.ViewHolder {
 
-        private final ImageView imgFood;
+        private final ImageView sendRatingFood;
         private final TextView tvName;
         private final TextView tvPrice;
         private final TextView tvPriceSale;
@@ -86,7 +86,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewHolder
 
         public FoodViewHolder(@NonNull View itemView) {
             super(itemView);
-            imgFood = itemView.findViewById(R.id.img_drink);
+            sendRatingFood = itemView.findViewById(R.id.img_food);
             tvName = itemView.findViewById(R.id.tv_name);
             tvPrice = itemView.findViewById(R.id.tv_price);
             tvPriceSale = itemView.findViewById(R.id.tv_price_sale);

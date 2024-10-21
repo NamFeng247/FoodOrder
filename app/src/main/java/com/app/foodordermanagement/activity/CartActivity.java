@@ -53,7 +53,7 @@ public class CartActivity extends BaseActivity {
     private RelativeLayout layoutVoucher;
 //    private TextView tvVoucher;
 //    private TextView tvNameVoucher;
-    private TextView tvPriceDrink;
+    private TextView tvPriceFood;
     private TextView tvCountItem;
     private TextView tvAmount;
     private TextView tvPriceVoucher;
@@ -61,7 +61,7 @@ public class CartActivity extends BaseActivity {
 
     private List<Food> listFoodCart;
     private CartAdapter cartAdapter;
-    private int priceDrink;
+    private int priceFood;
     private int mAmount;
     private PaymentMethod paymentMethodSelected;
     private Address addressSelected;
@@ -102,7 +102,7 @@ public class CartActivity extends BaseActivity {
 //        tvVoucher = findViewById(R.id.tv_voucher);
 //        tvNameVoucher = findViewById(R.id.tv_name_voucher);
         tvCountItem = findViewById(R.id.tv_count_item);
-        tvPriceDrink = findViewById(R.id.tv_price_drink);
+        tvPriceFood = findViewById(R.id.tv_price_drink);
         tvAmount = findViewById(R.id.tv_amount);
 //        tvPriceVoucher = findViewById(R.id.tv_price_voucher);
         tvCheckout = findViewById(R.id.tv_checkout);
@@ -128,7 +128,7 @@ public class CartActivity extends BaseActivity {
 
 //        layoutVoucher.setOnClickListener(view -> {
 //            Bundle bundle = new Bundle();
-//            bundle.putInt(Constant.AMOUNT_VALUE, priceDrink);
+//            bundle.putInt(Constant.AMOUNT_VALUE, priceFood);
 //            if (voucherSelected != null) {
 //                bundle.putInt(Constant.VOUCHER_ID, voucherSelected.getId());
 //            }
@@ -151,15 +151,15 @@ public class CartActivity extends BaseActivity {
             orderBooking.setId(System.currentTimeMillis());
             orderBooking.setUserEmail(DataStoreManager.getUser().getEmail());
             orderBooking.setDateTime(String.valueOf(System.currentTimeMillis()));
-            List<FoodOrder> drinks = new ArrayList<>();
+            List<FoodOrder> foods = new ArrayList<>();
             for (Food food : listFoodCart) {
-                drinks.add(new FoodOrder(food.getName(), food.getOption(), food.getCount(),
-                        food.getPriceOneDrink(), food.getImage()));
+                foods.add(new FoodOrder(food.getName(), food.getOption(), food.getCount(),
+                        food.getPriceOneFood(), food.getImage()));
             }
-            orderBooking.setFoods(drinks);
-            orderBooking.setPrice(priceDrink);
+            orderBooking.setFoods(foods);
+            orderBooking.setPrice(priceFood);
 //            if (voucherSelected != null) {
-//                orderBooking.setVoucher(voucherSelected.getPriceDiscount(priceDrink));
+//                orderBooking.setVoucher(voucherSelected.getPriceDiscount(priceFood));
 //            }
             orderBooking.setTotal(mAmount);
             orderBooking.setPaymentMethod(paymentMethodSelected.getName());
@@ -258,8 +258,8 @@ public class CartActivity extends BaseActivity {
     private void calculateTotalPrice() {
         if (listFoodCart == null || listFoodCart.isEmpty()) {
             String strZero = 0 + Constant.CURRENCY;
-            priceDrink = 0;
-            tvPriceDrink.setText(strZero);
+            priceFood = 0;
+            tvPriceFood.setText(strZero);
 
             mAmount = 0;
             tvAmount.setText(strZero);
@@ -271,9 +271,9 @@ public class CartActivity extends BaseActivity {
             totalPrice = totalPrice + food.getTotalPrice();
         }
 
-        priceDrink = totalPrice;
-        String strPriceDrink = priceDrink + Constant.CURRENCY;
-        tvPriceDrink.setText(strPriceDrink);
+        priceFood = totalPrice;
+        String strpriceFood = priceFood + Constant.CURRENCY;
+        tvPriceFood.setText(strpriceFood);
 
         mAmount = totalPrice;
 

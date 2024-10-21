@@ -37,7 +37,7 @@ public class FoodOrderAdapter extends RecyclerView.Adapter<FoodOrderAdapter.Food
         FoodOrder foodOrder = listFoodOrder.get(position);
         if (foodOrder == null) return;
 
-        GlideUtils.loadUrl(foodOrder.getImage(), holder.imgFood);
+        GlideUtils.loadUrl(foodOrder.getImage(), holder.sendRatingFood);
         holder.tvName.setText(foodOrder.getName());
         String strPrice = foodOrder.getPrice() + Constant.CURRENCY;
         holder.tvPrice.setText(strPrice);
@@ -56,7 +56,7 @@ public class FoodOrderAdapter extends RecyclerView.Adapter<FoodOrderAdapter.Food
 
     public static class FoodOrderViewHolder extends RecyclerView.ViewHolder {
 
-        private final ImageView imgFood;
+        private final ImageView sendRatingFood;
         private final TextView tvName;
         private final TextView tvPrice;
         private final TextView tvCount;
@@ -64,7 +64,7 @@ public class FoodOrderAdapter extends RecyclerView.Adapter<FoodOrderAdapter.Food
 
         public FoodOrderViewHolder(@NonNull View itemView) {
             super(itemView);
-            imgFood = itemView.findViewById(R.id.img_drink);
+            sendRatingFood = itemView.findViewById(R.id.img_food);
             tvName = itemView.findViewById(R.id.tv_name);
             tvPrice = itemView.findViewById(R.id.tv_price);
             tvCount = itemView.findViewById(R.id.tv_count);

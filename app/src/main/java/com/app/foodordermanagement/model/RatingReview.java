@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class RatingReview implements Serializable {
 
-    public static final int TYPE_RATING_REVIEW_DRINK = 1;
+    public static final int TYPE_RATING_REVIEW_FOOD = 1;
     public static final int TYPE_RATING_REVIEW_ORDER = 2;
 
     private int type;

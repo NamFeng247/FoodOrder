@@ -70,8 +70,19 @@
             android:name="com.app.foodordermanagement.activity.PaymentMethodActivity" />
 
         <activity
-            android:exported="false"
-            android:name="com.app.foodordermanagement.activity.CartActivity" />
+            android:exported="true"
+            android:name="com.app.foodordermanagement.activity.CartActivity"
+            android:label="Merchant Demo"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="demozpdk"
+                    android:host="app" />
+            </intent-filter>
+        </activity>
 
         <activity
             android:exported="false"
@@ -97,9 +108,6 @@
             android:exported="false"
             android:name="com.app.foodordermanagement.activity.FeedbackActivity" />
 
-        <activity
-            android:exported="false"
-            android:name="com.app.foodordermanagement.activity.ForgotPasswordActivity" />
 
         <activity
             android:exported="false"
