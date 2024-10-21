@@ -41,7 +41,7 @@ public class FoodFragment extends Fragment {
 
     private View mView;
     private RecyclerView rcvFilter;
-    private RecyclerView rcvDrink;
+    private RecyclerView rcvFood;
 
     private List<Food> listFood;
     private List<Food> listFoodDisplay;
@@ -66,7 +66,7 @@ public class FoodFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        mView = inflater.inflate(R.layout.fragment_drink, container, false);
+        mView = inflater.inflate(R.layout.fragment_food, container, false);
 
         if (!EventBus.getDefault().isRegistered(this)) {
             EventBus.getDefault().register(this);
@@ -90,8 +90,8 @@ public class FoodFragment extends Fragment {
 
     private void initUi() {
         rcvFilter = mView.findViewById(R.id.rcv_filter);
-        rcvDrink = mView.findViewById(R.id.rcv_drink);
-        displayListDrink();
+        rcvFood = mView.findViewById(R.id.rcv_drink);
+        displayListFood();
     }
 
     private void initListener() {
@@ -145,7 +145,7 @@ public class FoodFragment extends Fragment {
                                 listFood.add(0, food);
                             }
                         }
-                        setListDrinkDisplay(new Filter(Filter.TYPE_FILTER_ALL, getString(R.string.filter_all)), keyword);
+                        setListFoodDisplay(new Filter(Filter.TYPE_FILTER_ALL, getString(R.string.filter_all)), keyword);
                     }
 
                     @Override
@@ -153,20 +153,20 @@ public class FoodFragment extends Fragment {
                 });
     }
 
-    private void displayListDrink() {
+    private void displayListFood() {
         if (getActivity() == null) return;
         listFoodDisplay = new ArrayList<>();
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
-        rcvDrink.setLayoutManager(linearLayoutManager);
+        rcvFood.setLayoutManager(linearLayoutManager);
         foodAdapter = new FoodAdapter(listFoodDisplay, food -> {
             Bundle bundle = new Bundle();
             bundle.putInt(Constant.FOOD_ID, food.getId());
             GlobalFunction.startActivity(getActivity(), FoodDetailActivity.class, bundle);
         });
-        rcvDrink.setAdapter(foodAdapter);
+        rcvFood.setAdapter(foodAdapter);
     }
 
-    private void setListDrinkDisplay(@NonNull Filter filter,@Nullable String keyword) {
+    private void setListFoodDisplay(@NonNull Filter filter, @Nullable String keyword) {
         if (listFood == null || listFood.isEmpty()) return;
 
         if (listFoodKeyWord != null) {
@@ -196,7 +196,7 @@ public class FoodFragment extends Fragment {
                 case Filter.TYPE_FILTER_RATE:
                     listFoodDisplay.addAll(listFoodKeyWord);
                     Collections.sort(listFoodDisplay,
-                            (drink1, drink2) -> Double.compare(drink2.getRate(), drink1.getRate()));
+                            (food1, food2) -> Double.compare(food2.getRate(), food1.getRate()));
                     break;
 
                 case Filter.TYPE_FILTER_PRICE:
@@ -236,11 +236,11 @@ public class FoodFragment extends Fragment {
                     break;
             }
         }
-        reloadListDrink();
+        reloadListFood();
     }
 
     @SuppressLint("NotifyDataSetChanged")
-    private void reloadListDrink() {
+    private void reloadListFood() {
         if (foodAdapter != null) foodAdapter.notifyDataSetChanged();
     }
 
@@ -253,7 +253,7 @@ public class FoodFragment extends Fragment {
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onSearchKeywordEvent(SearchKeywordEvent event) {
         keyword = event.getKeyword();
-        setListDrinkDisplay(currentFilter, keyword);
+        setListFoodDisplay(currentFilter, keyword);
     }
 
     @Override

@@ -19,30 +19,30 @@ import com.app.foodordermanagement.utils.GlideUtils;
 
 import java.util.List;
 
-public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.DrinkViewHolder> {
+public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewHolder> {
 
     private final List<Food> listFood;
-    private final IClickFoodListener IClickFoodListener;
+    private final IClickFoodListener iClickFoodListener;
 
     public FoodAdapter(List<Food> list, IClickFoodListener listener) {
         this.listFood = list;
-        this.IClickFoodListener = listener;
+        this.iClickFoodListener = listener;
     }
 
     @NonNull
     @Override
-    public DrinkViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public FoodViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.item_food, parent, false);
-        return new DrinkViewHolder(view);
+        return new FoodViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull DrinkViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull FoodViewHolder holder, int position) {
         Food food = listFood.get(position);
         if (food == null) return;
 
-        GlideUtils.loadUrl(food.getImage(), holder.imgDrink);
+        GlideUtils.loadUrl(food.getImage(), holder.imgFood);
         holder.tvName.setText(food.getName());
         holder.tvDescription.setText(food.getDescription());
         holder.tvRate.setText(String.valueOf(food.getRate()));
@@ -63,7 +63,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.DrinkViewHolde
         }
 
         holder.layoutItem.setOnClickListener(view
-                -> IClickFoodListener.onClickFoodItem(food));
+                -> iClickFoodListener.onClickFoodItem(food));
     }
 
     @Override
@@ -74,9 +74,9 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.DrinkViewHolde
         return 0;
     }
 
-    public static class DrinkViewHolder extends RecyclerView.ViewHolder {
+    public static class FoodViewHolder extends RecyclerView.ViewHolder {
 
-        private final ImageView imgDrink;
+        private final ImageView imgFood;
         private final TextView tvName;
         private final TextView tvPrice;
         private final TextView tvPriceSale;
@@ -84,9 +84,9 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.DrinkViewHolde
         private final TextView tvRate;
         private final LinearLayout layoutItem;
 
-        public DrinkViewHolder(@NonNull View itemView) {
+        public FoodViewHolder(@NonNull View itemView) {
             super(itemView);
-            imgDrink = itemView.findViewById(R.id.img_drink);
+            imgFood = itemView.findViewById(R.id.img_drink);
             tvName = itemView.findViewById(R.id.tv_name);
             tvPrice = itemView.findViewById(R.id.tv_price);
             tvPriceSale = itemView.findViewById(R.id.tv_price_sale);

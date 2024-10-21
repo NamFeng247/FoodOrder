@@ -16,7 +16,7 @@ import com.app.foodordermanagement.utils.GlideUtils;
 
 import java.util.List;
 
-public class FoodOrderAdapter extends RecyclerView.Adapter<FoodOrderAdapter.DrinkOrderViewHolder> {
+public class FoodOrderAdapter extends RecyclerView.Adapter<FoodOrderAdapter.FoodOrderViewHolder> {
 
     private final List<FoodOrder> listFoodOrder;
 
@@ -26,18 +26,18 @@ public class FoodOrderAdapter extends RecyclerView.Adapter<FoodOrderAdapter.Drin
 
     @NonNull
     @Override
-    public DrinkOrderViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public FoodOrderViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.item_food_order, parent, false);
-        return new DrinkOrderViewHolder(view);
+        return new FoodOrderViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull DrinkOrderViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull FoodOrderViewHolder holder, int position) {
         FoodOrder foodOrder = listFoodOrder.get(position);
         if (foodOrder == null) return;
 
-        GlideUtils.loadUrl(foodOrder.getImage(), holder.imgDrink);
+        GlideUtils.loadUrl(foodOrder.getImage(), holder.imgFood);
         holder.tvName.setText(foodOrder.getName());
         String strPrice = foodOrder.getPrice() + Constant.CURRENCY;
         holder.tvPrice.setText(strPrice);
@@ -54,17 +54,17 @@ public class FoodOrderAdapter extends RecyclerView.Adapter<FoodOrderAdapter.Drin
         return 0;
     }
 
-    public static class DrinkOrderViewHolder extends RecyclerView.ViewHolder {
+    public static class FoodOrderViewHolder extends RecyclerView.ViewHolder {
 
-        private final ImageView imgDrink;
+        private final ImageView imgFood;
         private final TextView tvName;
         private final TextView tvPrice;
         private final TextView tvCount;
         private final TextView tvOption;
 
-        public DrinkOrderViewHolder(@NonNull View itemView) {
+        public FoodOrderViewHolder(@NonNull View itemView) {
             super(itemView);
-            imgDrink = itemView.findViewById(R.id.img_drink);
+            imgFood = itemView.findViewById(R.id.img_drink);
             tvName = itemView.findViewById(R.id.tv_name);
             tvPrice = itemView.findViewById(R.id.tv_price);
             tvCount = itemView.findViewById(R.id.tv_count);
