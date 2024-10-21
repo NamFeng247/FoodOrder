@@ -14,11 +14,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.foodordermanagement.MyApplication;
 import com.app.foodordermanagement.R;
-import com.app.foodordermanagement.activity.DrinkDetailActivity;
-import com.app.foodordermanagement.adapter.DrinkAdapter;
+import com.app.foodordermanagement.activity.FoodDetailActivity;
+import com.app.foodordermanagement.adapter.FoodAdapter;
 import com.app.foodordermanagement.adapter.FilterAdapter;
 import com.app.foodordermanagement.event.SearchKeywordEvent;
-import com.app.foodordermanagement.model.Drink;
+import com.app.foodordermanagement.model.Food;
 import com.app.foodordermanagement.model.Filter;
 import com.app.foodordermanagement.utils.Constant;
 import com.app.foodordermanagement.utils.GlobalFunction;
@@ -37,28 +37,28 @@ import java.util.Collections;
 import java.util.List;
 import java.util.regex.Pattern;
 
-public class DrinkFragment extends Fragment {
+public class FoodFragment extends Fragment {
 
     private View mView;
     private RecyclerView rcvFilter;
     private RecyclerView rcvDrink;
 
-    private List<Drink> listDrink;
-    private List<Drink> listDrinkDisplay;
-    private List<Drink> listDrinkKeyWord;
+    private List<Food> listFood;
+    private List<Food> listFoodDisplay;
+    private List<Food> listFoodKeyWord;
     private List<Filter> listFilter;
-    private DrinkAdapter drinkAdapter;
+    private FoodAdapter foodAdapter;
     private FilterAdapter filterAdapter;
     private int categoryId;
     private Filter currentFilter;
     private String keyword = "";
 
-    public static DrinkFragment newInstance(int categoryId) {
-        DrinkFragment drinkFragment = new DrinkFragment();
+    public static FoodFragment newInstance(int categoryId) {
+        FoodFragment foodFragment = new FoodFragment();
         Bundle bundle = new Bundle();
         bundle.putInt(Constant.CATEGORY_ID, categoryId);
-        drinkFragment.setArguments(bundle);
-        return drinkFragment;
+        foodFragment.setArguments(bundle);
+        return foodFragment;
     }
 
     @Nullable
@@ -77,7 +77,7 @@ public class DrinkFragment extends Fragment {
         initListener();
 
         /*getListFilter();*/
-        getListDrink();
+        getListFood();
 
         return mView;
     }
@@ -127,22 +127,22 @@ public class DrinkFragment extends Fragment {
         if (filterAdapter != null) filterAdapter.notifyDataSetChanged();
     }*/
 
-    private void getListDrink() {
+    private void getListFood() {
         if (getActivity() == null) return;
-        MyApplication.get(getActivity()).getDrinkDatabaseReference()
+        MyApplication.get(getActivity()).getFoodDatabaseReference()
                 .orderByChild(Constant.CATEGORY_ID).equalTo(categoryId)
                 .addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        if (listDrink != null) {
-                            listDrink.clear();
+                        if (listFood != null) {
+                            listFood.clear();
                         } else {
-                            listDrink = new ArrayList<>();
+                            listFood = new ArrayList<>();
                         }
                         for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
-                            Drink drink = dataSnapshot.getValue(Drink.class);
-                            if (drink != null) {
-                                listDrink.add(0, drink);
+                            Food food = dataSnapshot.getValue(Food.class);
+                            if (food != null) {
+                                listFood.add(0, food);
                             }
                         }
                         setListDrinkDisplay(new Filter(Filter.TYPE_FILTER_ALL, getString(R.string.filter_all)), keyword);
@@ -155,83 +155,83 @@ public class DrinkFragment extends Fragment {
 
     private void displayListDrink() {
         if (getActivity() == null) return;
-        listDrinkDisplay = new ArrayList<>();
+        listFoodDisplay = new ArrayList<>();
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
         rcvDrink.setLayoutManager(linearLayoutManager);
-        drinkAdapter = new DrinkAdapter(listDrinkDisplay, drink -> {
+        foodAdapter = new FoodAdapter(listFoodDisplay, food -> {
             Bundle bundle = new Bundle();
-            bundle.putInt(Constant.DRINK_ID, drink.getId());
-            GlobalFunction.startActivity(getActivity(), DrinkDetailActivity.class, bundle);
+            bundle.putInt(Constant.FOOD_ID, food.getId());
+            GlobalFunction.startActivity(getActivity(), FoodDetailActivity.class, bundle);
         });
-        rcvDrink.setAdapter(drinkAdapter);
+        rcvDrink.setAdapter(foodAdapter);
     }
 
     private void setListDrinkDisplay(@NonNull Filter filter,@Nullable String keyword) {
-        if (listDrink == null || listDrink.isEmpty()) return;
+        if (listFood == null || listFood.isEmpty()) return;
 
-        if (listDrinkKeyWord != null) {
-            listDrinkKeyWord.clear();
+        if (listFoodKeyWord != null) {
+            listFoodKeyWord.clear();
         } else {
-            listDrinkKeyWord = new ArrayList<>();
+            listFoodKeyWord = new ArrayList<>();
         }
 
-        if (listDrinkDisplay != null) {
-            listDrinkDisplay.clear();
+        if (listFoodDisplay != null) {
+            listFoodDisplay.clear();
         } else {
-            listDrinkDisplay = new ArrayList<>();
+            listFoodDisplay = new ArrayList<>();
         }
 
         if (!StringUtil.isEmpty(keyword)) {
-            for (Drink drink: listDrink) {
-                if (getTextSearch(drink.getName()).toLowerCase().trim()
+            for (Food food : listFood) {
+                if (getTextSearch(food.getName()).toLowerCase().trim()
                         .contains(getTextSearch(keyword).toLowerCase().trim())) {
-                    listDrinkKeyWord.add(drink);
+                    listFoodKeyWord.add(food);
                 }
             }
             switch (filter.getId()) {
                 case Filter.TYPE_FILTER_ALL:
-                    listDrinkDisplay.addAll(listDrinkKeyWord);
+                    listFoodDisplay.addAll(listFoodKeyWord);
                     break;
 
                 case Filter.TYPE_FILTER_RATE:
-                    listDrinkDisplay.addAll(listDrinkKeyWord);
-                    Collections.sort(listDrinkDisplay,
+                    listFoodDisplay.addAll(listFoodKeyWord);
+                    Collections.sort(listFoodDisplay,
                             (drink1, drink2) -> Double.compare(drink2.getRate(), drink1.getRate()));
                     break;
 
                 case Filter.TYPE_FILTER_PRICE:
-                    listDrinkDisplay.addAll(listDrinkKeyWord);
-                    Collections.sort(listDrinkDisplay,
+                    listFoodDisplay.addAll(listFoodKeyWord);
+                    Collections.sort(listFoodDisplay,
                             (drink1, drink2) -> Integer.compare(drink1.getRealPrice(), drink2.getRealPrice()));
                     break;
 
                 case Filter.TYPE_FILTER_PROMOTION:
-                    for (Drink drink : listDrinkKeyWord) {
-                        if (drink.getSale() > 0) listDrinkDisplay.add(drink);
+                    for (Food food : listFoodKeyWord) {
+                        if (food.getSale() > 0) listFoodDisplay.add(food);
                     }
                     break;
             }
         } else {
             switch (filter.getId()) {
                 case Filter.TYPE_FILTER_ALL:
-                    listDrinkDisplay.addAll(listDrink);
+                    listFoodDisplay.addAll(listFood);
                     break;
 
                 case Filter.TYPE_FILTER_RATE:
-                    listDrinkDisplay.addAll(listDrink);
-                    Collections.sort(listDrinkDisplay,
+                    listFoodDisplay.addAll(listFood);
+                    Collections.sort(listFoodDisplay,
                             (drink1, drink2) -> Double.compare(drink2.getRate(), drink1.getRate()));
                     break;
 
                 case Filter.TYPE_FILTER_PRICE:
-                    listDrinkDisplay.addAll(listDrink);
-                    Collections.sort(listDrinkDisplay,
+                    listFoodDisplay.addAll(listFood);
+                    Collections.sort(listFoodDisplay,
                             (drink1, drink2) -> Integer.compare(drink1.getRealPrice(), drink2.getRealPrice()));
                     break;
 
                 case Filter.TYPE_FILTER_PROMOTION:
-                    for (Drink drink : listDrink) {
-                        if (drink.getSale() > 0) listDrinkDisplay.add(drink);
+                    for (Food food : listFood) {
+                        if (food.getSale() > 0) listFoodDisplay.add(food);
                     }
                     break;
             }
@@ -241,7 +241,7 @@ public class DrinkFragment extends Fragment {
 
     @SuppressLint("NotifyDataSetChanged")
     private void reloadListDrink() {
-        if (drinkAdapter != null) drinkAdapter.notifyDataSetChanged();
+        if (foodAdapter != null) foodAdapter.notifyDataSetChanged();
     }
 
     public String getTextSearch(String input) {

@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.foodordermanagement.R;
-import com.app.foodordermanagement.model.Drink;
+import com.app.foodordermanagement.model.Food;
 import com.app.foodordermanagement.utils.Constant;
 import com.app.foodordermanagement.utils.GlideUtils;
 
@@ -18,17 +18,17 @@ import java.util.List;
 
 public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder> {
 
-    private final List<Drink> listDrink;
+    private final List<Food> listFood;
     private final IClickCartListener iClickCartListener;
 
     public interface IClickCartListener {
-        void onClickDeleteItem(Drink drink, int position);
-        void onClickUpdateItem(Drink drink, int position);
-        void onClickEditItem(Drink drink);
+        void onClickDeleteItem(Food food, int position);
+        void onClickUpdateItem(Food food, int position);
+        void onClickEditItem(Food food);
     }
 
-    public CartAdapter(List<Drink> list, IClickCartListener listener) {
-        this.listDrink = list;
+    public CartAdapter(List<Food> list, IClickCartListener listener) {
+        this.listFood = list;
         this.iClickCartListener = listener;
     }
 
@@ -42,17 +42,17 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
 
     @Override
     public void onBindViewHolder(@NonNull CartViewHolder holder, int position) {
-        Drink drink = listDrink.get(position);
-        if (drink == null) return;
+        Food food = listFood.get(position);
+        if (food == null) return;
 
-        GlideUtils.loadUrl(drink.getImage(), holder.imgDrink);
-        holder.tvName.setText(drink.getName());
-        String strPrice = drink.getPriceOneDrink() + Constant.CURRENCY;
+        GlideUtils.loadUrl(food.getImage(), holder.imgDrink);
+        holder.tvName.setText(food.getName());
+        String strPrice = food.getPriceOneDrink() + Constant.CURRENCY;
         holder.tvPrice.setText(strPrice);
-        holder.tvOption.setText(drink.getOption());
-        String strQuantity = "x" + drink.getCount();
+        holder.tvOption.setText(food.getOption());
+        String strQuantity = "x" + food.getCount();
         holder.tvQuantity.setText(strQuantity);
-        holder.tvCount.setText(String.valueOf(drink.getCount()));
+        holder.tvCount.setText(String.valueOf(food.getCount()));
 
         holder.tvSub.setOnClickListener(v -> {
             String strCount = holder.tvCount.getText().toString();
@@ -63,33 +63,33 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
             int newCount = count - 1;
             holder.tvCount.setText(String.valueOf(newCount));
 
-            int totalPrice = drink.getPriceOneDrink() * newCount;
-            drink.setCount(newCount);
-            drink.setTotalPrice(totalPrice);
+            int totalPrice = food.getPriceOneDrink() * newCount;
+            food.setCount(newCount);
+            food.setTotalPrice(totalPrice);
 
-            iClickCartListener.onClickUpdateItem(drink, holder.getAdapterPosition());
+            iClickCartListener.onClickUpdateItem(food, holder.getAdapterPosition());
         });
 
         holder.tvAdd.setOnClickListener(v -> {
             int newCount = Integer.parseInt(holder.tvCount.getText().toString()) + 1;
             holder.tvCount.setText(String.valueOf(newCount));
 
-            int totalPrice = drink.getPriceOneDrink() * newCount;
-            drink.setCount(newCount);
-            drink.setTotalPrice(totalPrice);
+            int totalPrice = food.getPriceOneDrink() * newCount;
+            food.setCount(newCount);
+            food.setTotalPrice(totalPrice);
 
-            iClickCartListener.onClickUpdateItem(drink, holder.getAdapterPosition());
+            iClickCartListener.onClickUpdateItem(food, holder.getAdapterPosition());
         });
 
-        holder.imgEdit.setOnClickListener(v -> iClickCartListener.onClickEditItem(drink));
+        holder.imgEdit.setOnClickListener(v -> iClickCartListener.onClickEditItem(food));
         holder.imgDelete.setOnClickListener(v
-                -> iClickCartListener.onClickDeleteItem(drink, holder.getAdapterPosition()));
+                -> iClickCartListener.onClickDeleteItem(food, holder.getAdapterPosition()));
     }
 
     @Override
     public int getItemCount() {
-        if (listDrink != null) {
-            return listDrink.size();
+        if (listFood != null) {
+            return listFood.size();
         }
         return 0;
     }

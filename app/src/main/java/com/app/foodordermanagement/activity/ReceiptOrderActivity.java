@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.foodordermanagement.MyApplication;
 import com.app.foodordermanagement.R;
-import com.app.foodordermanagement.adapter.DrinkOrderAdapter;
+import com.app.foodordermanagement.adapter.FoodOrderAdapter;
 import com.app.foodordermanagement.model.Order;
 import com.app.foodordermanagement.utils.Constant;
 import com.app.foodordermanagement.utils.DateTimeUtils;
@@ -115,7 +115,7 @@ public class ReceiptOrderActivity extends BaseActivity {
         tvName.setText(mOrder.getAddress().getName());
         tvPhone.setText(mOrder.getAddress().getPhone());
         tvAddress.setText(mOrder.getAddress().getAddress());
-        DrinkOrderAdapter adapter = new DrinkOrderAdapter(mOrder.getDrinks());
+        FoodOrderAdapter adapter = new FoodOrderAdapter(mOrder.getFoods());
         rcvDrinks.setAdapter(adapter);
         if (Order.STATUS_COMPLETE == mOrder.getStatus()) {
             tvTrackingOrder.setVisibility(View.GONE);

@@ -12,64 +12,64 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.foodordermanagement.R;
-import com.app.foodordermanagement.listener.IClickDrinkListener;
-import com.app.foodordermanagement.model.Drink;
+import com.app.foodordermanagement.listener.IClickFoodListener;
+import com.app.foodordermanagement.model.Food;
 import com.app.foodordermanagement.utils.Constant;
 import com.app.foodordermanagement.utils.GlideUtils;
 
 import java.util.List;
 
-public class DrinkAdapter extends RecyclerView.Adapter<DrinkAdapter.DrinkViewHolder> {
+public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.DrinkViewHolder> {
 
-    private final List<Drink> listDrink;
-    private final IClickDrinkListener iClickDrinkListener;
+    private final List<Food> listFood;
+    private final IClickFoodListener IClickFoodListener;
 
-    public DrinkAdapter(List<Drink> list, IClickDrinkListener listener) {
-        this.listDrink = list;
-        this.iClickDrinkListener = listener;
+    public FoodAdapter(List<Food> list, IClickFoodListener listener) {
+        this.listFood = list;
+        this.IClickFoodListener = listener;
     }
 
     @NonNull
     @Override
     public DrinkViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_drink, parent, false);
+                .inflate(R.layout.item_food, parent, false);
         return new DrinkViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull DrinkViewHolder holder, int position) {
-        Drink drink = listDrink.get(position);
-        if (drink == null) return;
+        Food food = listFood.get(position);
+        if (food == null) return;
 
-        GlideUtils.loadUrl(drink.getImage(), holder.imgDrink);
-        holder.tvName.setText(drink.getName());
-        holder.tvDescription.setText(drink.getDescription());
-        holder.tvRate.setText(String.valueOf(drink.getRate()));
+        GlideUtils.loadUrl(food.getImage(), holder.imgDrink);
+        holder.tvName.setText(food.getName());
+        holder.tvDescription.setText(food.getDescription());
+        holder.tvRate.setText(String.valueOf(food.getRate()));
 
-        if (drink.getSale() <= 0) {
+        if (food.getSale() <= 0) {
             holder.tvPrice.setVisibility(View.GONE);
-            String strPrice = drink.getPrice() + Constant.CURRENCY;
+            String strPrice = food.getPrice() + Constant.CURRENCY;
             holder.tvPriceSale.setText(strPrice);
         } else {
             holder.tvPrice.setVisibility(View.VISIBLE);
 
-            String strOldPrice = drink.getPrice() + Constant.CURRENCY;
+            String strOldPrice = food.getPrice() + Constant.CURRENCY;
             holder.tvPrice.setText(strOldPrice);
             holder.tvPrice.setPaintFlags(holder.tvPrice.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
 
-            String strRealPrice = drink.getRealPrice() + Constant.CURRENCY;
+            String strRealPrice = food.getRealPrice() + Constant.CURRENCY;
             holder.tvPriceSale.setText(strRealPrice);
         }
 
         holder.layoutItem.setOnClickListener(view
-                -> iClickDrinkListener.onClickDrinkItem(drink));
+                -> IClickFoodListener.onClickFoodItem(food));
     }
 
     @Override
     public int getItemCount() {
-        if (listDrink != null) {
-            return listDrink.size();
+        if (listFood != null) {
+            return listFood.size();
         }
         return 0;
     }

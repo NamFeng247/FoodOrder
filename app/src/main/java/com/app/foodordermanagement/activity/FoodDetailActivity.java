@@ -15,7 +15,7 @@ import com.app.foodordermanagement.R;
 import com.app.foodordermanagement.adapter.ToppingAdapter;
 import com.app.foodordermanagement.database.DrinkDatabase;
 import com.app.foodordermanagement.event.DisplayCartEvent;
-import com.app.foodordermanagement.model.Drink;
+import com.app.foodordermanagement.model.Food;
 import com.app.foodordermanagement.model.RatingReview;
 import com.app.foodordermanagement.model.Topping;
 import com.app.foodordermanagement.utils.Constant;
@@ -30,7 +30,7 @@ import org.greenrobot.eventbus.EventBus;
 
 import java.util.List;
 
-public class DrinkDetailActivity extends BaseActivity {
+public class FoodDetailActivity extends BaseActivity {
 
     private ImageView imgDrink;
     private TextView tvName;
@@ -52,8 +52,8 @@ public class DrinkDetailActivity extends BaseActivity {
     private TextView tvAddOrder;
 
     private int mDrinkId;
-    private Drink mDrinkOld;
-    private Drink mDrink;
+    private Food mFoodOld;
+    private Food mFood;
     private String currentVariant = Topping.VARIANT_ICE;
     private String currentSize = Topping.SIZE_REGULAR;
     private String currentSugar = Topping.SUGAR_NORMAL;
@@ -82,7 +82,7 @@ public class DrinkDetailActivity extends BaseActivity {
         if (bundle == null) return;
         mDrinkId = bundle.getInt(Constant.DRINK_ID);
         if (bundle.get(Constant.DRINK_OBJECT) != null) {
-            mDrinkOld = (Drink) bundle.get(Constant.DRINK_OBJECT);
+            mFoodOld = (Food) bundle.get(Constant.DRINK_OBJECT);
         }
     }
 
@@ -119,8 +119,8 @@ public class DrinkDetailActivity extends BaseActivity {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         showProgressDialog(false);
-                        mDrink = snapshot.getValue(Drink.class);
-                        if (mDrink == null) return;
+                        mFood = snapshot.getValue(Food.class);
+                        if (mFood == null) return;
 
                         initToolbar();
                         initData();
@@ -140,38 +140,38 @@ public class DrinkDetailActivity extends BaseActivity {
         ImageView imgToolbarBack = findViewById(R.id.img_toolbar_back);
         TextView tvToolbarTitle = findViewById(R.id.tv_toolbar_title);
         imgToolbarBack.setOnClickListener(view -> finish());
-        tvToolbarTitle.setText(mDrink.getName());
+        tvToolbarTitle.setText(mFood.getName());
     }
 
     private void initData() {
-        if (mDrink == null) return;
-        GlideUtils.loadUrlBanner(mDrink.getBanner(), imgDrink);
-        tvName.setText(mDrink.getName());
-        String strPrice = mDrink.getRealPrice() + Constant.CURRENCY;
+        if (mFood == null) return;
+        GlideUtils.loadUrlBanner(mFood.getBanner(), imgDrink);
+        tvName.setText(mFood.getName());
+        String strPrice = mFood.getRealPrice() + Constant.CURRENCY;
         tvPriceSale.setText(strPrice);
-        tvDescription.setText(mDrink.getDescription());
-        if (mDrinkOld != null) {
-            mDrink.setCount(mDrinkOld.getCount());
+        tvDescription.setText(mFood.getDescription());
+        if (mFoodOld != null) {
+            mFood.setCount(mFoodOld.getCount());
         } else {
-            mDrink.setCount(1);
+            mFood.setCount(1);
         }
-        tvCount.setText(String.valueOf(mDrink.getCount()));
-        tvRate.setText(String.valueOf(mDrink.getRate()));
-        String strCountReview = "(" + mDrink.getCountReviews() + ")";
+        tvCount.setText(String.valueOf(mFood.getCount()));
+        tvRate.setText(String.valueOf(mFood.getRate()));
+        String strCountReview = "(" + mFood.getCountReviews() + ")";
         tvCountReview.setText(strCountReview);
 
-        if (mDrinkOld != null) {
-            if (StringUtil.isEmpty(mDrinkOld.getToppingIds())) calculatorTotalPrice();
+        if (mFoodOld != null) {
+            if (StringUtil.isEmpty(mFoodOld.getToppingIds())) calculatorTotalPrice();
         } else {
             calculatorTotalPrice();
         }
 
-        if (mDrinkOld != null) {
-            setValueToppingVariant(mDrinkOld.getVariant());
-            setValueToppingSize(mDrinkOld.getSize());
-            /*setValueToppingSugar(mDrinkOld.getSugar());
-            setValueToppingIce(mDrinkOld.getIce());*/
-            edtNotes.setText(mDrinkOld.getNote());
+        if (mFoodOld != null) {
+            setValueToppingVariant(mFoodOld.getVariant());
+            setValueToppingSize(mFoodOld.getSize());
+            /*setValueToppingSugar(mFoodOld.getSugar());
+            setValueToppingIce(mFoodOld.getIce());*/
+            edtNotes.setText(mFoodOld.getNote());
         } else {
             setValueToppingVariant(Topping.VARIANT_ICE);
             setValueToppingSize(Topping.SIZE_REGULAR);
@@ -256,30 +256,30 @@ public class DrinkDetailActivity extends BaseActivity {
         layoutRatingAndReview.setOnClickListener(v -> {
             Bundle bundle = new Bundle();
             RatingReview ratingReview = new RatingReview(RatingReview.TYPE_RATING_REVIEW_DRINK,
-                    String.valueOf(mDrink.getId()));
+                    String.valueOf(mFood.getId()));
             bundle.putSerializable(Constant.RATING_REVIEW_OBJECT, ratingReview);
-            GlobalFunction.startActivity(DrinkDetailActivity.this,
+            GlobalFunction.startActivity(FoodDetailActivity.this,
                     RatingReviewActivity.class, bundle);
         });
 
         tvAddOrder.setOnClickListener(view -> {
-            mDrink.setOption(getAllOption());
-            mDrink.setVariant(currentVariant);
-            mDrink.setSize(currentSize);
-            /*mDrink.setSugar(currentSugar);
-            mDrink.setIce(currentIce);*/
-            /*mDrink.setToppingIds(toppingIdsText);*/
+            mFood.setOption(getAllOption());
+            mFood.setVariant(currentVariant);
+            mFood.setSize(currentSize);
+            /*mFood.setSugar(currentSugar);
+            mFood.setIce(currentIce);*/
+            /*mFood.setToppingIds(toppingIdsText);*/
             String notes = edtNotes.getText().toString().trim();
             if (!StringUtil.isEmpty(notes)) {
-                mDrink.setNote(notes);
+                mFood.setNote(notes);
             }
 
             if (!isDrinkInCart()) {
-                DrinkDatabase.getInstance(DrinkDetailActivity.this).drinkDAO().insertDrink(mDrink);
+                DrinkDatabase.getInstance(FoodDetailActivity.this).drinkDAO().insertDrink(mFood);
             } else {
-                DrinkDatabase.getInstance(DrinkDetailActivity.this).drinkDAO().updateDrink(mDrink);
+                DrinkDatabase.getInstance(FoodDetailActivity.this).drinkDAO().updateDrink(mFood);
             }
-            GlobalFunction.startActivity(DrinkDetailActivity.this, CartActivity.class);
+            GlobalFunction.startActivity(FoodDetailActivity.this, CartActivity.class);
             EventBus.getDefault().post(new DisplayCartEvent());
             finish();
         });
@@ -429,9 +429,9 @@ public class DrinkDetailActivity extends BaseActivity {
 
     /*@SuppressLint("NotifyDataSetChanged")
     private void handleSetToppingDrinkOld() {
-        if (mDrinkOld == null || StringUtil.isEmpty(mDrinkOld.getToppingIds())) return;
+        if (mFoodOld == null || StringUtil.isEmpty(mFoodOld.getToppingIds())) return;
         if (listTopping == null || listTopping.isEmpty()) return;
-        String[] tempId = mDrinkOld.getToppingIds().split(",");
+        String[] tempId = mFoodOld.getToppingIds().split(",");
         for (String s : tempId) {
             for (Topping topping : listTopping) {
                 if (topping.getId() == Integer.parseInt(s)) {
@@ -457,14 +457,14 @@ public class DrinkDetailActivity extends BaseActivity {
 
     private void calculatorTotalPrice() {
         int count = Integer.parseInt(tvCount.getText().toString().trim());
-        int priceOneDrink = mDrink.getRealPrice() + getTotalPriceTopping();
+        int priceOneDrink = mFood.getRealPrice() + getTotalPriceTopping();
         int totalPrice = priceOneDrink * count;
         String strTotalPrice = totalPrice + Constant.CURRENCY;
         tvTotal.setText(strTotalPrice);
 
-        mDrink.setCount(count);
-        mDrink.setPriceOneDrink(priceOneDrink);
-        mDrink.setTotalPrice(totalPrice);
+        mFood.setCount(count);
+        mFood.setPriceOneDrink(priceOneDrink);
+        mFood.setTotalPrice(totalPrice);
     }
 
     private int getTotalPriceTopping() {
@@ -500,8 +500,8 @@ public class DrinkDetailActivity extends BaseActivity {
     }*/
 
     private boolean isDrinkInCart() {
-        List<Drink> list = DrinkDatabase.getInstance(this)
-                .drinkDAO().checkDrinkInCart(mDrink.getId());
+        List<Food> list = DrinkDatabase.getInstance(this)
+                .drinkDAO().checkDrinkInCart(mFood.getId());
         return list != null && !list.isEmpty();
     }
 

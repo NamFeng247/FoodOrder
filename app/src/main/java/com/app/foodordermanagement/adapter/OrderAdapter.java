@@ -12,7 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.foodordermanagement.R;
-import com.app.foodordermanagement.model.DrinkOrder;
+import com.app.foodordermanagement.model.FoodOrder;
 import com.app.foodordermanagement.model.Order;
 import com.app.foodordermanagement.utils.Constant;
 import com.app.foodordermanagement.utils.GlideUtils;
@@ -49,13 +49,13 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.OrderViewHol
         Order order = listOrder.get(position);
         if (order == null) return;
 
-        DrinkOrder firstDrinkOrder = order.getDrinks().get(0);
-        GlideUtils.loadUrl(firstDrinkOrder.getImage(), holder.imgDrink);
+        FoodOrder firstFoodOrder = order.getFoods().get(0);
+        GlideUtils.loadUrl(firstFoodOrder.getImage(), holder.imgDrink);
         holder.tvOrderId.setText(String.valueOf(order.getId()));
         String strTotal = order.getTotal() + Constant.CURRENCY;
         holder.tvTotal.setText(strTotal);
-        holder.tvDrinksName.setText(order.getListDrinksName());
-        String strQuantity = "(" + order.getDrinks().size() + " " + context.getString(R.string.label_item) + ")";
+        holder.tvDrinksName.setText(order.getListFoodsName());
+        String strQuantity = "(" + order.getFoods().size() + " " + context.getString(R.string.label_item) + ")";
         holder.tvQuantity.setText(strQuantity);
 
         if (Order.STATUS_COMPLETE == order.getStatus()) {

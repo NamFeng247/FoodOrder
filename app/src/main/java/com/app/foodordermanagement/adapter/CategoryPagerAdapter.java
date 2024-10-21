@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import com.app.foodordermanagement.fragment.DrinkFragment;
+import com.app.foodordermanagement.fragment.FoodFragment;
 import com.app.foodordermanagement.model.Category;
 
 import java.util.List;
@@ -22,7 +22,7 @@ public class CategoryPagerAdapter extends FragmentStateAdapter {
     @NonNull
     @Override
     public Fragment createFragment(int position) {
-        return DrinkFragment.newInstance(listCategory.get(position).getId());
+        return FoodFragment.newInstance(listCategory.get(position).getId());
     }
 
     @Override

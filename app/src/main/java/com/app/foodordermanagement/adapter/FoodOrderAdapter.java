@@ -10,46 +10,46 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.foodordermanagement.R;
-import com.app.foodordermanagement.model.DrinkOrder;
+import com.app.foodordermanagement.model.FoodOrder;
 import com.app.foodordermanagement.utils.Constant;
 import com.app.foodordermanagement.utils.GlideUtils;
 
 import java.util.List;
 
-public class DrinkOrderAdapter extends RecyclerView.Adapter<DrinkOrderAdapter.DrinkOrderViewHolder> {
+public class FoodOrderAdapter extends RecyclerView.Adapter<FoodOrderAdapter.DrinkOrderViewHolder> {
 
-    private final List<DrinkOrder> listDrinkOrder;
+    private final List<FoodOrder> listFoodOrder;
 
-    public DrinkOrderAdapter(List<DrinkOrder> list) {
-        this.listDrinkOrder = list;
+    public FoodOrderAdapter(List<FoodOrder> list) {
+        this.listFoodOrder = list;
     }
 
     @NonNull
     @Override
     public DrinkOrderViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_drink_order, parent, false);
+                .inflate(R.layout.item_food_order, parent, false);
         return new DrinkOrderViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull DrinkOrderViewHolder holder, int position) {
-        DrinkOrder drinkOrder = listDrinkOrder.get(position);
-        if (drinkOrder == null) return;
+        FoodOrder foodOrder = listFoodOrder.get(position);
+        if (foodOrder == null) return;
 
-        GlideUtils.loadUrl(drinkOrder.getImage(), holder.imgDrink);
-        holder.tvName.setText(drinkOrder.getName());
-        String strPrice = drinkOrder.getPrice() + Constant.CURRENCY;
+        GlideUtils.loadUrl(foodOrder.getImage(), holder.imgDrink);
+        holder.tvName.setText(foodOrder.getName());
+        String strPrice = foodOrder.getPrice() + Constant.CURRENCY;
         holder.tvPrice.setText(strPrice);
-        holder.tvOption.setText(drinkOrder.getOption());
-        String strCount = "x" + drinkOrder.getCount();
+        holder.tvOption.setText(foodOrder.getOption());
+        String strCount = "x" + foodOrder.getCount();
         holder.tvCount.setText(strCount);
     }
 
     @Override
     public int getItemCount() {
-        if (listDrinkOrder != null) {
-            return listDrinkOrder.size();
+        if (listFoodOrder != null) {
+            return listFoodOrder.size();
         }
         return 0;
     }
