@@ -98,7 +98,7 @@ public class LoginActivity extends BaseActivity {
         layoutRegister.setOnClickListener(
                 v -> GlobalFunction.startActivity(this, RegisterActivity.class));
 
-//        btnLogin.setOnClickListener(v -> onClickValidateLogin());
+        btnLogin.setOnClickListener(v -> onClickValidateLogin());
 //        tvForgotPassword.setOnClickListener(
 //                v -> GlobalFunction.startActivity(this, ForgotPasswordActivity.class));
     }
