@@ -292,14 +292,14 @@ public class FoodDetailActivity extends BaseActivity {
 //                tvVariantIce.setBackgroundResource(R.drawable.bg_main_corner_6);
 //                tvVariantIce.setTextColor(ContextCompat.getColor(this, R.color.white));
 //                tvVariantHot.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-//                tvVariantHot.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//                tvVariantHot.setTextColor(ContextCompat.getColor(this, R.color.black));
 //
 //                variantText = getString(R.string.label_variant) + " " + tvVariantIce.getText().toString();
 //                break;
 //
 //            case Topping.VARIANT_HOT:
 //                tvVariantIce.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-//                tvVariantIce.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//                tvVariantIce.setTextColor(ContextCompat.getColor(this, R.color.black));
 //                tvVariantHot.setBackgroundResource(R.drawable.bg_main_corner_6);
 //                tvVariantHot.setTextColor(ContextCompat.getColor(this, R.color.white));
 //
@@ -315,29 +315,29 @@ public class FoodDetailActivity extends BaseActivity {
 //                tvSizeRegular.setBackgroundResource(R.drawable.bg_main_corner_6);
 //                tvSizeRegular.setTextColor(ContextCompat.getColor(this, R.color.white));
 //                tvSizeMedium.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-//                tvSizeMedium.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//                tvSizeMedium.setTextColor(ContextCompat.getColor(this, R.color.black));
 //                tvSizeLarge.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-//                tvSizeLarge.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//                tvSizeLarge.setTextColor(ContextCompat.getColor(this, R.color.black));
 //
 //                sizeText = getString(R.string.label_size) + " " + tvSizeRegular.getText().toString();
 //                break;
 //
 //            case Topping.SIZE_MEDIUM:
 //                tvSizeRegular.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-//                tvSizeRegular.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//                tvSizeRegular.setTextColor(ContextCompat.getColor(this, R.color.black));
 //                tvSizeMedium.setBackgroundResource(R.drawable.bg_main_corner_6);
 //                tvSizeMedium.setTextColor(ContextCompat.getColor(this, R.color.white));
 //                tvSizeLarge.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-//                tvSizeLarge.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//                tvSizeLarge.setTextColor(ContextCompat.getColor(this, R.color.black));
 //
 //                sizeText = getString(R.string.label_size) + " " + tvSizeMedium.getText().toString();
 //                break;
 //
 //            case Topping.SIZE_LARGE:
 //                tvSizeRegular.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-//                tvSizeRegular.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//                tvSizeRegular.setTextColor(ContextCompat.getColor(this, R.color.black));
 //                tvSizeMedium.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-//                tvSizeMedium.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//                tvSizeMedium.setTextColor(ContextCompat.getColor(this, R.color.black));
 //                tvSizeLarge.setBackgroundResource(R.drawable.bg_main_corner_6);
 //                tvSizeLarge.setTextColor(ContextCompat.getColor(this, R.color.white));
 //
@@ -354,7 +354,7 @@ public class FoodDetailActivity extends BaseActivity {
                 tvSugarNormal.setBackgroundResource(R.drawable.bg_main_corner_6);
                 tvSugarNormal.setTextColor(ContextCompat.getColor(this, R.color.white));
                 tvSugarLess.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-                tvSugarLess.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+                tvSugarLess.setTextColor(ContextCompat.getColor(this, R.color.black));
 
                 sugarText = tvSugarNormal.getText().toString() + " "
                         + getString(R.string.label_sugar);
@@ -362,7 +362,7 @@ public class FoodDetailActivity extends BaseActivity {
 
             case Topping.SUGAR_LESS:
                 tvSugarNormal.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-                tvSugarNormal.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+                tvSugarNormal.setTextColor(ContextCompat.getColor(this, R.color.black));
                 tvSugarLess.setBackgroundResource(R.drawable.bg_main_corner_6);
                 tvSugarLess.setTextColor(ContextCompat.getColor(this, R.color.white));
 
@@ -379,14 +379,14 @@ public class FoodDetailActivity extends BaseActivity {
                 tvIceNormal.setBackgroundResource(R.drawable.bg_main_corner_6);
                 tvIceNormal.setTextColor(ContextCompat.getColor(this, R.color.white));
                 tvIceLess.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-                tvIceLess.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+                tvIceLess.setTextColor(ContextCompat.getColor(this, R.color.black));
 
                 iceText = tvIceNormal.getText().toString() + " " + getString(R.string.label_ice);
                 break;
 
             case Topping.ICE_LESS:
                 tvIceNormal.setBackgroundResource(R.drawable.bg_white_corner_6_border_main);
-                tvIceNormal.setTextColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+                tvIceNormal.setTextColor(ContextCompat.getColor(this, R.color.black));
                 tvIceLess.setBackgroundResource(R.drawable.bg_main_corner_6);
                 tvIceLess.setTextColor(ContextCompat.getColor(this, R.color.white));
 

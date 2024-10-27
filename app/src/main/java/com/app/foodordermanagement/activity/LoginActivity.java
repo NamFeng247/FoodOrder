@@ -6,24 +6,30 @@ import android.text.TextWatcher;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.app.foodordermanagement.R;
+import com.app.foodordermanagement.constant.Constant;
 import com.app.foodordermanagement.model.User;
 import com.app.foodordermanagement.prefs.DataStoreManager;
 import com.app.foodordermanagement.utils.GlobalFunction;
 import com.app.foodordermanagement.utils.StringUtil;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-
+import com.app.foodordermanagement.databinding.ActivityLogInBinding;
 public class LoginActivity extends BaseActivity {
 
     private EditText edtEmail;
     private EditText edtPassword;
     private Button btnLogin;
+    private RadioButton btnAdmin;
     private LinearLayout layoutRegister;
     private TextView tvForgotPassword;
     private boolean isEnableButtonLogin;
+
+    private ActivityLogInBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,15 +41,16 @@ public class LoginActivity extends BaseActivity {
     }
 
     private void initUi() {
-        edtEmail = findViewById(R.id.edt_email);
-        edtPassword = findViewById(R.id.edt_password);
-        btnLogin = findViewById(R.id.btn_login);
-        layoutRegister = findViewById(R.id.layout_register);
-        tvForgotPassword = findViewById(R.id.tv_forgot_password);
+//        edtEmail = findViewById(R.id.edt_email);
+//        edtPassword = findViewById(R.id.edt_password);
+//        btnLogin = findViewById(R.id.btn_login);
+//        layoutRegister = findViewById(R.id.layout_register);
+//        tvForgotPassword = findViewById(R.id.tv_forgot_password);
+//        btnAdmin = findViewById(R.id.rdb_admin);
     }
 
     private void initListener() {
-        edtEmail.addTextChangedListener(new TextWatcher() {
+        binding.edtEmail.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
 
@@ -53,23 +60,23 @@ public class LoginActivity extends BaseActivity {
             @Override
             public void afterTextChanged(Editable s) {
                 if (!StringUtil.isEmpty(s.toString())) {
-                    edtEmail.setBackgroundResource(R.drawable.bg_white_corner_16_border_main);
+                    binding.edtEmail.setBackgroundResource(R.drawable.bg_white_corner_16_border_main);
                 } else {
-                    edtEmail.setBackgroundResource(R.drawable.bg_white_corner_16_border_gray);
+                    binding.edtEmail.setBackgroundResource(R.drawable.bg_white_corner_16_border_gray);
                 }
 
                 String strPassword = edtPassword.getText().toString().trim();
                 if (!StringUtil.isEmpty(s.toString()) && !StringUtil.isEmpty(strPassword)) {
                     isEnableButtonLogin = true;
-                    btnLogin.setBackgroundResource(R.drawable.bg_button_enable_corner_16);
+                    binding.btnLogin.setBackgroundResource(R.drawable.bg_button_enable_corner_16);
                 } else {
                     isEnableButtonLogin = false;
-                    btnLogin.setBackgroundResource(R.drawable.bg_button_disable_corner_16);
+                    binding.btnLogin.setBackgroundResource(R.drawable.bg_button_disable_corner_16);
                 }
             }
         });
 
-        edtPassword.addTextChangedListener(new TextWatcher() {
+        binding.edtPassword.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
 
@@ -79,26 +86,26 @@ public class LoginActivity extends BaseActivity {
             @Override
             public void afterTextChanged(Editable s) {
                 if (!StringUtil.isEmpty(s.toString())) {
-                    edtPassword.setBackgroundResource(R.drawable.bg_white_corner_16_border_main);
+                    binding.edtPassword.setBackgroundResource(R.drawable.bg_white_corner_16_border_main);
                 } else {
-                    edtPassword.setBackgroundResource(R.drawable.bg_white_corner_16_border_gray);
+                    binding.edtPassword.setBackgroundResource(R.drawable.bg_white_corner_16_border_gray);
                 }
 
                 String strEmail = edtEmail.getText().toString().trim();
                 if (!StringUtil.isEmpty(s.toString()) && !StringUtil.isEmpty(strEmail)) {
                     isEnableButtonLogin = true;
-                    btnLogin.setBackgroundResource(R.drawable.bg_button_enable_corner_16);
+                    binding.btnLogin.setBackgroundResource(R.drawable.bg_button_enable_corner_16);
                 } else {
                     isEnableButtonLogin = false;
-                    btnLogin.setBackgroundResource(R.drawable.bg_button_disable_corner_16);
+                    binding.btnLogin.setBackgroundResource(R.drawable.bg_button_disable_corner_16);
                 }
             }
         });
 
-        layoutRegister.setOnClickListener(
+        binding.layoutRegister.setOnClickListener(
                 v -> GlobalFunction.startActivity(this, RegisterActivity.class));
 
-        btnLogin.setOnClickListener(v -> onClickValidateLogin());
+        binding.btnLogin.setOnClickListener(v -> onClickValidateLogin());
 //        tvForgotPassword.setOnClickListener(
 //                v -> GlobalFunction.startActivity(this, ForgotPasswordActivity.class));
     }
@@ -106,8 +113,8 @@ public class LoginActivity extends BaseActivity {
     private void onClickValidateLogin() {
         if (!isEnableButtonLogin) return;
 
-        String strEmail = edtEmail.getText().toString().trim();
-        String strPassword = edtPassword.getText().toString().trim();
+        String strEmail = binding.edtEmail.getText().toString().trim();
+        String strPassword = binding.edtPassword.getText().toString().trim();
         if (StringUtil.isEmpty(strEmail)) {
             showToastMessage(getString(R.string.msg_email_require));
         } else if (StringUtil.isEmpty(strPassword)) {
@@ -116,6 +123,20 @@ public class LoginActivity extends BaseActivity {
             showToastMessage(getString(R.string.msg_email_invalid));
         } else {
             loginUserFirebase(strEmail, strPassword);
+            if (binding.rdbAdmin.isChecked()) {
+                if (!strEmail.contains(Constant.ADMIN_EMAIL_FORMAT)) {
+                    Toast.makeText(LoginActivity.this, getString(R.string.msg_email_invalid_admin), Toast.LENGTH_SHORT).show();
+                } else {
+                    loginUserFirebase(strEmail, strPassword);
+                }
+                return;
+            } else {
+                if (strEmail.contains(Constant.ADMIN_EMAIL_FORMAT)) {
+                    Toast.makeText(LoginActivity.this, getString(R.string.msg_email_invalid_user), Toast.LENGTH_SHORT).show();
+                } else {
+                    loginUserFirebase(strEmail, strPassword);
+                }
+            }
         }
     }
 
@@ -129,6 +150,9 @@ public class LoginActivity extends BaseActivity {
                         FirebaseUser user = firebaseAuth.getCurrentUser();
                         if (user != null) {
                             User userObject = new User(user.getEmail(), password);
+                            if (user.getEmail() != null && user.getEmail().contains(Constant.ADMIN_EMAIL_FORMAT)) {
+                                userObject.setAdmin(true);
+                            }
                             DataStoreManager.setUser(userObject);
                             GlobalFunction.startActivity(LoginActivity.this, MainActivity.class);
                             finishAffinity();

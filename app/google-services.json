@@ -67,7 +67,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:55593746399:android:375c2164d25ec72b5f8e6a",
         "android_client_info": {
-          "package_name": "com.pro.foodorder"
+          "package_name": "com.app.foodordermanagement"
         }
       },
       "oauth_client": [],

@@ -5,6 +5,9 @@
     <string name="nav_history">Lịch sử</string>
     <string name="nav_account">Tài Khoản</string>
 
+    <string name="ad_home">Đồ Ăn</string>
+    <string name="order">Đơn hàng</string>
+
     <string name="title_voucher">Khuyến mại</string>
     <string name="title_payment_method">Phương thức thanh toán</string>
 
@@ -12,6 +15,8 @@
     <string name="action_ok">Đồng ý</string>
     <string name="action_cancel">Hủy</string>
     <string name="action_add">Thêm</string>
+    <string name="action_edit">Chỉnh sửa</string>
+
 
     <string name="hint_email">Nhập email của bạn</string>
     <string name="hint_password">Nhập mật khẩu của bạn</string>
@@ -22,6 +27,10 @@
     <string name="hint_rating_review">Hãy cho chúng tôi biết đánh giá của bạn</string>
 
     <string name="email">Email</string>
+    <string name="msg_email_invalid_admin">Email dành cho quản trị viên cần có định dạng …@admin.com</string>
+    <string name="msg_email_invalid_user">Email sai định dạng dành cho người dùng</string>
+    <string name="admin">Quản trị viên</string>
+    <string name="user">Người dùng</string>
     <string name="password">Mật khẩu</string>
     <string name="hint_confirm_password">Nhập lại mật khẩu </string>
     <string name="hint_confirm_password_yourseft">Nhập lại mật khẩu của bạn </string>
@@ -155,4 +164,30 @@
 
     <string name="msg_register_success">Đăng ký thành công!</string>
 
+    <string name="msg_name_food_require">Vui lòng nhập tên món ăn</string>
+    <string name="msg_description_food_require">Vui lòng nhập mô tả món ăn</string>
+    <string name="msg_price_food_require">Vui lòng nhập giá món ăn</string>
+    <string name="msg_discount_food_require">Vui lòng nhập phần trăm khuyến mại</string>
+    <string name="msg_image_food_require">Vui lòng nhập link ảnh món ăn</string>
+    <string name="msg_image_banner_food_require">Vui lòng nhập link ảnh banner</string>
+    <string name="msg_add_food_success">Thêm món ăn thành công !!!</string>
+    <string name="msg_edit_food_success">Chỉnh sửa món ăn thành công !!!</string>
+    <string name="msg_delete_title">Xác nhận xóa</string>
+    <string name="msg_confirm_delete">Bạn có chắc chắn muốn xóa mục này không?</string>
+    <string name="msg_delete_movie_successfully">Xoá món ăn thành công !!!</string>
+
+    <string name="food_name">Tên món ăn(*)</string>
+    <string name="food_description">Mô tả món ăn(*)</string>
+    <string name="food_price">Giá món ăn(*)</string>
+    <string name="food_discount">Khuyến mại(*)</string>
+    <string name="food_image">Link ảnh món ăn(*)</string>
+    <string name="food_image_banner">Link ảnh banner(*)</string>
+    <string name="currency_food">VNĐ</string>
+    <string name="percent">%</string>
+    <string name="food_category">Loại món ăn(*)</string>
+    <string name="select_category">chọn Loại đồ ăn</string>
+
+    <string name="add_food">Thêm món ăn</string>
+    <string name="edit_food">Chỉnh sửa món ăn</string>
+    <string name="featured">Phổ biến</string>
 </resources>

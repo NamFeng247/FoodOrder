@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import androidx.core.app.ActivityCompat;
 
-import com.app.foodordermanagement.constant.AboutUsConfig;
+import com.app.foodordermanagement.constant.Constant;
 import com.app.foodordermanagement.listener.IGetTimeListener;
 import com.app.foodordermanagement.prefs.DataStoreManager;
 
@@ -58,22 +58,22 @@ public class GlobalFunction {
 
     public static void onClickOpenGmail(Context context) {
         Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                "mailto", AboutUsConfig.GMAIL, null));
+                "mailto", Constant.GMAIL, null));
         context.startActivity(Intent.createChooser(emailIntent, "Send Email"));
     }
 
     public static void onClickOpenFacebook(Context context) {
         Intent intent;
         try {
-            String urlFacebook = AboutUsConfig.PAGE_FACEBOOK;
+            String urlFacebook = Constant.PAGE_FACEBOOK;
             PackageManager packageManager = context.getPackageManager();
             int versionCode = packageManager.getPackageInfo("com.facebook.katana", 0).versionCode;
             if (versionCode >= 3002850) { //newer versions of fb app
-                urlFacebook = "fb://facewebmodal/f?href=" + AboutUsConfig.LINK_FACEBOOK;
+                urlFacebook = "fb://facewebmodal/f?href=" + Constant.LINK_FACEBOOK;
             }
             intent = new Intent(Intent.ACTION_VIEW, Uri.parse(urlFacebook));
         } catch (Exception e) {
-            intent = new Intent(Intent.ACTION_VIEW, Uri.parse(AboutUsConfig.LINK_FACEBOOK));
+            intent = new Intent(Intent.ACTION_VIEW, Uri.parse(Constant.LINK_FACEBOOK));
         }
         context.startActivity(intent);
     }
@@ -88,7 +88,7 @@ public class GlobalFunction {
             }
 
             Intent callIntent = new Intent(Intent.ACTION_CALL);
-            callIntent.setData(Uri.parse("tel:" + AboutUsConfig.PHONE_NUMBER));
+            callIntent.setData(Uri.parse("tel:" + Constant.PHONE_NUMBER));
             activity.startActivity(callIntent);
         } catch (Exception ex) {
             ex.printStackTrace();

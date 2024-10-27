@@ -66,6 +66,26 @@
             android:textSize="@dimen/textsize_14"
             tools:ignore="Autofill" />
 
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_20"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rdb_admin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/admin" />
+
+            <RadioButton
+                android:id="@+id/rdb_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_20"
+                android:text="@string/user" />
+        </RadioGroup>
+
         <Button
             android:id="@+id/btn_login"
             android:layout_width="match_parent"
@@ -87,19 +107,21 @@
             android:textColor="@color/dark_brown"
             android:textStyle="bold"
             android:text="@string/forgot_password"/>
+
+
         <LinearLayout
             android:id="@+id/or_linear_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="0dp"
             android:gravity="center">
 
             <View
                 android:layout_width="0dp"
-                android:layout_height="1dp"
+                android:layout_height="@dimen/margin_1"
                 android:layout_weight="1"
-                android:layout_marginStart="50dp"
+                android:layout_marginStart="@dimen/margin_50"
                 android:background="@color/dark"/>
 
             <TextView
@@ -129,7 +151,7 @@
         android:layout_marginBottom="53dp"
         android:gravity="center"
         android:orientation="horizontal"
-        android:padding="@dimen/padding_18">
+        android:padding="@dimen/padding_1">
 
         <TextView
             android:layout_width="wrap_content"

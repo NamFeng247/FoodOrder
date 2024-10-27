@@ -38,6 +38,18 @@ public class Food implements Serializable {
 
     public Food() {}
 
+    public Food(int id, String name, String description, int price, String image, String banner, int category_id, int sale, boolean featured) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.image = image;
+        this.banner = banner;
+        this.category_id = category_id;
+        this.sale = sale;
+        this.featured = featured;
+    }
+
     public int getId() {
         return id;
     }
@@ -69,6 +81,7 @@ public class Food implements Serializable {
     public void setPrice(int price) {
         this.price = price;
     }
+
 
     public int getRealPrice() {
         if (sale <= 0) {
