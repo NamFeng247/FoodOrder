@@ -1,5 +1,3 @@
-com/app/foodordermanagement/event/DisplayCartEvent.java
- com.app.foodordermanagement.event.DisplayCartEvent
 com/app/foodordermanagement/model/Category.java
  com.app.foodordermanagement.model.Category
 com/app/foodordermanagement/activity/ContactActivity.java
@@ -7,25 +5,158 @@ com/app/foodordermanagement/activity/ContactActivity.java
 com/app/foodordermanagement/adapter/FoodOrderAdapter.java
  com.app.foodordermanagement.adapter.FoodOrderAdapter
  com.app.foodordermanagement.adapter.FoodOrderAdapter$FoodOrderViewHolder
+com/app/foodordermanagement/databinding/ActivityAddFoodBinding.java
+ com.app.foodordermanagement.databinding.ActivityAddFoodBinding
+com/app/foodordermanagement/adapter/ToppingAdapter.java
+ com.app.foodordermanagement.adapter.ToppingAdapter
+ com.app.foodordermanagement.adapter.ToppingAdapter$IClickToppingListener
+ com.app.foodordermanagement.adapter.ToppingAdapter$ToppingViewHolder
+com/app/foodordermanagement/activity/RatingReviewActivity.java
+ com.app.foodordermanagement.activity.RatingReviewActivity
+com/app/foodordermanagement/databinding/ItemToppingBinding.java
+ com.app.foodordermanagement.databinding.ItemToppingBinding
+com/app/foodordermanagement/activity/BaseActivity.java
+ com.app.foodordermanagement.activity.BaseActivity
+com/app/foodordermanagement/utils/StringUtil.java
+ com.app.foodordermanagement.utils.StringUtil
+com/app/foodordermanagement/databinding/FragmentAdminHomeBinding.java
+ com.app.foodordermanagement.databinding.FragmentAdminHomeBinding
+com/app/foodordermanagement/adapter/HomeAdapter.java
+ com.app.foodordermanagement.adapter.HomeAdapter
+com/app/foodordermanagement/databinding/ItemFoodBinding.java
+ com.app.foodordermanagement.databinding.ItemFoodBinding
+com/app/foodordermanagement/model/User.java
+ com.app.foodordermanagement.model.User
+com/app/foodordermanagement/prefs/DataStoreManager.java
+ com.app.foodordermanagement.prefs.DataStoreManager
+com/app/foodordermanagement/model/Topping.java
+ com.app.foodordermanagement.model.Topping
+com/app/foodordermanagement/databinding/ItemAddressBinding.java
+ com.app.foodordermanagement.databinding.ItemAddressBinding
+com/app/foodordermanagement/databinding/ActivityAdminMainBinding.java
+ com.app.foodordermanagement.databinding.ActivityAdminMainBinding
+com/app/foodordermanagement/databinding/ActivityRatingReviewBinding.java
+ com.app.foodordermanagement.databinding.ActivityRatingReviewBinding
+com/app/foodordermanagement/utils/Utils.java
+ com.app.foodordermanagement.utils.Utils
+com/app/foodordermanagement/listener/IOnManagerFoodListener.java
+ com.app.foodordermanagement.listener.IOnManagerFoodListener
+com/app/foodordermanagement/adapter/FoodAdapter.java
+ com.app.foodordermanagement.adapter.FoodAdapter
+ com.app.foodordermanagement.adapter.FoodAdapter$FoodViewHolder
+com/app/foodordermanagement/databinding/FragmentAccountBinding.java
+ com.app.foodordermanagement.databinding.FragmentAccountBinding
+com/app/foodordermanagement/listener/IClickFoodListener.java
+ com.app.foodordermanagement.listener.IClickFoodListener
+com/app/foodordermanagement/constant/AppInfo.java
+ com.app.foodordermanagement.constant.AppInfo
+com/app/foodordermanagement/BuildConfig.java
+ com.app.foodordermanagement.BuildConfig
+com/app/foodordermanagement/model/Feedback.java
+ com.app.foodordermanagement.model.Feedback
+com/app/foodordermanagement/utils/Constant.java
+ com.app.foodordermanagement.utils.Constant
+com/app/foodordermanagement/database/FoodDao.java
+ com.app.foodordermanagement.database.FoodDao
+com/app/foodordermanagement/activity/AddFoodActivity.java
+ com.app.foodordermanagement.activity.AddFoodActivity
+com/app/foodordermanagement/Helper/HMac/HexStringUtil.java
+ com.app.foodordermanagement.Helper.HMac.HexStringUtil
+com/app/foodordermanagement/model/PaymentMethod.java
+ com.app.foodordermanagement.model.PaymentMethod
+com/app/foodordermanagement/databinding/ActivityAddressBinding.java
+ com.app.foodordermanagement.databinding.ActivityAddressBinding
+com/app/foodordermanagement/databinding/ActivityMainBinding.java
+ com.app.foodordermanagement.databinding.ActivityMainBinding
+com/app/foodordermanagement/adapter/AdminFoodAdapter.java
+ com.app.foodordermanagement.adapter.AdminFoodAdapter
+ com.app.foodordermanagement.adapter.AdminFoodAdapter$AdminFoodViewHolder
+com/app/foodordermanagement/fragment/HomeFragment.java
+ com.app.foodordermanagement.fragment.HomeFragment
+ com.app.foodordermanagement.fragment.HomeFragment$1
+ com.app.foodordermanagement.fragment.HomeFragment$2
+ com.app.foodordermanagement.fragment.HomeFragment$3
+ com.app.foodordermanagement.fragment.HomeFragment$4
+ com.app.foodordermanagement.fragment.HomeFragment$5
+com/app/foodordermanagement/activity/ChangePasswordActivity.java
+ com.app.foodordermanagement.activity.ChangePasswordActivity
+ com.app.foodordermanagement.activity.ChangePasswordActivity$1
+ com.app.foodordermanagement.activity.ChangePasswordActivity$2
+ com.app.foodordermanagement.activity.ChangePasswordActivity$3
+com/app/foodordermanagement/databinding/ActivityReceiptOrderBinding.java
+ com.app.foodordermanagement.databinding.ActivityReceiptOrderBinding
+com/app/foodordermanagement/widget/CustomTabLayout.java
+ com.app.foodordermanagement.widget.CustomTabLayout
+com/app/foodordermanagement/databinding/ActivityTrackingOrderBinding.java
+ com.app.foodordermanagement.databinding.ActivityTrackingOrderBinding
+com/app/foodordermanagement/model/Address.java
+ com.app.foodordermanagement.model.Address
+com/app/foodordermanagement/model/Contact.java
+ com.app.foodordermanagement.model.Contact
+com/app/foodordermanagement/databinding/FragmentOrderBinding.java
+ com.app.foodordermanagement.databinding.FragmentOrderBinding
+com/app/foodordermanagement/event/OrderSuccessEvent.java
+ com.app.foodordermanagement.event.OrderSuccessEvent
+com/app/foodordermanagement/adapter/CartAdapter.java
+ com.app.foodordermanagement.adapter.CartAdapter
+ com.app.foodordermanagement.adapter.CartAdapter$CartViewHolder
+ com.app.foodordermanagement.adapter.CartAdapter$IClickCartListener
+com/app/foodordermanagement/Api/HttpProvider.java
+ com.app.foodordermanagement.Api.HttpProvider
+com/app/foodordermanagement/activity/AdminMainActivity.java
+ com.app.foodordermanagement.activity.AdminMainActivity
+ com.app.foodordermanagement.activity.AdminMainActivity$1
+com/app/foodordermanagement/event/AddressSelectedEvent.java
+ com.app.foodordermanagement.event.AddressSelectedEvent
+com/app/foodordermanagement/fragment/AdminHomeFragment.java
+ com.app.foodordermanagement.fragment.AdminHomeFragment
+ com.app.foodordermanagement.fragment.AdminHomeFragment$1
+ com.app.foodordermanagement.fragment.AdminHomeFragment$2
+ com.app.foodordermanagement.fragment.AdminHomeFragment$3
+com/app/foodordermanagement/databinding/ActivityLogInBinding.java
+ com.app.foodordermanagement.databinding.ActivityLogInBinding
+com/app/foodordermanagement/databinding/ItemOrderBinding.java
+ com.app.foodordermanagement.databinding.ItemOrderBinding
+com/app/foodordermanagement/adapter/CategoryPagerAdapter.java
+ com.app.foodordermanagement.adapter.CategoryPagerAdapter
+com/app/foodordermanagement/fragment/AdminAccountFragment.java
+ com.app.foodordermanagement.fragment.AdminAccountFragment
+com/app/foodordermanagement/model/Food.java
+ com.app.foodordermanagement.model.Food
+com/app/foodordermanagement/activity/RegisterActivity.java
+ com.app.foodordermanagement.activity.RegisterActivity
+ com.app.foodordermanagement.activity.RegisterActivity$1
+ com.app.foodordermanagement.activity.RegisterActivity$2
+ com.app.foodordermanagement.activity.RegisterActivity$3
+com/app/foodordermanagement/databinding/ActivityCartBinding.java
+ com.app.foodordermanagement.databinding.ActivityCartBinding
+com/app/foodordermanagement/constant/Constant.java
+ com.app.foodordermanagement.constant.Constant
+com/app/foodordermanagement/databinding/ItemCartBinding.java
+ com.app.foodordermanagement.databinding.ItemCartBinding
+com/app/foodordermanagement/activity/CartActivity.java
+ com.app.foodordermanagement.activity.CartActivity
+ com.app.foodordermanagement.activity.CartActivity$1
+ com.app.foodordermanagement.activity.CartActivity$2
+com/app/foodordermanagement/event/DisplayCartEvent.java
+ com.app.foodordermanagement.event.DisplayCartEvent
 com/app/foodordermanagement/activity/FoodDetailActivity.java
  com.app.foodordermanagement.activity.FoodDetailActivity
  com.app.foodordermanagement.activity.FoodDetailActivity$1
 com/app/foodordermanagement/model/RatingReview.java
  com.app.foodordermanagement.model.RatingReview
-com/app/foodordermanagement/adapter/ToppingAdapter.java
- com.app.foodordermanagement.adapter.ToppingAdapter
- com.app.foodordermanagement.adapter.ToppingAdapter$IClickToppingListener
- com.app.foodordermanagement.adapter.ToppingAdapter$ToppingViewHolder
+com/app/foodordermanagement/databinding/FragmentAdminAccountBinding.java
+ com.app.foodordermanagement.databinding.FragmentAdminAccountBinding
 com/app/foodordermanagement/activity/FeedbackActivity.java
  com.app.foodordermanagement.activity.FeedbackActivity
-com/app/foodordermanagement/activity/RatingReviewActivity.java
- com.app.foodordermanagement.activity.RatingReviewActivity
 com/app/foodordermanagement/adapter/FilterAdapter.java
  com.app.foodordermanagement.adapter.FilterAdapter
  com.app.foodordermanagement.adapter.FilterAdapter$FilterViewHolder
  com.app.foodordermanagement.adapter.FilterAdapter$IClickFilterListener
 com/app/foodordermanagement/widget/AspectRatioNoRadiusImageView.java
  com.app.foodordermanagement.widget.AspectRatioNoRadiusImageView
+com/app/foodordermanagement/databinding/FragmentHomeBinding.java
+ com.app.foodordermanagement.databinding.FragmentHomeBinding
 com/app/foodordermanagement/Api/CreateOrder.java
  com.app.foodordermanagement.Api.CreateOrder
  com.app.foodordermanagement.Api.CreateOrder$1
@@ -39,12 +170,14 @@ com/app/foodordermanagement/activity/PaymentMethodActivity.java
  com.app.foodordermanagement.activity.PaymentMethodActivity$1
 com/app/foodordermanagement/utils/DividerView.java
  com.app.foodordermanagement.utils.DividerView
-com/app/foodordermanagement/activity/BaseActivity.java
- com.app.foodordermanagement.activity.BaseActivity
-com/app/foodordermanagement/utils/StringUtil.java
- com.app.foodordermanagement.utils.StringUtil
+com/app/foodordermanagement/databinding/ItemBannerBinding.java
+ com.app.foodordermanagement.databinding.ItemBannerBinding
+com/app/foodordermanagement/databinding/FragmentHistoryBinding.java
+ com.app.foodordermanagement.databinding.FragmentHistoryBinding
 com/app/foodordermanagement/adapter/MyViewPagerAdapter.java
  com.app.foodordermanagement.adapter.MyViewPagerAdapter
+com/app/foodordermanagement/databinding/ItemContactBinding.java
+ com.app.foodordermanagement.databinding.ItemContactBinding
 com/app/foodordermanagement/adapter/ContactAdapter.java
  com.app.foodordermanagement.adapter.ContactAdapter
  com.app.foodordermanagement.adapter.ContactAdapter$ContactViewHolder
@@ -52,8 +185,6 @@ com/app/foodordermanagement/adapter/ContactAdapter.java
 com/app/foodordermanagement/activity/TrackingOrderActivity.java
  com.app.foodordermanagement.activity.TrackingOrderActivity
  com.app.foodordermanagement.activity.TrackingOrderActivity$1
-com/app/foodordermanagement/adapter/HomeAdapter.java
- com.app.foodordermanagement.adapter.HomeAdapter
 com/app/foodordermanagement/utils/GlideUtils.java
  com.app.foodordermanagement.utils.GlideUtils
 com/app/foodordermanagement/model/FoodOrder.java
@@ -61,19 +192,15 @@ com/app/foodordermanagement/model/FoodOrder.java
 com/app/foodordermanagement/activity/ReceiptOrderActivity.java
  com.app.foodordermanagement.activity.ReceiptOrderActivity
  com.app.foodordermanagement.activity.ReceiptOrderActivity$1
-com/app/foodordermanagement/model/User.java
- com.app.foodordermanagement.model.User
 com/app/foodordermanagement/CustomView/CustomTabLayout.java
  com.app.foodordermanagement.CustomView.CustomTabLayout
-com/app/foodordermanagement/prefs/DataStoreManager.java
- com.app.foodordermanagement.prefs.DataStoreManager
+com/app/foodordermanagement/adapter/AdminViewPagerAdapter.java
+ com.app.foodordermanagement.adapter.AdminViewPagerAdapter
 com/app/foodordermanagement/adapter/BannerViewPagerAdapter.java
  com.app.foodordermanagement.adapter.BannerViewPagerAdapter
  com.app.foodordermanagement.adapter.BannerViewPagerAdapter$BannerViewHolder
-com/app/foodordermanagement/model/Topping.java
- com.app.foodordermanagement.model.Topping
-com/app/foodordermanagement/constant/AboutUsConfig.java
- com.app.foodordermanagement.constant.AboutUsConfig
+com/app/foodordermanagement/databinding/FragmentFoodBinding.java
+ com.app.foodordermanagement.databinding.FragmentFoodBinding
 com/app/foodordermanagement/fragment/FoodFragment.java
  com.app.foodordermanagement.fragment.FoodFragment
  com.app.foodordermanagement.fragment.FoodFragment$1
@@ -83,123 +210,93 @@ com/app/foodordermanagement/Helper/HMac/HMacUtil.java
  com.app.foodordermanagement.Helper.HMac.HMacUtil
 com/app/foodordermanagement/prefs/MySharedPreferences.java
  com.app.foodordermanagement.prefs.MySharedPreferences
-com/app/foodordermanagement/utils/Utils.java
- com.app.foodordermanagement.utils.Utils
-com/app/foodordermanagement/adapter/FoodAdapter.java
- com.app.foodordermanagement.adapter.FoodAdapter
- com.app.foodordermanagement.adapter.FoodAdapter$FoodViewHolder
+com/app/foodordermanagement/databinding/ActivityRegisterBinding.java
+ com.app.foodordermanagement.databinding.ActivityRegisterBinding
+com/app/foodordermanagement/databinding/ItemAdminFoodBinding.java
+ com.app.foodordermanagement.databinding.ItemAdminFoodBinding
 com/app/foodordermanagement/Helper/Helpers.java
  com.app.foodordermanagement.Helper.Helpers
 com/app/foodordermanagement/model/Filter.java
  com.app.foodordermanagement.model.Filter
-com/app/foodordermanagement/listener/IClickFoodListener.java
- com.app.foodordermanagement.listener.IClickFoodListener
+com/app/foodordermanagement/databinding/ActivityPaymentMethodBinding.java
+ com.app.foodordermanagement.databinding.ActivityPaymentMethodBinding
+com/app/foodordermanagement/databinding/ItemVoucherBinding.java
+ com.app.foodordermanagement.databinding.ItemVoucherBinding
+com/app/foodordermanagement/databinding/ActivityFeedbackBinding.java
+ com.app.foodordermanagement.databinding.ActivityFeedbackBinding
+com/app/foodordermanagement/databinding/ActivityForgotPasswordBinding.java
+ com.app.foodordermanagement.databinding.ActivityForgotPasswordBinding
 com/app/foodordermanagement/activity/MainActivity.java
  com.app.foodordermanagement.activity.MainActivity
  com.app.foodordermanagement.activity.MainActivity$1
-com/app/foodordermanagement/constant/AppInfo.java
- com.app.foodordermanagement.constant.AppInfo
-com/app/foodordermanagement/BuildConfig.java
- com.app.foodordermanagement.BuildConfig
-com/app/foodordermanagement/model/Feedback.java
- com.app.foodordermanagement.model.Feedback
-com/app/foodordermanagement/utils/Constant.java
- com.app.foodordermanagement.utils.Constant
-com/app/foodordermanagement/database/FoodDao.java
- com.app.foodordermanagement.database.FoodDao
 com/app/foodordermanagement/CustomView/CustomImageView.java
  com.app.foodordermanagement.CustomView.CustomImageView
 com/app/foodordermanagement/database/FoodDatabase.java
  com.app.foodordermanagement.database.FoodDatabase
-com/app/foodordermanagement/Helper/HMac/HexStringUtil.java
- com.app.foodordermanagement.Helper.HMac.HexStringUtil
-com/app/foodordermanagement/model/PaymentMethod.java
- com.app.foodordermanagement.model.PaymentMethod
 com/app/foodordermanagement/event/PaymentMethodSelectedEvent.java
  com.app.foodordermanagement.event.PaymentMethodSelectedEvent
-com/app/foodordermanagement/fragment/HomeFragment.java
- com.app.foodordermanagement.fragment.HomeFragment
- com.app.foodordermanagement.fragment.HomeFragment$1
- com.app.foodordermanagement.fragment.HomeFragment$2
- com.app.foodordermanagement.fragment.HomeFragment$3
- com.app.foodordermanagement.fragment.HomeFragment$4
- com.app.foodordermanagement.fragment.HomeFragment$5
 com/app/foodordermanagement/adapter/OrderAdapter.java
  com.app.foodordermanagement.adapter.OrderAdapter
  com.app.foodordermanagement.adapter.OrderAdapter$IClickOrderListener
  com.app.foodordermanagement.adapter.OrderAdapter$OrderViewHolder
-com/app/foodordermanagement/activity/ChangePasswordActivity.java
- com.app.foodordermanagement.activity.ChangePasswordActivity
- com.app.foodordermanagement.activity.ChangePasswordActivity$1
- com.app.foodordermanagement.activity.ChangePasswordActivity$2
- com.app.foodordermanagement.activity.ChangePasswordActivity$3
+com/app/foodordermanagement/databinding/ActivityPaymentBinding.java
+ com.app.foodordermanagement.databinding.ActivityPaymentBinding
+com/app/foodordermanagement/databinding/LayoutToolbarBinding.java
+ com.app.foodordermanagement.databinding.LayoutToolbarBinding
 com/app/foodordermanagement/adapter/TabOrderAdapter.java
  com.app.foodordermanagement.adapter.TabOrderAdapter
 com/app/foodordermanagement/adapter/PaymentMethodAdapter.java
  com.app.foodordermanagement.adapter.PaymentMethodAdapter
  com.app.foodordermanagement.adapter.PaymentMethodAdapter$IClickPaymentMethodListener
  com.app.foodordermanagement.adapter.PaymentMethodAdapter$PaymentMethodViewHolder
-com/app/foodordermanagement/widget/CustomTabLayout.java
- com.app.foodordermanagement.widget.CustomTabLayout
-com/app/foodordermanagement/model/Address.java
- com.app.foodordermanagement.model.Address
+com/app/foodordermanagement/databinding/ItemFilterBinding.java
+ com.app.foodordermanagement.databinding.ItemFilterBinding
 com/app/foodordermanagement/model/Order.java
  com.app.foodordermanagement.model.Order
 com/app/foodordermanagement/listener/IGetTimeListener.java
  com.app.foodordermanagement.listener.IGetTimeListener
+com/app/foodordermanagement/databinding/ActivityContactBinding.java
+ com.app.foodordermanagement.databinding.ActivityContactBinding
 com/app/foodordermanagement/adapter/AddressAdapter.java
  com.app.foodordermanagement.adapter.AddressAdapter
  com.app.foodordermanagement.adapter.AddressAdapter$AddressViewHolder
  com.app.foodordermanagement.adapter.AddressAdapter$IClickAddressListener
-com/app/foodordermanagement/model/Contact.java
- com.app.foodordermanagement.model.Contact
 com/app/foodordermanagement/activity/SplashActivity.java
  com.app.foodordermanagement.activity.SplashActivity
-com/app/foodordermanagement/event/OrderSuccessEvent.java
- com.app.foodordermanagement.event.OrderSuccessEvent
-com/app/foodordermanagement/adapter/CartAdapter.java
- com.app.foodordermanagement.adapter.CartAdapter
- com.app.foodordermanagement.adapter.CartAdapter$CartViewHolder
- com.app.foodordermanagement.adapter.CartAdapter$IClickCartListener
-com/app/foodordermanagement/Api/HttpProvider.java
- com.app.foodordermanagement.Api.HttpProvider
 com/app/foodordermanagement/activity/PaymentActivity.java
  com.app.foodordermanagement.activity.PaymentActivity
+com/app/foodordermanagement/databinding/ActivityChangePasswordBinding.java
+ com.app.foodordermanagement.databinding.ActivityChangePasswordBinding
 com/app/foodordermanagement/MyApplication.java
  com.app.foodordermanagement.MyApplication
+com/app/foodordermanagement/databinding/ItemFoodOrderBinding.java
+ com.app.foodordermanagement.databinding.ItemFoodOrderBinding
 com/app/foodordermanagement/utils/DateTimeUtils.java
  com.app.foodordermanagement.utils.DateTimeUtils
-com/app/foodordermanagement/event/AddressSelectedEvent.java
- com.app.foodordermanagement.event.AddressSelectedEvent
 com/app/foodordermanagement/utils/GlobalFunction.java
  com.app.foodordermanagement.utils.GlobalFunction
+com/app/foodordermanagement/fragment/BaseFragment.java
+ com.app.foodordermanagement.fragment.BaseFragment
 com/app/foodordermanagement/model/Rating.java
  com.app.foodordermanagement.model.Rating
-com/app/foodordermanagement/adapter/CategoryPagerAdapter.java
- com.app.foodordermanagement.adapter.CategoryPagerAdapter
 com/app/foodordermanagement/activity/LoginActivity.java
  com.app.foodordermanagement.activity.LoginActivity
  com.app.foodordermanagement.activity.LoginActivity$1
  com.app.foodordermanagement.activity.LoginActivity$2
 com/app/foodordermanagement/fragment/HistoryFragment.java
  com.app.foodordermanagement.fragment.HistoryFragment
-com/app/foodordermanagement/model/Food.java
- com.app.foodordermanagement.model.Food
-com/app/foodordermanagement/activity/RegisterActivity.java
- com.app.foodordermanagement.activity.RegisterActivity
- com.app.foodordermanagement.activity.RegisterActivity$1
- com.app.foodordermanagement.activity.RegisterActivity$2
- com.app.foodordermanagement.activity.RegisterActivity$3
 com/app/foodordermanagement/event/SearchKeywordEvent.java
  com.app.foodordermanagement.event.SearchKeywordEvent
 com/app/foodordermanagement/activity/AddressActivity.java
  com.app.foodordermanagement.activity.AddressActivity
  com.app.foodordermanagement.activity.AddressActivity$1
+com/app/foodordermanagement/databinding/ActivityFoodDetailBinding.java
+ com.app.foodordermanagement.databinding.ActivityFoodDetailBinding
+com/app/foodordermanagement/databinding/ActivitySplashBinding.java
+ com.app.foodordermanagement.databinding.ActivitySplashBinding
 com/app/foodordermanagement/adapter/OrderPagerAdapter.java
  com.app.foodordermanagement.adapter.OrderPagerAdapter
 com/app/foodordermanagement/model/TabOrder.java
  com.app.foodordermanagement.model.TabOrder
-com/app/foodordermanagement/activity/CartActivity.java
- com.app.foodordermanagement.activity.CartActivity
- com.app.foodordermanagement.activity.CartActivity$1
- com.app.foodordermanagement.activity.CartActivity$2
+com/app/foodordermanagement/databinding/ItemPaymentMethodBinding.java
+ com.app.foodordermanagement.databinding.ItemPaymentMethodBinding

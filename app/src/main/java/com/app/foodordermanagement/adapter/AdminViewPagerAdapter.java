@@ -6,9 +6,7 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import com.app.foodordermanagement.fragment.AdminAccountFragment;
-import com.app.foodordermanagement.fragment.AdminFeedbackFragment;
 import com.app.foodordermanagement.fragment.AdminHomeFragment;
-import com.app.foodordermanagement.fragment.AdminOrderFragment;
 
 public class AdminViewPagerAdapter extends FragmentStateAdapter {
 
@@ -24,12 +22,6 @@ public class AdminViewPagerAdapter extends FragmentStateAdapter {
                 return new AdminHomeFragment();
 
             case 1:
-                return new AdminFeedbackFragment();
-
-            case 2:
-                return new AdminOrderFragment();
-
-            case 3:
                 return new AdminAccountFragment();
 
             default:

@@ -36,6 +36,7 @@
     <string name="hint_confirm_password_yourseft">Nhập lại mật khẩu của bạn </string>
     <string name="register">Đăng Ký</string>
     <string name="have_account">Đã có tài khoản?</string>
+    <string name="account">Tài khoản</string>
     <string name="have_not_account">Chưa có tài khoản?</string>
     <string name="login">Đăng Nhập</string>
     <string name="forgot_password">Quên mật khẩu?</string>
@@ -74,6 +75,7 @@
     <string name="msg_old_password_invalid">Mật khẩu cũ không chính xác, vui lòng nhập lại</string>
     <string name="msg_confirm_password_invalid">Xác nhận mật khẩu mới không trùng khớp</string>
     <string name="msg_new_password_invalid">Mật khẩu mới phải khác mật khẩu cũ</string>
+    <string name="report">Báo cáo doanh thu</string>
 
     <string name="msg_change_password_successfully">Thay đổi mật khẩu thành công</string>
     <string name="msg_reset_password_successfully">Lấy lại mật khẩu thành công, vui lòng kiểm tra email của bạn</string>
@@ -169,7 +171,7 @@
     <string name="msg_price_food_require">Vui lòng nhập giá món ăn</string>
     <string name="msg_discount_food_require">Vui lòng nhập phần trăm khuyến mại</string>
     <string name="msg_image_food_require">Vui lòng nhập link ảnh món ăn</string>
-    <string name="msg_image_banner_food_require">Vui lòng nhập link ảnh banner</string>
+    <string name="msg_image_Banner_food_require">Vui lòng nhập link ảnh Banner</string>
     <string name="msg_add_food_success">Thêm món ăn thành công !!!</string>
     <string name="msg_edit_food_success">Chỉnh sửa món ăn thành công !!!</string>
     <string name="msg_delete_title">Xác nhận xóa</string>
@@ -180,8 +182,8 @@
     <string name="food_description">Mô tả món ăn(*)</string>
     <string name="food_price">Giá món ăn(*)</string>
     <string name="food_discount">Khuyến mại(*)</string>
-    <string name="food_image">Link ảnh món ăn(*)</string>
-    <string name="food_image_banner">Link ảnh banner(*)</string>
+    <string name="food_image">Link ảnh món ăn chi tiết(*)</string>
+    <string name="food_image_Banner">Link ảnh nền(*)</string>
     <string name="currency_food">VNĐ</string>
     <string name="percent">%</string>
     <string name="food_category">Loại món ăn(*)</string>

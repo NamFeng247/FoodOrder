@@ -11,6 +11,7 @@ import com.afollestad.materialdialogs.MaterialDialog;
 import com.app.foodordermanagement.R;
 import com.app.foodordermanagement.adapter.MyViewPagerAdapter;
 import com.app.foodordermanagement.database.FoodDatabase;
+import com.app.foodordermanagement.databinding.ActivityMainBinding;
 import com.app.foodordermanagement.event.DisplayCartEvent;
 import com.app.foodordermanagement.model.Food;
 import com.app.foodordermanagement.utils.Constant;
@@ -26,10 +27,10 @@ import java.util.List;
 
 public class MainActivity extends BaseActivity {
 
-    private BottomNavigationView mBottomNavigationView;
-    private ViewPager2 mViewPager2;
     private RelativeLayout layoutCartBottom;
     private TextView tvCountItem, tvFoodsName, tvAmount;
+
+    private ActivityMainBinding mActivityMainBinding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,41 +43,47 @@ public class MainActivity extends BaseActivity {
 
         initUi();
 
-        mBottomNavigationView = findViewById(R.id.bottom_navigation);
-        mViewPager2 = findViewById(R.id.viewpager_2);
-        mViewPager2.setUserInputEnabled(false);
-        MyViewPagerAdapter myViewPagerAdapter = new MyViewPagerAdapter(this);
-        mViewPager2.setAdapter(myViewPagerAdapter);
+//        mBottomNavigationView = findViewById(R.id.bottom_navigation);
+//        mViewPager2 = findViewById(R.id.viewpager_2);
+//        mViewPager2.setUserInputEnabled(false);
+//        MyViewPagerAdapter myViewPagerAdapter = new MyViewPagerAdapter(this);
+//        mViewPager2.setAdapter(myViewPagerAdapter);
 
+        mActivityMainBinding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(mActivityMainBinding.getRoot());
+
+        mActivityMainBinding.viewpager2.setUserInputEnabled(false);
+        MyViewPagerAdapter myViewPagerAdapter = new MyViewPagerAdapter(this);
+        mActivityMainBinding.viewpager2.setAdapter(myViewPagerAdapter);
 //        chuyển trang phía dưới
-        mViewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
+        mActivityMainBinding.viewpager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             @Override
             public void onPageSelected(int position) {
                 super.onPageSelected(position);
                 switch (position) {
                     case 0:
-                        mBottomNavigationView.getMenu().findItem(R.id.nav_home).setChecked(true);
+                        mActivityMainBinding.bottomNavigation.getMenu().findItem(R.id.nav_home).setChecked(true);
                         break;
 
                     case 1:
-                        mBottomNavigationView.getMenu().findItem(R.id.nav_history).setChecked(true);
+                        mActivityMainBinding.bottomNavigation.getMenu().findItem(R.id.nav_history).setChecked(true);
                         break;
 
                     case 2:
-                        mBottomNavigationView.getMenu().findItem(R.id.nav_account).setChecked(true);
+                        mActivityMainBinding.bottomNavigation.getMenu().findItem(R.id.nav_account).setChecked(true);
                         break;
                 }
             }
         });
 
-        mBottomNavigationView.setOnNavigationItemSelectedListener(item -> {
+        mActivityMainBinding.bottomNavigation.setOnNavigationItemSelectedListener(item -> {
             int id = item.getItemId();
             if (id == R.id.nav_home) {
-                mViewPager2.setCurrentItem(0);
+                mActivityMainBinding.viewpager2.setCurrentItem(0);
             } else if (id == R.id.nav_history) {
-                mViewPager2.setCurrentItem(1);
+                mActivityMainBinding.viewpager2.setCurrentItem(1);
             } else if (id == R.id.nav_account) {
-                mViewPager2.setCurrentItem(2);
+                mActivityMainBinding.viewpager2.setCurrentItem(2);
             }
             return true;
         });
@@ -148,7 +155,7 @@ public class MainActivity extends BaseActivity {
     }
 
     public ViewPager2 getViewPager2() {
-        return mViewPager2;
+        return mActivityMainBinding.viewpager2;
     }
 
     @Override

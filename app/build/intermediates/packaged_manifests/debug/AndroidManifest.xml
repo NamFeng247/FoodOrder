@@ -69,9 +69,11 @@
         <activity
             android:name="com.app.foodordermanagement.activity.FoodDetailActivity"
             android:exported="false" />
-        <activity
-            android:name="com.app.foodordermanagement.activity.VoucherActivity"
-            android:exported="false" />
+
+        <!-- <activity -->
+        <!-- android:exported="false" -->
+        <!-- android:name="com.app.foodordermanagement.activity.VoucherActivity" /> -->
+
         <activity
             android:name="com.app.foodordermanagement.activity.RatingReviewActivity"
             android:exported="false" />
@@ -115,7 +117,18 @@
         <activity
             android:name="com.app.foodordermanagement.activity.AddressActivity"
             android:exported="false" />
-
+        <activity
+            android:name="com.app.foodordermanagement.activity.AdminMainActivity"
+            android:exported="false" />
+        <!-- <activity -->
+        <!-- android:name="com.app.foodordermanagement.activity.OrderHistoryActivity" -->
+        <!-- android:exported="false"/> -->
+        <activity
+            android:name="com.app.foodordermanagement.activity.AddFoodActivity"
+            android:exported="false" />
+        <!-- <activity -->
+        <!-- android:name="com.app.foodordermanagement.activity.AdminReportActivity" -->
+        <!-- android:exported="false"/> -->
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
             android:directBootAware="true"

@@ -10,7 +10,7 @@
         android:layout_height="wrap_content">
 
         <com.app.foodordermanagement.widget.AspectRatioNoRadiusImageView
-            android:id="@+id/img_banner"
+            android:id="@+id/img_Banner"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"

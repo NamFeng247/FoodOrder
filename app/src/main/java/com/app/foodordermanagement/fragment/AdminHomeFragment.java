@@ -24,9 +24,9 @@ import com.app.foodordermanagement.activity.AddFoodActivity;
 import com.app.foodordermanagement.activity.AdminMainActivity;
 import com.app.foodordermanagement.adapter.AdminFoodAdapter;
 import com.app.foodordermanagement.constant.Constant;
-import com.app.foodordermanagement.constant.GlobalFunction;
+import com.app.foodordermanagement.utils.GlobalFunction;
 import com.app.foodordermanagement.databinding.FragmentAdminHomeBinding;
-import com.app.foodordermanagement.event.utils.StringUtil;
+import com.app.foodordermanagement.utils.StringUtil;
 import com.app.foodordermanagement.fragment.BaseFragment;
 import com.app.foodordermanagement.listener.IOnManagerFoodListener;
 import com.app.foodordermanagement.model.Food;
@@ -54,7 +54,7 @@ public class AdminHomeFragment extends BaseFragment {
     @Override
     protected void initToolbar() {
         if (getActivity() != null) {
-            ((AdminMainActivity) getActivity()).setToolBar(getString(R.string.home));
+            ((AdminMainActivity) getActivity()).setToolBar(getString(R.string.ad_home));
         }
     }
 
@@ -117,7 +117,7 @@ public class AdminHomeFragment extends BaseFragment {
 
     private void onClickEditFood(Food food) {
         Bundle bundle = new Bundle();
-        bundle.putSerializable(Constant.KEY_INTENT_FOOD_OBJECT, food);
+        bundle.putSerializable(String.valueOf(food.getId()), food);
         GlobalFunction.startActivity(getActivity(), AddFoodActivity.class, bundle);
     }
 

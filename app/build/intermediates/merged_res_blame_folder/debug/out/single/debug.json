@@ -1,882 +1,914 @@
 [
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_search.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_search.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_back_toolbar.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_back_toolbar.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherfoodlogo_foreground.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherfoodlogo_foreground.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_filter.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_filter.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_back_toolbar.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_back_toolbar.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_payment.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_step_disable.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_step_disable.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_add.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_star_yellow.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_star_yellow.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherfoodlogo_foreground.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherfoodlogo_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_sub.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_sub.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcherfood.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcherfood.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherfood_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherfood_round.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_logo.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_logo.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_order.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\item_order.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_star_gray.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_star_gray.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_credit.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_credit.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_bottom_sheet_add_address.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\layout_bottom_sheet_add_address.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_rating_yellow.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_rating_yellow.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_log_in.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_log_in.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_topping.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\item_topping.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_success.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_success.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_rating_yellow.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_rating_yellow.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_main_corner_6.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_main_corner_6.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_button_disable_corner_16.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_button_disable_corner_16.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_corner_3_border_gray.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_white_corner_3_border_gray.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_contact.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_contact.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_hotline.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_hotline.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment_method.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_payment_method.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_drink_detail_example.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\image_drink_detail_example.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherfoodlogo_foreground.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherfoodlogo_foreground.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_disable_filter.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_disable_filter.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherfoodlogo_foreground.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherfoodlogo_foreground.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_promotion.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_promotion.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_add.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_filter.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\item_filter.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_youtube.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_youtube.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_bank.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_bank.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_arow_left.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_arow_left.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_delete.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_delete.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_next_right.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_next_right.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherfoodlogo.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherfoodlogo.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_admin_food.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_admin_food.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_search.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_search.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_edit.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_edit.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\menu_admin_menu_bottom_navigation.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\menu\\admin_menu_bottom_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherfoodlogo_foreground.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherfoodlogo_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_add.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sale.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_sale.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_bank.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_bank.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_star_gray.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_star_gray.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_food.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_food.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_rate.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_rate.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherfoodlogo_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherfoodlogo_round.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_voucher_type_gopay.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_voucher_type_gopay.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherfood_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherfood_round.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherfoodlogo.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherfoodlogo.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_account.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_account.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherfood.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherfood.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_voucher_type_credit.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_voucher_type_credit.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_home.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_home.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_splash.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_splash.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_star_gray.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_star_gray.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcherfoodlogo.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcherfoodlogo.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_history.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_history.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_contact.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_contact.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherfood.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherfood.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_item_selected.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_item_selected.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherfood_foreground.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherfood_foreground.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_rate.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_rate.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_arow_left.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_arow_left.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_back_toolbar.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_back_toolbar.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sale.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_sale.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_star_yellow.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_star_yellow.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_history.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_history.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_add.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_promotion.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_promotion.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_price.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_price.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_indicator_selected.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_indicator_selected.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_account.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_account.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherfoodlogo_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherfoodlogo_round.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_address.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_address.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_voucher_type_credit.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_voucher_type_credit.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_filter.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_filter.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_back_toolbar.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_back_toolbar.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_credit.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_credit.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_corner_16_border_gray.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_white_corner_16_border_gray.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_corner_6_border_gray.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_white_corner_6_border_gray.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_cart_white.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_cart_white.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_back_toolbar.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_back_toolbar.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherfood_round.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherfood_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_rating_and_review.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_rating_and_review.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_arow_left.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_arow_left.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_cart_white.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_cart_white.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_delete.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_delete.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\color_custom_bottom_navigation.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\color\\custom_bottom_navigation.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherfoodlogo_foreground.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherfoodlogo_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tracking_order.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\activity_tracking_order.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_edit.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_edit.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_food_order.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\item_food_order.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_cart_white.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_cart_white.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_delete.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_delete.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_rating_yellow.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_rating_yellow.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_search.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_search.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_delete.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_delete.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_feedback.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\activity_feedback.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_payment_method.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_payment_method.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcherfoodlogo_round.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcherfoodlogo_round.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_food.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_food.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherfoodlogo.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherfoodlogo.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cart.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_cart.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_star_yellow.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_star_yellow.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_voucher_type_bank.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_voucher_type_bank.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcherfood_background.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_launcherfood_background.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_promotion.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_promotion.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_home.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_home.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherfood_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherfood_round.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_corner_16_border_gray.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_white_corner_16_border_gray.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_button_enable_corner_16.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_button_enable_corner_16.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_gopay.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_gopay.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherfoodlogo_foreground.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherfoodlogo_foreground.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherfood_round.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherfood_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_splash.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_splash.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_price.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_price.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcherfoodlogo.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcherfoodlogo.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_loading.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_loading.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_success.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_success.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_credit.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_credit.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_ratingbar.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_ratingbar.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_corner_3_border_gray.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_white_corner_3_border_gray.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_success.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_success.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_cart_white.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_cart_white.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherfood_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherfood_round.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_change_password.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_change_password.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_history.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_history.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherfoodlogo.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherfoodlogo.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherfood.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherfood.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherfood.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherfood.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_step_enable.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_step_enable.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_account.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_account.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcherfood_background.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_launcherfood_background.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_bottom_sheet_add_address.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\layout_bottom_sheet_add_address.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_logo.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_logo.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherfood.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherfood.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgot_password.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_item_unselect.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_item_unselect.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_delete.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_delete.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_admin_account.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_admin_account.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_filter.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_filter.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_loading.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_loading.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_toolbar.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\layout_toolbar.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_no_image.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_no_image.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcherfood_round.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcherfood_round.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_filter.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_filter.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_star_gray.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_star_gray.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_food.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_add_food.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_arow_left.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_arow_left.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_step_disable.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_step_disable.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherfoodlogo_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherfoodlogo_round.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherfood_round.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherfood_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_price.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_price.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcherfoodlogo_round.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcherfoodlogo_round.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherfood_foreground.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherfood_foreground.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_filter.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_filter.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_foodgif1.gif.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\foodgif1.gif"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_sub.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_sub.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_gmail.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_gmail.jpg"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_item_selected.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_item_selected.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcherfoodlogo_background.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_launcherfoodlogo_background.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_edit.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_edit.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_voucher_type_gopay.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_voucher_type_gopay.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_star_yellow.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_star_yellow.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_edit.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_edit.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_success.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_success.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_sub.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_sub.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_sub.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_sub.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherfoodlogo_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherfoodlogo_round.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherfood.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherfood.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_foodlogo_new_icon_app.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_foodlogo_new_icon_app.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_banner.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\item_banner.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_bank.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_bank.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_price.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_price.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\color_custom_bottom_navigation.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\color\\custom_bottom_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_voucher_type_bank.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_voucher_type_bank.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_voucher_type_bank.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_voucher_type_bank.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_gopay.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_gopay.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherfoodlogo.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherfoodlogo.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_youtube.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_youtube.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherfoodlogo.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherfoodlogo.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_order.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_order.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcherfoodlogo_background.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_launcherfoodlogo_background.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_next_right.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_next_right.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_gopay.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_gopay.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherfoodlogo.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherfoodlogo.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherfoodlogo_round.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherfoodlogo_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_food_detail.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\activity_food_detail.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_main.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_admin_main.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_item_selected.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_item_selected.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherfoodlogo_foreground.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherfoodlogo_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_rate.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_rate.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tracking_order.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_tracking_order.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_bottom_navigation.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\menu\\menu_bottom_navigation.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherfood.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherfood.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_facebook.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_facebook.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_history.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_history.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_next_right.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_next_right.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_report.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_report.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment_method.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\activity_payment_method.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_border_main.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_white_border_main.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_history.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_history.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_indicator_selected.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_indicator_selected.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_corner_30_border_gray.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_white_corner_30_border_gray.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_food.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_food.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_contact.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\item_contact.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_banner.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_banner.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_loading.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_loading.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherfoodlogo_foreground.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherfoodlogo_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_step_enable.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_step_enable.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_corner_16_border_main.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_white_corner_16_border_main.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_splash.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_splash.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_bank.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_bank.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\activity_payment.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherfoodlogo_round.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherfoodlogo_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_voucher.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\item_voucher.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherfood_foreground.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherfood_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_corner_6_border_main.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_white_corner_6_border_main.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_credit.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_credit.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_loading.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_loading.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_promotion.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_promotion.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherfood_foreground.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherfood_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_skype.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_skype.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_receipt_order.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_receipt_order.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_change_password.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_change_password.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_voucher_type_credit.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_voucher_type_credit.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sign_out.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_sign_out.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_zalo.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_zalo.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_history.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_history.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_history.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_history.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_filter.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_filter.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_admin_home.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_admin_home.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherfoodlogo_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherfoodlogo_round.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_home.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_home.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_border_main.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_white_border_main.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_voucher_type_bank.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_voucher_type_bank.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_step_enable.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_step_enable.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherfood_foreground.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherfood_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_contact.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_contact.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_corner_30_border_gray.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_white_corner_30_border_gray.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_zalo.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_zalo.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_zalopay.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_zalopay.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_item_unselect.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_item_unselect.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_cart.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\item_cart.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherfoodlogo_round.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherfoodlogo_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_arow_left.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_arow_left.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_drink_detail_example.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\image_drink_detail_example.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_star_gray.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_star_gray.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_delete.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_delete.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_cart_white.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_cart_white.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_logo.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_logo.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_foodgif.gif.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\foodgif.gif"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_corner_6_border_gray.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_white_corner_6_border_gray.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_gmail.jpg.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_gmail.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_corner_16_border_main.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_white_corner_16_border_main.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_price.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_price.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_gopay.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_gopay.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_rate.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_rate.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_splash.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_splash.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_star_gray.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_star_gray.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgot_password.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_bottom_navigation.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\menu\\menu_bottom_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_foodgif.gif.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\foodgif.gif"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherfoodlogo_foreground.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherfoodlogo_foreground.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherfood_round.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherfood_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_step_disable.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_step_disable.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_voucher_type_gopay.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_voucher_type_gopay.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_add.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_history.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_history.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_food.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\item_food.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_cart_white.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_cart_white.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_logo.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_logo.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_zalopay.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_zalopay.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_address.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\item_address.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_step_enable.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_step_enable.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_receipt_order.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\activity_receipt_order.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_nav_order.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_nav_order.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_gopay.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_gopay.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_corner_6_border_main.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_white_corner_6_border_main.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_voucher_type_credit.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_voucher_type_credit.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_account.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_account.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_price.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_price.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_cart.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_cart.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_no_image.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_no_image.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_payment_method.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\item_payment_method.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_search.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_search.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_logo.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_logo.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_zalopay.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_zalopay.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_button_disable_corner_16.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_button_disable_corner_16.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherfood.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherfood.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_rate.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_rate.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_rating_and_review.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_rating_and_review.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_filter.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_filter.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_arow_left.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_arow_left.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_voucher_type_credit.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_voucher_type_credit.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_sub.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_sub.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherfoodlogo.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherfoodlogo.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_next_right.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_next_right.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_account.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_account.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_account.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_account.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherfoodlogo.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherfoodlogo.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcherfood_round.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcherfood_round.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_step_enable.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_step_enable.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherfood_round.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherfood_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_change_password.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_rating_and_review.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_rating_and_review.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_zalopay.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_zalopay.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_foodgif1.gif.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\foodgif1.gif"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_voucher_type_bank.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_voucher_type_bank.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_zalopay.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_zalopay.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_home.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_home.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_drink_example.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\image_drink_example.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_feedback.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_feedback.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rating_review.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\activity_rating_review.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_disable_filter.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_disable_filter.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_drink_example.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\image_drink_example.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_rate.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_rate.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_food_order.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_food_order.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_bank.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_bank.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rating_review.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_rating_review.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_rating_yellow.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_rating_yellow.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_ratingbar.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_ratingbar.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_item_selected.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_item_selected.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_no_available.jpg.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\image_no_available.jpg"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_corner_6_border_green.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_white_corner_6_border_green.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_toolbar.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\layout_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_sub.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_sub.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherfoodlogo.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherfoodlogo.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_promotion.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_promotion.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_credit.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_credit.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_account.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_account.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_indicator_unselected.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_indicator_unselected.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_star_yellow.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_star_yellow.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_loading.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_loading.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_address.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\activity_address.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_splash.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_splash.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_account.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_account.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_feedback.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_feedback.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_rating_yellow.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_rating_yellow.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_order.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_order.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherfood_foreground.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherfood_foreground.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_gopay.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_gopay.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_indicator_unselected.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_indicator_unselected.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_voucher_type_bank.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_voucher_type_bank.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_home.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_voucher_type_gopay.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_voucher_type_gopay.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_item_unselect.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_item_unselect.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_voucher_type_gopay.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_voucher_type_gopay.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherfood_foreground.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherfood_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_edit.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_edit.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_search.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_search.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_item_unselect.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_item_unselect.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherfoodlogo_round.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherfoodlogo_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_rating_and_review.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_rating_and_review.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_bank.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_bank.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_back_toolbar.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_back_toolbar.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_success.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_success.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_logo.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_logo.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_food_detail.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_food_detail.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_no_available.jpg.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\image_no_available.jpg"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_step_disable.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_step_disable.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_feedback.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_feedback.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_rating_yellow.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_rating_yellow.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_rating_and_review.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_rating_and_review.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_splash.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_splash.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cart.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\activity_cart.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_foodlogo_new_icon_app.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_foodlogo_new_icon_app.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherfood_foreground.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherfood_foreground.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_item_selected.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_item_selected.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_item_unselect.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_item_unselect.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherfood_foreground.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherfood_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_loading.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_loading.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_next_right.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_next_right.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_log_in.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\activity_log_in.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_voucher_type_credit.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_voucher_type_credit.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_next_right.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_next_right.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_contact.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_contact.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_zalopay.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_zalopay.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sign_out.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_sign_out.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_star_yellow.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_star_yellow.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_facebook.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_facebook.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_contact.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\layout\\activity_contact.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherfoodlogo_round.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherfoodlogo_round.webp"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_step_disable.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_step_disable.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_corner_6_border_green.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_white_corner_6_border_green.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcherfood.xml.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcherfood.xml"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_success.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_success.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_home.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_step_enable.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_step_enable.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_promotion.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_promotion.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_topping.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_topping.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherfood_round.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherfood_round.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_edit.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_edit.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherfood_foreground.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherfood_foreground.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_skype.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_skype.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_credit.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_credit.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_button_enable_corner_16.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_button_enable_corner_16.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherfood.webp.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherfood.webp"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_order.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_order.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_item_unselect.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_item_unselect.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_change_password.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_change_password.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_item_selected.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_item_selected.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_main_corner_6.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\bg_main_corner_6.xml"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_search.png.flat",
-        "source": "C:\\Users\\ADMIN\\Desktop\\MLN\\MLN111\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_search.png"
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherfood.webp.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherfood.webp"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_hotline.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable\\ic_hotline.png"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_rating_and_review.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-hdpi\\ic_rating_and_review.png"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_address.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_address.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_add.png"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_voucher_type_gopay.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_voucher_type_gopay.png"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_voucher.xml.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_voucher.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_step_disable.png.flat",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\drawable-xhdpi\\ic_step_disable.png"
     }
 ]

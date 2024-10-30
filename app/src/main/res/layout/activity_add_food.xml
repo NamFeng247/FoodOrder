@@ -174,10 +174,10 @@
                 android:textSize="@dimen/textsize_14"
                 android:textColor="@color/black"
                 android:layout_marginTop="@dimen/padding_10"
-                android:text="@string/food_image"/>
+                android:text="@string/food_image_Banner"/>
 
             <EditText
-                android:id="@+id/edt_image"
+                android:id="@+id/edt_image_Banner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_4"
@@ -194,10 +194,10 @@
                 android:textSize="@dimen/textsize_14"
                 android:textColor="@color/black"
                 android:layout_marginTop="@dimen/padding_10"
-                android:text="@string/food_image_banner"/>
+                android:text="@string/food_image"/>
 
             <EditText
-                android:id="@+id/edt_image_banner"
+                android:id="@+id/edt_image"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_4"

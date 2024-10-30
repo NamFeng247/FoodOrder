@@ -13,11 +13,15 @@ import android.widget.Toast;
 
 import androidx.core.app.ActivityCompat;
 
+import com.app.foodordermanagement.activity.AdminMainActivity;
+import com.app.foodordermanagement.activity.MainActivity;
 import com.app.foodordermanagement.constant.Constant;
 import com.app.foodordermanagement.listener.IGetTimeListener;
 import com.app.foodordermanagement.prefs.DataStoreManager;
 
+import java.text.Normalizer;
 import java.util.Calendar;
+import java.util.regex.Pattern;
 
 public class GlobalFunction {
 
@@ -27,11 +31,25 @@ public class GlobalFunction {
         context.startActivity(intent);
     }
 
+    public static void gotoMainActivity(Context context) {
+        if (DataStoreManager.getUser().isAdmin()) {
+            GlobalFunction.startActivity(context, AdminMainActivity.class);
+        } else {
+            GlobalFunction.startActivity(context, MainActivity.class);
+        }
+    }
+
     public static void startActivity(Context context, Class<?> clz, Bundle bundle) {
         Intent intent = new Intent(context, clz);
         intent.putExtras(bundle);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(intent);
+    }
+
+    public static String getTextSearch(String input) {
+        String nfdNormalizedString = Normalizer.normalize(input, Normalizer.Form.NFD);
+        Pattern pattern = Pattern.compile("\\p{InCombiningDiacriticalMarks}+");
+        return pattern.matcher(nfdNormalizedString).replaceAll("");
     }
 
     public static int encodeEmailUser() {

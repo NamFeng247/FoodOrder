@@ -21,12 +21,12 @@ import com.google.firebase.auth.FirebaseUser;
 import com.app.foodordermanagement.databinding.ActivityLogInBinding;
 public class LoginActivity extends BaseActivity {
 
-    private EditText edtEmail;
-    private EditText edtPassword;
-    private Button btnLogin;
-    private RadioButton btnAdmin;
-    private LinearLayout layoutRegister;
-    private TextView tvForgotPassword;
+//    private EditText edtEmail;
+//    private EditText edtPassword;
+//    private Button btnLogin;
+//    private RadioButton btnAdmin;
+//    private LinearLayout layoutRegister;
+//    private TextView tvForgotPassword;
     private boolean isEnableButtonLogin;
 
     private ActivityLogInBinding binding;
@@ -34,19 +34,11 @@ public class LoginActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_log_in);
-
-        initUi();
+        binding = ActivityLogInBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+//        etContentView(R.layout.activity_log_in);
+        binding.rdbUser.setChecked(true);
         initListener();
-    }
-
-    private void initUi() {
-//        edtEmail = findViewById(R.id.edt_email);
-//        edtPassword = findViewById(R.id.edt_password);
-//        btnLogin = findViewById(R.id.btn_login);
-//        layoutRegister = findViewById(R.id.layout_register);
-//        tvForgotPassword = findViewById(R.id.tv_forgot_password);
-//        btnAdmin = findViewById(R.id.rdb_admin);
     }
 
     private void initListener() {
@@ -65,7 +57,7 @@ public class LoginActivity extends BaseActivity {
                     binding.edtEmail.setBackgroundResource(R.drawable.bg_white_corner_16_border_gray);
                 }
 
-                String strPassword = edtPassword.getText().toString().trim();
+                String strPassword = binding.edtPassword.getText().toString().trim();
                 if (!StringUtil.isEmpty(s.toString()) && !StringUtil.isEmpty(strPassword)) {
                     isEnableButtonLogin = true;
                     binding.btnLogin.setBackgroundResource(R.drawable.bg_button_enable_corner_16);
@@ -91,7 +83,7 @@ public class LoginActivity extends BaseActivity {
                     binding.edtPassword.setBackgroundResource(R.drawable.bg_white_corner_16_border_gray);
                 }
 
-                String strEmail = edtEmail.getText().toString().trim();
+                String strEmail = binding.edtEmail.getText().toString().trim();
                 if (!StringUtil.isEmpty(s.toString()) && !StringUtil.isEmpty(strEmail)) {
                     isEnableButtonLogin = true;
                     binding.btnLogin.setBackgroundResource(R.drawable.bg_button_enable_corner_16);
@@ -154,7 +146,7 @@ public class LoginActivity extends BaseActivity {
                                 userObject.setAdmin(true);
                             }
                             DataStoreManager.setUser(userObject);
-                            GlobalFunction.startActivity(LoginActivity.this, MainActivity.class);
+                            GlobalFunction.gotoMainActivity(this);
                             finishAffinity();
                         }
                     } else {

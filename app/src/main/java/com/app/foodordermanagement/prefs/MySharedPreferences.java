@@ -4,6 +4,7 @@ import android.content.Context;
 
 public class MySharedPreferences {
 
+
     private static final String MOVIE_PRO_PREFERENCES = "MOVIE_PRO_PREFERENCES";
     private final Context mContext;
 

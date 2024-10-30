@@ -38,13 +38,13 @@ public class AddFoodActivity extends BaseActivity {
         mActivityAddFoodBinding.btnAddOrEdit.setOnClickListener(v -> addOrEditFood());
     }
 
-//    private void getDataIntent() {
-//        Bundle bundleReceived = getIntent().getExtras();
-//        if (bundleReceived != null) {
-//            isUpdate = true;
-//            mFood = (Food) bundleReceived.get(Constant.KEY_INTENT_FOOD_OBJECT);
-//        }
-//    }
+    private void getDataIntent() {
+        Bundle bundleReceived = getIntent().getExtras();
+        if (bundleReceived != null) {
+            isUpdate = true;
+            mFood = (Food) bundleReceived.get(String.valueOf(mFood.getId()));
+        }
+    }
 
     private void initToolbar() {
         mActivityAddFoodBinding.toolbar.imgToolbarBack.setVisibility(View.VISIBLE);
@@ -114,18 +114,13 @@ public class AddFoodActivity extends BaseActivity {
             return;
         }
 
-        if (StringUtil.isEmpty(strDiscount)) {
-            Toast.makeText(this, getString(R.string.msg_discount_food_require), Toast.LENGTH_SHORT).show();
-            return;
-        }
-
         if (StringUtil.isEmpty(strImage)) {
             Toast.makeText(this, getString(R.string.msg_image_food_require), Toast.LENGTH_SHORT).show();
             return;
         }
 
         if (StringUtil.isEmpty(strImageBanner)) {
-            Toast.makeText(this, getString(R.string.msg_image_banner_food_require), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.msg_image_Banner_food_require), Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -137,7 +132,7 @@ public class AddFoodActivity extends BaseActivity {
             map.put("description", strDescription);
             map.put("price", Integer.parseInt(strPrice));
             map.put("image", strImage );
-            map.put("banner", strImageBanner);
+            map.put("Banner", strImageBanner);
             map.put("sale", Integer.parseInt(strDiscount));
             map.put("CategoryId", strCategoryId);
             map.put("featured" , isFeatured);

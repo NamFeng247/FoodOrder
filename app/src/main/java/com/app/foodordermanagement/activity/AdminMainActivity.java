@@ -30,19 +30,11 @@ public class AdminMainActivity extends BaseActivity {
                 super.onPageSelected(position);
                 switch (position) {
                     case 0:
-                        mActivityAdminMainBinding.bottomNavigation.getMenu().findItem(R.id.nav_home).setChecked(true);
+                        mActivityAdminMainBinding.bottomNavigation.getMenu().findItem(R.id.ad_home).setChecked(true);
                         break;
 
                     case 1:
-                        mActivityAdminMainBinding.bottomNavigation.getMenu().findItem(R.id.nav_feedback).setChecked(true);
-                        break;
-
-                    case 2:
-                        mActivityAdminMainBinding.bottomNavigation.getMenu().findItem(R.id.nav_order).setChecked(true);
-                        break;
-
-                    case 3:
-                        mActivityAdminMainBinding.bottomNavigation.getMenu().findItem(R.id.nav_account).setChecked(true);
+                        mActivityAdminMainBinding.bottomNavigation.getMenu().findItem(R.id.ad_account).setChecked(true);
                         break;
                 }
             }
@@ -50,14 +42,10 @@ public class AdminMainActivity extends BaseActivity {
 
         mActivityAdminMainBinding.bottomNavigation.setOnNavigationItemSelectedListener(item -> {
             int id = item.getItemId();
-            if (id == R.id.nav_home) {
+            if (id == R.id.ad_home) {
                 mActivityAdminMainBinding.viewpager2.setCurrentItem(0);
-            } else if (id == R.id.nav_feedback) {
+            }  else if (id == R.id.ad_account) {
                 mActivityAdminMainBinding.viewpager2.setCurrentItem(1);
-            } else if (id == R.id.nav_order) {
-                mActivityAdminMainBinding.viewpager2.setCurrentItem(2);
-            }  else if (id == R.id.nav_account) {
-                mActivityAdminMainBinding.viewpager2.setCurrentItem(3);
             }
             return true;
         });

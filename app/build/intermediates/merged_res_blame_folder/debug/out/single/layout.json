@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_food.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_food.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_payment_method.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_payment_method.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_change_password.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_payment.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_admin_main.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_admin_main.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tracking_order.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_tracking_order.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_address.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_address.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_cart.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_cart.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_toolbar.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\layout_toolbar.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_payment_method.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_payment_method.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_topping.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_topping.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_address.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_address.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_feedback.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_feedback.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_contact.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_contact.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_admin_home.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_admin_home.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_history.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_history.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_food_detail.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_food_detail.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_forgot_password.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_order.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_order.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_admin_account.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_admin_account.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_food_order.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_food_order.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_order.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_order.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_banner.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_banner.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_contact.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_contact.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_voucher.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_voucher.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_receipt_order.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_receipt_order.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_food.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_food.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_account.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_account.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_rating_review.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_rating_review.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_food.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_add_food.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_log_in.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_log_in.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_admin_food.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_admin_food.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_filter.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_filter.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_cart.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_cart.xml"
+    }
+]

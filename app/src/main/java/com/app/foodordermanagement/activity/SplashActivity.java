@@ -54,13 +54,13 @@ public class SplashActivity extends BaseActivity {
 
         // Tạo Handler để chuyển hoạt động sau 5 giây
         Handler handler = new Handler();
-        handler.postDelayed(this::goToActivity, 5000);
+        handler.postDelayed(this::goToActivity, 3000);
     }
 
     private void goToActivity() {
         if (DataStoreManager.getUser() != null
                 && !StringUtil.isEmpty(DataStoreManager.getUser().getEmail())) {
-            GlobalFunction.startActivity(this, MainActivity.class);
+            GlobalFunction.gotoMainActivity(this);
         } else {
             GlobalFunction.startActivity(this, LoginActivity.class);
         }

@@ -9,4 +9,5 @@ public interface Constant {
     String ADMIN_EMAIL_FORMAT = "@admin.com";
 
     String CURRENCY = " VNĐ";
+//    String KEY_INTENT_FOOD_OBJECT = "food_object";
 }

@@ -64,9 +64,9 @@ public class AdminFoodAdapter extends RecyclerView.Adapter<AdminFoodAdapter.Admi
         holder.mItemAdminFoodBinding.tvFoodName.setText(food.getName());
         holder.mItemAdminFoodBinding.tvFoodDescription.setText(food.getDescription());
         if (food.isFeatured()) {
-            holder.mItemAdminFoodBinding.tvPopular.setText("Có");
+            holder.mItemAdminFoodBinding.tvFeetured.setText("Có");
         } else {
-            holder.mItemAdminFoodBinding.tvPopular.setText("Không");
+            holder.mItemAdminFoodBinding.tvFeetured.setText("Không");
         }
 
         holder.mItemAdminFoodBinding.imgEdit.setOnClickListener(v -> iOnManagerFoodListener.onClickUpdateFood(food));
