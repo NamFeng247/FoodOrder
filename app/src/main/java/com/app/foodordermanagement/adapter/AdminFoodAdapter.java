@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.app.foodordermanagement.constant.Constant;
+import com.app.foodordermanagement.utils.Constant;
 import com.app.foodordermanagement.databinding.ItemAdminFoodBinding;
 import com.app.foodordermanagement.utils.GlideUtils;
 import com.app.foodordermanagement.listener.IOnManagerFoodListener;

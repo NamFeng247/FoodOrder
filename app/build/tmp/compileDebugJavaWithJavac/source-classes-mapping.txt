@@ -170,18 +170,14 @@ com/app/foodordermanagement/activity/PaymentMethodActivity.java
  com.app.foodordermanagement.activity.PaymentMethodActivity$1
 com/app/foodordermanagement/utils/DividerView.java
  com.app.foodordermanagement.utils.DividerView
-com/app/foodordermanagement/activity/BaseActivity.java
- com.app.foodordermanagement.activity.BaseActivity
-com/app/foodordermanagement/utils/StringUtil.java
- com.app.foodordermanagement.utils.StringUtil
-com/app/foodordermanagement/utils/BiometricPromptManager.java
- com.app.foodordermanagement.utils.BiometricPromptManager
- com.app.foodordermanagement.utils.BiometricPromptManager$1
- com.app.foodordermanagement.utils.BiometricPromptManager$BiometricAuthCallback
 com/app/foodordermanagement/databinding/ItemBannerBinding.java
  com.app.foodordermanagement.databinding.ItemBannerBinding
 com/app/foodordermanagement/databinding/FragmentHistoryBinding.java
  com.app.foodordermanagement.databinding.FragmentHistoryBinding
+com/app/foodordermanagement/utils/BiometricPromptManager.java
+ com.app.foodordermanagement.utils.BiometricPromptManager
+ com.app.foodordermanagement.utils.BiometricPromptManager$1
+ com.app.foodordermanagement.utils.BiometricPromptManager$BiometricAuthCallback
 com/app/foodordermanagement/adapter/MyViewPagerAdapter.java
  com.app.foodordermanagement.adapter.MyViewPagerAdapter
 com/app/foodordermanagement/databinding/ItemContactBinding.java
@@ -237,35 +233,14 @@ com/app/foodordermanagement/databinding/ActivityForgotPasswordBinding.java
 com/app/foodordermanagement/activity/MainActivity.java
  com.app.foodordermanagement.activity.MainActivity
  com.app.foodordermanagement.activity.MainActivity$1
-com/app/foodordermanagement/constant/AppInfo.java
- com.app.foodordermanagement.constant.AppInfo
-com/app/foodordermanagement/BuildConfig.java
- com.app.foodordermanagement.BuildConfig
-com/app/foodordermanagement/model/Feedback.java
- com.app.foodordermanagement.model.Feedback
-com/app/foodordermanagement/utils/Constant.java
- com.app.foodordermanagement.utils.Constant
 com/app/foodordermanagement/utils/BiometricStorage.java
  com.app.foodordermanagement.utils.BiometricStorage
-com/app/foodordermanagement/database/FoodDao.java
- com.app.foodordermanagement.database.FoodDao
 com/app/foodordermanagement/CustomView/CustomImageView.java
  com.app.foodordermanagement.CustomView.CustomImageView
 com/app/foodordermanagement/database/FoodDatabase.java
  com.app.foodordermanagement.database.FoodDatabase
-com/app/foodordermanagement/Helper/HMac/HexStringUtil.java
- com.app.foodordermanagement.Helper.HMac.HexStringUtil
-com/app/foodordermanagement/model/PaymentMethod.java
- com.app.foodordermanagement.model.PaymentMethod
 com/app/foodordermanagement/event/PaymentMethodSelectedEvent.java
  com.app.foodordermanagement.event.PaymentMethodSelectedEvent
-com/app/foodordermanagement/fragment/HomeFragment.java
- com.app.foodordermanagement.fragment.HomeFragment
- com.app.foodordermanagement.fragment.HomeFragment$1
- com.app.foodordermanagement.fragment.HomeFragment$2
- com.app.foodordermanagement.fragment.HomeFragment$3
- com.app.foodordermanagement.fragment.HomeFragment$4
- com.app.foodordermanagement.fragment.HomeFragment$5
 com/app/foodordermanagement/adapter/OrderAdapter.java
  com.app.foodordermanagement.adapter.OrderAdapter
  com.app.foodordermanagement.adapter.OrderAdapter$IClickOrderListener

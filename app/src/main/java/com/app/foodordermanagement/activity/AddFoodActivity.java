@@ -1,6 +1,7 @@
 package com.app.foodordermanagement.activity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
@@ -8,7 +9,7 @@ import android.widget.Toast;
 
 import com.app.foodordermanagement.MyApplication;
 import com.app.foodordermanagement.R;
-import com.app.foodordermanagement.constant.Constant;
+import com.app.foodordermanagement.utils.Constant;
 import com.app.foodordermanagement.databinding.ActivityAddFoodBinding;
 import com.app.foodordermanagement.utils.StringUtil;
 import com.app.foodordermanagement.model.Food;
@@ -31,7 +32,7 @@ public class AddFoodActivity extends BaseActivity {
         mActivityAddFoodBinding = ActivityAddFoodBinding.inflate(getLayoutInflater());
         setContentView(mActivityAddFoodBinding.getRoot());
 
-//        getDataIntent();
+        getDataIntent();
         initToolbar();
         initView();
 
@@ -42,7 +43,12 @@ public class AddFoodActivity extends BaseActivity {
         Bundle bundleReceived = getIntent().getExtras();
         if (bundleReceived != null) {
             isUpdate = true;
-            mFood = (Food) bundleReceived.get(String.valueOf(mFood.getId()));
+            mFood = (Food) bundleReceived.get(Constant.FOOD_OBJECT);
+            if (mFood == null) {
+                Log.e("getDataIntent", "Failed to retrieve Food object from Intent");
+            } else {
+                Log.e("getDataIntent", "FOOD_OBJECT key missing or incorrect");
+            }
         }
     }
 
@@ -59,11 +65,11 @@ public class AddFoodActivity extends BaseActivity {
 
             mActivityAddFoodBinding.edtName.setText(mFood.getName());
             mActivityAddFoodBinding.edtDescription.setText(mFood.getDescription());
+            mActivityAddFoodBinding.edtCategory.setText(mFood.getCategory_id());
             mActivityAddFoodBinding.edtPrice.setText(String.valueOf(mFood.getPrice()));
             mActivityAddFoodBinding.edtDiscount.setText(String.valueOf(mFood.getSale()));
-            mActivityAddFoodBinding.edtImage.setText(mFood.getImage());
             mActivityAddFoodBinding.edtImageBanner.setText(mFood.getBanner());
-//            mActivityAddFoodBinding.edtOtherImage.setText(getTextOtherImages());
+            mActivityAddFoodBinding.edtImage.setText(mFood.getImage());
         } else {
             mActivityAddFoodBinding.toolbar.tvToolbarTitle.setText(getString(R.string.add_food));
             mActivityAddFoodBinding.btnAddOrEdit.setText(getString(R.string.action_add));
@@ -90,14 +96,6 @@ public class AddFoodActivity extends BaseActivity {
         String strImage = mActivityAddFoodBinding.edtImage.getText().toString().trim();
         String strImageBanner = mActivityAddFoodBinding.edtImageBanner.getText().toString().trim();
         boolean isFeatured = mActivityAddFoodBinding.chbFeatured.isChecked();
-//        List<Image> listImages = new ArrayList<>();
-//        if (!StringUtil.isEmpty(strOtherImages)) {
-//            String[] temp = strOtherImages.split(";");
-//            for (String strUrl : temp) {
-//                Image image = new Image(strUrl);
-//                listImages.add(image);
-//            }
-//        }
 
         if (StringUtil.isEmpty(strName)) {
             Toast.makeText(this, getString(R.string.msg_name_food_require), Toast.LENGTH_SHORT).show();

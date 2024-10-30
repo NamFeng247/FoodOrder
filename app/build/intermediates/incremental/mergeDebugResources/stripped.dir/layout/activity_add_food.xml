@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription, Autofill">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_10">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize_14"
+                android:textColor="@color/black"
+                android:text="@string/food_name"/>
+
+            <EditText
+                android:id="@+id/edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_4"
+                android:background="@drawable/bg_white_corner_6_border_gray"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:padding="@dimen/padding_12"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/textsize_14" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize_14"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/padding_10"
+                android:text="@string/food_description"/>
+
+            <EditText
+                android:id="@+id/edt_description"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_100"
+                android:layout_marginTop="@dimen/margin_4"
+                android:background="@drawable/bg_white_corner_6_border_gray"
+                android:imeOptions="actionNext"
+                android:gravity="start"
+                android:inputType="textMultiLine"
+                android:padding="@dimen/padding_12"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/textsize_14" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize_14"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/padding_10"
+                android:text="@string/food_category"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_4"
+                android:background="@drawable/bg_white_corner_6_border_gray"
+                android:padding="@dimen/padding_12">
+
+                <AutoCompleteTextView
+                    android:id="@+id/edt_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/padding_10"
+                    android:background="@color/white"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+                    android:hint="@string/select_category"
+                    android:textSize="@dimen/textsize_14" />
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize_14"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/padding_10"
+                android:text="@string/food_price"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_4"
+                android:background="@drawable/bg_white_corner_6_border_gray"
+                android:padding="@dimen/padding_12">
+
+                <EditText
+                    android:id="@+id/edt_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/padding_10"
+                    android:layout_toStartOf="@+id/tv_currency"
+                    android:background="@color/white"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_14" />
+
+                <TextView
+                    android:id="@+id/tv_currency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/currency_food"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_14" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize_14"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/padding_10"
+                android:text="@string/food_discount"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_4"
+                android:background="@drawable/bg_white_corner_6_border_gray"
+                android:padding="@dimen/padding_12">
+
+                <EditText
+                    android:id="@+id/edt_discount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/padding_10"
+                    android:layout_toStartOf="@+id/tv_percent"
+                    android:background="@color/white"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:textColor="@color/brown"
+                    android:textSize="@dimen/textsize_14" />
+
+                <TextView
+                    android:id="@+id/tv_percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/percent"
+                    android:textColor="@color/brown"
+                    android:textSize="@dimen/textsize_14" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize_14"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/padding_10"
+                android:text="@string/food_image_Banner"/>
+
+            <EditText
+                android:id="@+id/edt_image_Banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_4"
+                android:background="@drawable/bg_white_corner_6_border_gray"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:padding="@dimen/padding_12"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/textsize_14" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize_14"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/padding_10"
+                android:text="@string/food_image"/>
+
+            <EditText
+                android:id="@+id/edt_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_4"
+                android:background="@drawable/bg_white_corner_6_border_gray"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:padding="@dimen/padding_12"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/textsize_14" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/bg_white_corner_6_border_gray"
+                android:padding="@dimen/padding_12">
+
+                <CheckBox
+                    android:id="@+id/chb_featured"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/featured" />
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/btn_add_or_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20"
+                android:background="@drawable/bg_button_enable_corner_16"
+                android:text="@string/action_add"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_14" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

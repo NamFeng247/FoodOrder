@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
@@ -22,6 +23,9 @@ import java.lang.String;
 public final class ActivityLogInBinding implements ViewBinding {
   @NonNull
   private final RelativeLayout rootView;
+
+  @NonNull
+  public final ImageButton btnBiometric;
 
   @NonNull
   public final Button btnLogin;
@@ -53,12 +57,13 @@ public final class ActivityLogInBinding implements ViewBinding {
   @NonNull
   public final TextView tvForgotPassword;
 
-  private ActivityLogInBinding(@NonNull RelativeLayout rootView, @NonNull Button btnLogin,
-      @NonNull EditText edtEmail, @NonNull EditText edtPassword, @NonNull ImageView imgLogo,
-      @NonNull LinearLayout layoutRegister, @NonNull LinearLayout orLinearLayout,
-      @NonNull TextView orText, @NonNull RadioButton rdbAdmin, @NonNull RadioButton rdbUser,
-      @NonNull TextView tvForgotPassword) {
+  private ActivityLogInBinding(@NonNull RelativeLayout rootView, @NonNull ImageButton btnBiometric,
+      @NonNull Button btnLogin, @NonNull EditText edtEmail, @NonNull EditText edtPassword,
+      @NonNull ImageView imgLogo, @NonNull LinearLayout layoutRegister,
+      @NonNull LinearLayout orLinearLayout, @NonNull TextView orText, @NonNull RadioButton rdbAdmin,
+      @NonNull RadioButton rdbUser, @NonNull TextView tvForgotPassword) {
     this.rootView = rootView;
+    this.btnBiometric = btnBiometric;
     this.btnLogin = btnLogin;
     this.edtEmail = edtEmail;
     this.edtPassword = edtPassword;
@@ -98,6 +103,12 @@ public final class ActivityLogInBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnBiometric;
+      ImageButton btnBiometric = rootView.findViewById(id);
+      if (btnBiometric == null) {
+        break missingId;
+      }
+
       id = R.id.btn_login;
       Button btnLogin = rootView.findViewById(id);
       if (btnLogin == null) {
@@ -158,8 +169,9 @@ public final class ActivityLogInBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLogInBinding((RelativeLayout) rootView, btnLogin, edtEmail, edtPassword,
-          imgLogo, layoutRegister, orLinearLayout, orText, rdbAdmin, rdbUser, tvForgotPassword);
+      return new ActivityLogInBinding((RelativeLayout) rootView, btnBiometric, btnLogin, edtEmail,
+          edtPassword, imgLogo, layoutRegister, orLinearLayout, orText, rdbAdmin, rdbUser,
+          tvForgotPassword);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1930,7 +1930,6 @@ drawable bg_indicator_selected
 drawable bg_indicator_unselected
 drawable bg_main_corner_6
 drawable bg_ratingbar
-drawable bg_social_button
 drawable bg_white_border_main
 drawable bg_white_corner_16_border_gray
 drawable bg_white_corner_16_border_main
@@ -2015,7 +2014,6 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_nav_order
 drawable ic_next_right
 drawable ic_no_image
-drawable ic_password
 drawable ic_price
 drawable ic_promotion
 drawable ic_rate

@@ -16,6 +16,7 @@ import com.app.foodordermanagement.widget.CustomTabLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
+import me.relex.circleindicator.CircleIndicator3;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
@@ -28,19 +29,28 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final ImageView imgSearch;
 
   @NonNull
+  public final CircleIndicator3 indicatorDrinkFeatured;
+
+  @NonNull
   public final CustomTabLayout tabCategory;
 
   @NonNull
   public final ViewPager2 viewPagerCategory;
 
+  @NonNull
+  public final ViewPager2 viewPagerDrinkFeatured;
+
   private FragmentHomeBinding(@NonNull NestedScrollView rootView, @NonNull EditText edtSearchName,
-      @NonNull ImageView imgSearch, @NonNull CustomTabLayout tabCategory,
-      @NonNull ViewPager2 viewPagerCategory) {
+      @NonNull ImageView imgSearch, @NonNull CircleIndicator3 indicatorDrinkFeatured,
+      @NonNull CustomTabLayout tabCategory, @NonNull ViewPager2 viewPagerCategory,
+      @NonNull ViewPager2 viewPagerDrinkFeatured) {
     this.rootView = rootView;
     this.edtSearchName = edtSearchName;
     this.imgSearch = imgSearch;
+    this.indicatorDrinkFeatured = indicatorDrinkFeatured;
     this.tabCategory = tabCategory;
     this.viewPagerCategory = viewPagerCategory;
+    this.viewPagerDrinkFeatured = viewPagerDrinkFeatured;
   }
 
   @Override
@@ -82,6 +92,12 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.indicator_drink_featured;
+      CircleIndicator3 indicatorDrinkFeatured = rootView.findViewById(id);
+      if (indicatorDrinkFeatured == null) {
+        break missingId;
+      }
+
       id = R.id.tab_category;
       CustomTabLayout tabCategory = rootView.findViewById(id);
       if (tabCategory == null) {
@@ -94,8 +110,14 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.view_pager_drink_featured;
+      ViewPager2 viewPagerDrinkFeatured = rootView.findViewById(id);
+      if (viewPagerDrinkFeatured == null) {
+        break missingId;
+      }
+
       return new FragmentHomeBinding((NestedScrollView) rootView, edtSearchName, imgSearch,
-          tabCategory, viewPagerCategory);
+          indicatorDrinkFeatured, tabCategory, viewPagerCategory, viewPagerDrinkFeatured);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

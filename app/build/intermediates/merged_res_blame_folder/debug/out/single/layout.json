@@ -52,12 +52,12 @@
         "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_topping.xml"
     },
     {
-        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_address.xml",
-        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_address.xml"
-    },
-    {
         "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_feedback.xml",
         "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_feedback.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_address.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_address.xml"
     },
     {
         "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_contact.xml",
@@ -92,12 +92,12 @@
         "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_admin_account.xml"
     },
     {
-        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_food_order.xml",
-        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_food_order.xml"
-    },
-    {
         "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_order.xml",
         "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\fragment_order.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_food_order.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_food_order.xml"
     },
     {
         "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_banner.xml",
@@ -136,12 +136,12 @@
         "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_add_food.xml"
     },
     {
-        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_log_in.xml",
-        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_log_in.xml"
-    },
-    {
         "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_admin_food.xml",
         "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\item_admin_food.xml"
+    },
+    {
+        "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_log_in.xml",
+        "source": "D:\\Education\\New folder\\FoodOrder\\app\\src\\main\\res\\layout\\activity_log_in.xml"
     },
     {
         "merged": "D:\\Education\\New folder\\FoodOrder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_filter.xml",

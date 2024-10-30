@@ -116,15 +116,9 @@
         <activity
             android:name="com.app.foodordermanagement.activity.AdminMainActivity"
             android:exported="false"/>
-<!--        <activity-->
-<!--            android:name="com.app.foodordermanagement.activity.OrderHistoryActivity"-->
-<!--            android:exported="false"/>-->
         <activity
             android:name="com.app.foodordermanagement.activity.AddFoodActivity"
             android:exported="false"/>
-<!--        <activity-->
-<!--            android:name="com.app.foodordermanagement.activity.AdminReportActivity"-->
-<!--            android:exported="false"/>-->
     </application>
 
 </manifest>
