@@ -31,7 +31,7 @@
                 android:inputType="text"
                 android:padding="@dimen/padding_5"
                 android:textColor="@color/dark"
-                android:textColorHint="@color/light"
+                android:textColorHint="@color/brown"
                 android:textSize="@dimen/textsize_14" />
 
             <ImageView
@@ -39,14 +39,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
-                android:layout_centerVertical="true"
+                android:layout_marginEnd="4dp"
                 android:padding="@dimen/margin_10"
                 android:src="@drawable/ic_search" />
         </RelativeLayout>
 
-        <!--<RelativeLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/define_dimen_150"
+            android:layout_height="@dimen/margin_150"
             android:layout_marginTop="@dimen/margin_10">
 
             <androidx.viewpager2.widget.ViewPager2
@@ -63,7 +63,7 @@
                 android:layout_alignParentBottom="true"
                 app:ci_drawable="@drawable/bg_indicator_selected"
                 app:ci_drawable_unselected="@drawable/bg_indicator_unselected" />
-        </RelativeLayout>-->
+        </RelativeLayout>
 
         <com.app.foodordermanagement.widget.CustomTabLayout
             android:id="@+id/tab_category"

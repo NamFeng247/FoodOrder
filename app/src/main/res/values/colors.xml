@@ -5,10 +5,12 @@
     <color name="red">#E33131</color>
     <color name="green">#43936C</color>
     <color name="blue">#3F51B5</color>
-    <color name="brown">#5D4037</color>
-    <color name="dark_brown">#5D4037</color>
+<!--    <color name="brown">#5D4037</color>-->
+    <color name="brown">#ffb80e</color>
+    <color name="dark_brown">#ffb80e</color>
     <color name="light">#CACACA</color>
-    <color name="textColorPrimary">#5D4037</color>
+<!--    <color name="textColorPrimary">#5D4037</color>-->
+    <color name="textColorPrimary">#ff611d</color>
     <color name="dim_grey">#555555</color>
     <color name="dark">#3C3C3C</color>
     <color name="dark_blue">#032172</color>

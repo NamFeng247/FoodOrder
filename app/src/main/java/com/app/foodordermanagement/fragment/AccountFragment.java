@@ -56,6 +56,7 @@ public class AccountFragment extends Fragment {
     }
 
     private void initUi() {
+        if (getActivity() == null) return;
         TextView tvUsername = mView.findViewById(R.id.tv_username);
         tvUsername.setText(DataStoreManager.getUser().getEmail());
         layoutFeedback = mView.findViewById(R.id.layout_feedback);
@@ -65,21 +66,32 @@ public class AccountFragment extends Fragment {
     }
 
     private void initListener() {
-        /*layoutFeedback.setOnClickListener(view ->
-                GlobalFunction.startActivity(getActivity(), FeedbackActivity.class));*/
-        /*layoutContact.setOnClickListener(view ->
-                GlobalFunction.startActivity(getActivity(), ContactActivity.class));*/
         layoutChangePassword.setOnClickListener(view ->
                 GlobalFunction.startActivity(getActivity(), ChangePasswordActivity.class));
         layoutSignOut.setOnClickListener(view -> onClickSignOut());
     }
 
     private void onClickSignOut() {
-        if (getActivity() == null) return;
+        if (getActivity() == null || getActivity().isFinishing()) return;
 
-        FirebaseAuth.getInstance().signOut();
-        DataStoreManager.setUser(null);
-        GlobalFunction.startActivity(getActivity(), LoginActivity.class);
-        getActivity().finishAffinity();
+        try {
+            FirebaseAuth.getInstance().signOut();
+            DataStoreManager.setUser(null);
+            
+            System.out.println("Đăng xuất thành công, giữ lại credentials cho lần sau");
+            
+            if (getActivity() != null) {
+                GlobalFunction.startActivity(getActivity(), LoginActivity.class);
+                getActivity().finishAffinity();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        mView = null;
     }
 }

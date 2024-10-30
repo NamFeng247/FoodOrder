@@ -28,6 +28,13 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim fragment_close_enter
+anim fragment_close_exit
+anim fragment_fade_enter
+anim fragment_fade_exit
+anim fragment_fast_out_extra_slow_in
+anim fragment_open_enter
+anim fragment_open_exit
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
@@ -54,6 +61,11 @@ animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
 animator scale_with_alpha
+array assume_strong_biometrics_models
+array crypto_fingerprint_fallback_prefixes
+array crypto_fingerprint_fallback_vendors
+array delay_showing_prompt_models
+array hide_fingerprint_instantly_prefixes
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -1128,6 +1140,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color biometric_error_color
 color black
 color blue
 color bright_foreground_disabled_material_dark
@@ -1489,6 +1502,7 @@ dimen disabled_alpha_material_light
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
+dimen fingerprint_icon_size
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -1916,6 +1930,7 @@ drawable bg_indicator_selected
 drawable bg_indicator_unselected
 drawable bg_main_corner_6
 drawable bg_ratingbar
+drawable bg_social_button
 drawable bg_white_border_main
 drawable bg_white_corner_16_border_gray
 drawable bg_white_corner_16_border_main
@@ -1957,6 +1972,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable fingerprint_dialog_error
+drawable fingerprint_dialog_fp_icon
 drawable foodgif
 drawable foodgif1
 drawable googleg_disabled_color_18
@@ -1966,6 +1983,7 @@ drawable ic_add
 drawable ic_arow_left
 drawable ic_back_toolbar
 drawable ic_bank
+drawable ic_biometric_auth
 drawable ic_cart_white
 drawable ic_change_password
 drawable ic_clock_black_24dp
@@ -1973,6 +1991,7 @@ drawable ic_contact
 drawable ic_credit
 drawable ic_delete
 drawable ic_edit
+drawable ic_email
 drawable ic_facebook
 drawable ic_feedback
 drawable ic_filter
@@ -1996,6 +2015,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_nav_order
 drawable ic_next_right
 drawable ic_no_image
+drawable ic_password
 drawable ic_price
 drawable ic_promotion
 drawable ic_rate
@@ -2182,6 +2202,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnBiometric
 id btn_add_address
 id btn_add_food
 id btn_add_or_edit
@@ -2300,11 +2321,16 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id fingerprint_description
+id fingerprint_error
+id fingerprint_icon
+id fingerprint_subtitle
 id fitToContents
 id fixed
 id flip
 id floating
 id forever
+id fragment_container_view_tag
 id frost
 id ghost_view
 id ghost_view_holder
@@ -2350,6 +2376,7 @@ id img_toolbar_back
 id img_voucher_type
 id immediateStop
 id included
+id indicator_drink_featured
 id info
 id invisible
 id inward
@@ -2700,11 +2727,13 @@ id vertical
 id vertical_only
 id view_offset_helper
 id view_pager_category
+id view_pager_drink_featured
 id view_pager_order
 id view_point
 id view_transition
 id viewpager_2
 id visible
+id visible_removing_fragment_view_tag
 id west
 id wide
 id withText
@@ -2812,6 +2841,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fingerprint_dialog_layout
 layout fragment_account
 layout fragment_admin_account
 layout fragment_admin_home
@@ -2997,10 +3027,12 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string confirm_device_credential_password
 string contact
 string copy_toast_msg
 string currency_food
 string customize
+string default_error_msg
 string edit_food
 string email
 string error_icon_content_description
@@ -3020,6 +3052,13 @@ string filter_all
 string filter_price
 string filter_promotion
 string filter_rate
+string fingerprint_dialog_touch_sensor
+string fingerprint_error_hw_not_available
+string fingerprint_error_hw_not_present
+string fingerprint_error_lockout
+string fingerprint_error_no_fingerprints
+string fingerprint_error_user_canceled
+string fingerprint_not_recognized
 string firebase_database_url
 string food_category
 string food_description
@@ -3031,6 +3070,9 @@ string food_price
 string forgot_password
 string full_name
 string gcm_defaultSenderId
+string generic_error_no_device_credential
+string generic_error_no_keyguard
+string generic_error_user_canceled
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
@@ -4017,6 +4059,8 @@ styleable FlowLayout itemSpacing lineSpacing
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
+styleable Fragment android_name android_id android_tag
+styleable FragmentContainerView android_name android_tag
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable ImageFilterView altSrc blendSrc brightness contrast crossfade imagePanX imagePanY imageRotate imageZoom overlay round roundPercent saturation warmth

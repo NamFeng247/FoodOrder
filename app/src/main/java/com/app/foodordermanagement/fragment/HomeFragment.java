@@ -79,15 +79,15 @@ public class HomeFragment extends Fragment {
         initUi();
         initListener();
 
-        /*getListFoodBanner();*/
+        getListFoodBanner();
         getListCategory();
 
         return mView;
     }
 
     private void initUi() {
-        /*viewPagerDrinkFeatured = mView.findViewById(R.id.view_pager_drink_featured);
-        indicatorFoodFeatured = mView.findViewById(R.id.indicator_drink_featured);*/
+        viewPageFoodFeatured = mView.findViewById(R.id.view_pager_drink_featured);
+        indicatorFoodFeatured = mView.findViewById(R.id.indicator_drink_featured);
         viewPagerCategory = mView.findViewById(R.id.view_pager_category);
         viewPagerCategory.setUserInputEnabled(false);
         tabCategory = mView.findViewById(R.id.tab_category);
@@ -123,40 +123,36 @@ public class HomeFragment extends Fragment {
         });
     }
 
-    /*private void getListFoodBanner() {
+    private void getListFoodBanner() {
         if (getActivity() == null) return;
         MyApplication.get(getActivity()).getFoodDatabaseReference()
                 .addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        if (listFoodFeatured != null) {
-                            listFoodFeatured.clear();
-                        } else {
-                            listFoodFeatured = new ArrayList<>();
-                        }
+                        listFoodFeatured = new ArrayList<>();
                         for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
-                            Food drink = dataSnapshot.getValue(Food.class);
-                            if (drink != null && drink.isFeatured()) {
-                                listFoodFeatured.add(drink);
+                            Food food = dataSnapshot.getValue(Food.class);
+                            if (food != null && food.isFeatured()) {
+                                listFoodFeatured.add(food);
                             }
                         }
-                        displayListBanner();
+                        displayBanner();
                     }
 
                     @Override
-                    public void onCancelled(@NonNull DatabaseError error) {}
+                    public void onCancelled(@NonNull DatabaseError error) {
+                        // Handle error
+                    }
                 });
-    }*/
+    }
 
-    private void displayListBanner() {
-        BannerViewPagerAdapter adapter = new BannerViewPagerAdapter(listFoodFeatured, new IClickFoodListener() {
-            @Override
-            public void onClickFoodItem(Food food) {
+    private void displayBanner() {
+        BannerViewPagerAdapter adapter = new BannerViewPagerAdapter(listFoodFeatured, 
+            food -> {
                 Bundle bundle = new Bundle();
                 bundle.putInt(Constant.FOOD_ID, food.getId());
                 GlobalFunction.startActivity(getActivity(), FoodDetailActivity.class, bundle);
-            }
-        });
+            });
         viewPageFoodFeatured.setAdapter(adapter);
         indicatorFoodFeatured.setViewPager(viewPageFoodFeatured);
 

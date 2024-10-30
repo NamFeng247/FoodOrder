@@ -133,6 +133,8 @@
         android:gravity="center_vertical"
         android:visibility="visible"
         android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_16"
+        android:layout_marginLeft="@dimen/margin_16"
         android:background="@drawable/bg_white_corner_6_border_gray"
         android:orientation="horizontal">
 
